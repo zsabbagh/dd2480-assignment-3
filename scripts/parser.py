@@ -1,4 +1,5 @@
 import argparse
+import os
 import re
 import sys
 
@@ -8,6 +9,7 @@ parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
 parser.add_argument('-s', '--sorton', help='sort on '+' '.join(sort_on.keys()), default='ccn')
 parser.add_argument('--filter', help='filter away what on value, space delim, what:g?value', default='', type=str)
+parser.add_argument('--nonclass', help='remove classes', action='store_true')
 parser.add_argument('-r', '--reverse', help='reverse sorting', action='store_true')
 args = parser.parse_args()
 
@@ -52,6 +54,17 @@ def main():
         l = list(filter(bool, line.split(' ')))
         # Structure of measurement
         # NLOC    CCN   token  PARAM  length  location  
+        filename = l[5]
+        ignore_file = False
+        if args.nonclass and os.path.exists(filename):
+            temp = open(filename, 'r').read().rstrip().split('\n')
+            for ln in temp:
+                if ln[:5] == 'class':
+                    ignore_file = True
+                    break
+        if ignore_file:
+            break
+
         nloc = float(l[0])
         if nloc_value is not None and nloc_cond(nloc, nloc_value):
             continue
@@ -61,7 +74,6 @@ def main():
         token = float(l[2])
         param = float(l[3])
         length = float(l[4])
-        filename = l[5]
         nlocpccn = nloc / ccn if ccn > 0 else -1
         ccnpnloc = ccn / nloc if nloc > 0 else -1
         scores.append([filename, nloc, ccn, nlocpccn, ccnpnloc, token, param, length])
