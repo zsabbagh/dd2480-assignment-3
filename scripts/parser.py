@@ -1,6 +1,6 @@
 import argparse
 import re
-
+import sys
 
 parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard output")
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
@@ -35,10 +35,11 @@ def main():
     if args.sorton.lower() in sort_on:
         scores = sorted(scores, key=lambda x : x[sort_on[args.sorton.lower()]])
     else:
-        print("Error: Sort-On not valid argument. Valid are:\n\t",end="")
+        print("Error: Sort-On not valid argument. Valid are:\n\t",end="", file=sys.stderr)
         for k in sort_on:
-            print("k", end=" ")
-        print()
+            print(k, end=" ", file=sys.stderr)
+        print(file=sys.stderr)
+        exit(1)
 
     # nloc ccn nloc/ccn ccn/nloc
     total = [0, 0, 0, 0]
@@ -54,11 +55,13 @@ def main():
         total[3] += score[4]
 
     print()
-    print("--- AVERAGE, TOTAL ---")
-    print(f"NLOC: {round(total[0], 5)},\t {round(total[0] / len(scores), 5)}")
-    print(f"CCN:  {round(total[1], 5)},\t {round(total[1] / len(scores), 5)}")
-    print(f"N/C:  {round(total[2], 5)},\t {round(total[2] / len(scores), 5)}")
-    print(f"C/N:  {round(total[3], 5)},\t {round(total[3] / len(scores), 5)}")
+    print("---\t AVERAGE,\t TOTAL ---")
+    print(f"NLOC: \t {round(total[0] / len(scores), 3)},\t\t {round(total[0], 3)}")
+    print(f"CCN:  \t {round(total[1] / len(scores), 3)},\t\t {round(total[1], 3)}")
+    print(f"N/C:  \t {round(total[2] / len(scores), 3)},\t\t {round(total[2], 3)}")
+    print(f"C/N:  \t {round(total[3] / len(scores), 3)},\t\t {round(total[3], 3)}")
+    print()
+    print(f"Sorted by {args.sorton}")
 
 if __name__=='__main__':
     main()
