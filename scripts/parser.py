@@ -7,8 +7,7 @@ sort_on = { 'ccn': 2, 'nloc': 1, 'n/c': 3, 'c/n': 4 }
 parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard output")
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
 parser.add_argument('-s', '--sorton', help='sort on '+' '.join(sort_on.keys()), default='ccn')
-parser.add_argument('--nloc', help='minimum nloc', default=0.0, type=float)
-parser.add_argument('--ccn', help='minimum ccn', default=0.0, type=float)
+parser.add_argument('--filter', help='filter away what on value, space delim, what:g?value', default='', type=str)
 parser.add_argument('-r', '--reverse', help='reverse sorting', action='store_true')
 args = parser.parse_args()
 
@@ -20,15 +19,44 @@ def main():
         if re.search('^ {1,10}[0-9].*$', line) is not None:
             lines.append(line)
     scores = []
+
+    nloc_value = None
+    nloc_cond = lambda x, value : x < value
+    ccn_value = None
+    ccn_cond = lambda x, value : x < value
+
+    if args.filter:
+        conditions = args.filter.split(' ')
+        for condition in conditions:
+            if condition == '':
+                continue
+            val = condition.split(':')
+            if len(val) < 2:
+                print(f"Error: Invalid filtering, ignoring '{condition}'", file=sys.stderr)
+                continue
+            if val[0] == 'ccn':
+                if val[1][0] == 'g':
+                    ccn_cond = lambda x, value : x > value
+                    ccn_value = float(val[1][1:])
+                else:
+                    ccn_value = float(val[1])
+            if val[0] == 'nloc':
+                if val[1][0] == 'g':
+                    nloc_cond = lambda x, value : x > value
+                    nloc_value = float(val[1][1:])
+                else:
+                    nloc_value = float(val[1])
+
+
     for line in lines:
         l = list(filter(bool, line.split(' ')))
         # Structure of measurement
         # NLOC    CCN   token  PARAM  length  location  
         nloc = float(l[0])
-        if args.nloc > 0 and nloc < args.nloc:
+        if nloc_value is not None and nloc_cond(nloc, nloc_value):
             continue
         ccn = float(l[1])
-        if args.ccn > 0 and ccn < args.ccn:
+        if ccn_value is not None and ccn_cond(ccn, ccn_value):
             continue
         token = float(l[2])
         param = float(l[3])
