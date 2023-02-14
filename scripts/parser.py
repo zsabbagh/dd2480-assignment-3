@@ -7,11 +7,14 @@ sort_on = { 'ccn': 2, 'nloc': 1, 'n/c': 3, 'c/n': 4 }
 parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard output")
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
 parser.add_argument('-s', '--sorton', help='sort on '+' '.join(sort_on.keys()), default='ccn')
+parser.add_argument('--nloc', help='minimum nloc', default=0.0, type=float)
+parser.add_argument('--ccn', help='minimum ccn', default=0.0, type=float)
 parser.add_argument('-r', '--reverse', help='reverse sorting', action='store_true')
 args = parser.parse_args()
 
 def main():
     f = open(args.file, 'r').read().rstrip().split('\n')
+
     lines = []
     for line in f:
         if re.search('^ {1,10}[0-9].*$', line) is not None:
@@ -22,7 +25,11 @@ def main():
         # Structure of measurement
         # NLOC    CCN   token  PARAM  length  location  
         nloc = float(l[0])
+        if args.nloc > 0 and nloc < args.nloc:
+            continue
         ccn = float(l[1])
+        if args.ccn > 0 and ccn < args.ccn:
+            continue
         token = float(l[2])
         param = float(l[3])
         length = float(l[4])
