@@ -2,17 +2,15 @@ import argparse
 import re
 import sys
 
+# possible values to sort on
+sort_on = { 'ccn': 2, 'nloc': 1, 'n/c': 3, 'c/n': 4 }
 parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard output")
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
-parser.add_argument('-s', '--sorton', help='sort on (nloc|ccn)', default='ccn')
+parser.add_argument('-s', '--sorton', help='sort on '+' '.join(sort_on.keys()), default='ccn')
 parser.add_argument('-r', '--reverse', help='reverse sorting', action='store_true')
 args = parser.parse_args()
 
 def main():
-
-    # possible values to sort on
-    sort_on = { 'ccn': 2, 'nloc': 1, 'n/c': 3, 'c/n': 4 }
-
     f = open(args.file, 'r').read().rstrip().split('\n')
     lines = []
     for line in f:
@@ -33,7 +31,7 @@ def main():
         ccnpnloc = ccn / nloc if nloc > 0 else -1
         scores.append([filename, nloc, ccn, nlocpccn, ccnpnloc, token, param, length])
     if args.sorton.lower() in sort_on:
-        scores = sorted(scores, key=lambda x : x[sort_on[args.sorton.lower()]])
+        scores = sorted(scores, key=lambda x : x[sort_on[args.sorton.lower()]], reverse=args.reverse)
     else:
         print("Error: Sort-On not valid argument. Valid are:\n\t",end="", file=sys.stderr)
         for k in sort_on:
