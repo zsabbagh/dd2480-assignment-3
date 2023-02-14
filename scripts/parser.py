@@ -8,7 +8,7 @@ sort_on = { 'ccn': 2, 'nloc': 1, 'n/c': 3, 'c/n': 4 }
 parser = argparse.ArgumentParser(prog="Lizard parser", description="Parse lizard output")
 parser.add_argument('-f', '--file', help='file to input', default='data/lizard.data')
 parser.add_argument('-s', '--sorton', help='sort on '+' '.join(sort_on.keys()), default='ccn')
-parser.add_argument('--filter', help='filter away what on value, space delim, what:g?value', default='', type=str)
+parser.add_argument('--span', help='only include a span, e.g. ccn:a-b', default='', type=str)
 parser.add_argument('--nonclass', help='remove classes', action='store_true')
 parser.add_argument('-r', '--reverse', help='reverse sorting', action='store_true')
 args = parser.parse_args()
@@ -22,13 +22,11 @@ def main():
             lines.append(line)
     scores = []
 
-    nloc_value = None
-    nloc_cond = lambda x, value : x < value
-    ccn_value = None
-    ccn_cond = lambda x, value : x < value
+    nloc_span = [None, None]
+    ccn_span = [None, None]
 
-    if args.filter:
-        conditions = args.filter.split(' ')
+    if args.span:
+        conditions = args.span.split(' ')
         for condition in conditions:
             if condition == '':
                 continue
@@ -36,20 +34,15 @@ def main():
             if len(val) < 2:
                 print(f"Error: Invalid filtering, ignoring '{condition}'", file=sys.stderr)
                 continue
+            v = val[1].split('-')
             if val[0] == 'ccn':
-                if val[1][0] == 'g':
-                    ccn_cond = lambda x, value : x > value
-                    ccn_value = float(val[1][1:])
-                else:
-                    ccn_value = float(val[1])
+                ccn_span[0] = int(v[0])
+                ccn_span[1] = int(v[1])
             if val[0] == 'nloc':
-                if val[1][0] == 'g':
-                    nloc_cond = lambda x, value : x > value
-                    nloc_value = float(val[1][1:])
-                else:
-                    nloc_value = float(val[1])
+                nloc_span[0] = int(v[0])
+                nloc_span[1] = int(v[1])
 
-
+    not_in_range = lambda x, r : (r[0] is not None and x < r[0]) or (r[1] is not None and x > r[1])
     for line in lines:
         l = list(filter(bool, line.split(' ')))
         # Structure of measurement
@@ -66,10 +59,10 @@ def main():
             break
 
         nloc = float(l[0])
-        if nloc_value is not None and nloc_cond(nloc, nloc_value):
+        if not_in_range(nloc, nloc_span):
             continue
         ccn = float(l[1])
-        if ccn_value is not None and ccn_cond(ccn, ccn_value):
+        if not_in_range(ccn, ccn_span):
             continue
         token = float(l[2])
         param = float(l[3])
