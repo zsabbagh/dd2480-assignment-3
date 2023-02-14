@@ -1,0 +1,6663 @@
+Error: Sort-On not valid argument. Valid are:
+	k k k k 
+__init__@23-25@../algorithms/algorithms/tree/fenwick_tree/fenwick_tree.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+get_sum@27-45@../algorithms/algorithms/tree/fenwick_tree/fenwick_tree.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+update_bit@47-62@../algorithms/algorithms/tree/fenwick_tree/fenwick_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+construct@65-77@../algorithms/algorithms/tree/fenwick_tree/fenwick_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+__init__@7-11@../algorithms/algorithms/tree/segment_tree/segment_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+make_tree@13-19@../algorithms/algorithms/tree/segment_tree/segment_tree.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+__query@21-33@../algorithms/algorithms/tree/segment_tree/segment_tree.py
+	NLOC: 13.0
+	CCN: 9.0
+	NLOC/CCN: 1.44444
+	CCN/NLOC: 0.69231
+query@36-37@../algorithms/algorithms/tree/segment_tree/segment_tree.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@27-31@../algorithms/algorithms/tree/segment_tree/iterative_segment_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+build_tree@33-35@../algorithms/algorithms/tree/segment_tree/iterative_segment_tree.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+update@37-42@../algorithms/algorithms/tree/segment_tree/iterative_segment_tree.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+query@44-53@../algorithms/algorithms/tree/segment_tree/iterative_segment_tree.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+__init__@19-22@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@25-26@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+add_word@28-34@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+search@36-56@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 19.0
+	CCN: 10.0
+	NLOC/CCN: 1.9
+	CCN/NLOC: 0.52632
+__init__@59-60@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+add_word@63-65@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+search@67-79@../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 12.0
+	CCN: 7.0
+	NLOC/CCN: 1.71429
+	CCN/NLOC: 0.58333
+__init__@11-13@../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@17-18@../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+insert@20-24@../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+search@26-32@../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+starts_with@34-40@../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+__init__@8-11@../algorithms/algorithms/tree/traversal/inorder.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+inorder@14-27@../algorithms/algorithms/tree/traversal/inorder.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+inorder_rec@29-38@../algorithms/algorithms/tree/traversal/inorder.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+level_order@21-37@../algorithms/algorithms/tree/traversal/level_order.py
+	NLOC: 17.0
+	CCN: 6.0
+	NLOC/CCN: 2.83333
+	CCN/NLOC: 0.35294
+__init__@7-10@../algorithms/algorithms/tree/traversal/postorder.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+postorder@13-29@../algorithms/algorithms/tree/traversal/postorder.py
+	NLOC: 17.0
+	CCN: 6.0
+	NLOC/CCN: 2.83333
+	CCN/NLOC: 0.35294
+postorder_rec@32-40@../algorithms/algorithms/tree/traversal/postorder.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+zigzag_level@23-41@../algorithms/algorithms/tree/traversal/zigzag.py
+	NLOC: 19.0
+	CCN: 6.0
+	NLOC/CCN: 3.16667
+	CCN/NLOC: 0.31579
+__init__@9-12@../algorithms/algorithms/tree/traversal/preorder.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+preorder@15-29@../algorithms/algorithms/tree/traversal/preorder.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+preorder_rec@31-40@../algorithms/algorithms/tree/traversal/preorder.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@10-14@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+insert@16-30@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+re_balance@32-56@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 20.0
+	CCN: 7.0
+	NLOC/CCN: 2.85714
+	CCN/NLOC: 0.35
+update_heights@58-72@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+update_balances@74-88@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+rotate_right@90-100@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+rotate_left@102-112@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+in_order_traverse@114-126@../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@7-12@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+__init__@16-17@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+left_rotate@19-38@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+right_rotate@40-59@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+insert@61-86@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 20.0
+	CCN: 5.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+fix_insert@88-141@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 35.0
+	CCN: 11.0
+	NLOC/CCN: 3.18182
+	CCN/NLOC: 0.31429
+transplant@143-158@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+maximum@160-169@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+minimum@171-180@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+delete@182-207@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 22.0
+	CCN: 5.0
+	NLOC/CCN: 4.4
+	CCN/NLOC: 0.22727
+delete_fixup@209-267@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 47.0
+	CCN: 18.0
+	NLOC/CCN: 2.61111
+	CCN/NLOC: 0.38298
+inorder@269-282@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+__init__@3-6@../algorithms/algorithms/tree/bst/kth_smallest.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+kth_smallest@9-20@../algorithms/algorithms/tree/bst/kth_smallest.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+kth_smallest@24-32@../algorithms/algorithms/tree/bst/kth_smallest.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+helper@34-40@../algorithms/algorithms/tree/bst/kth_smallest.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@4-7@../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+serialize.build_string@11-17@../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+serialize@10-20@../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+deserialize.build_tree@24-31@../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+deserialize@23-33@../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+num_trees@29-40@../algorithms/algorithms/tree/bst/unique_bst.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+height@22-26@../algorithms/algorithms/tree/bst/height.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+setUp@44-54@../algorithms/algorithms/tree/bst/height.py
+	NLOC: 11.0
+	CCN: 1.0
+	NLOC/CCN: 11.0
+	CCN/NLOC: 0.09091
+test_height@56-57@../algorithms/algorithms/tree/bst/height.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@12-15@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@18-19@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+get_root@21-22@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+size@28-29@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+recur_size@31-35@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+search@41-42@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+recur_search@44-52@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+insert@58-63@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+recur_insert@65-79@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+preorder@84-88@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+inorder@90-94@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+postorder@96-100@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+setUp@117-129@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 13.0
+	CCN: 1.0
+	NLOC/CCN: 13.0
+	CCN/NLOC: 0.07692
+test_search@131-133@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+test_size@135-136@../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+predecessor@1-9@../algorithms/algorithms/tree/bst/predecessor.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+num_empty@25-33@../algorithms/algorithms/tree/bst/num_empty.py
+	NLOC: 9.0
+	CCN: 6.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+setUp@51-61@../algorithms/algorithms/tree/bst/num_empty.py
+	NLOC: 11.0
+	CCN: 1.0
+	NLOC/CCN: 11.0
+	CCN/NLOC: 0.09091
+test_num_empty@63-64@../algorithms/algorithms/tree/bst/num_empty.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+delete_node@41-66@../algorithms/algorithms/tree/bst/delete_node.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+__init__@8-11@../algorithms/algorithms/tree/bst/array_to_bst.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+array_to_bst@14-21@../algorithms/algorithms/tree/bst/array_to_bst.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+successor@1-9@../algorithms/algorithms/tree/bst/successor.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+depth_sum@22-24@../algorithms/algorithms/tree/bst/depth_sum.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+recur_depth_sum@26-32@../algorithms/algorithms/tree/bst/depth_sum.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+setUp@50-60@../algorithms/algorithms/tree/bst/depth_sum.py
+	NLOC: 11.0
+	CCN: 1.0
+	NLOC/CCN: 11.0
+	CCN/NLOC: 0.09091
+test_depth_sum@62-63@../algorithms/algorithms/tree/bst/depth_sum.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+closest_value@17-28@../algorithms/algorithms/tree/bst/bst_closest_value.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+lowest_common_ancestor@24-37@../algorithms/algorithms/tree/bst/lowest_common_ancestor.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@3-7@../algorithms/algorithms/tree/bst/BSTIterator.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+has_next@9-10@../algorithms/algorithms/tree/bst/BSTIterator.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+next@12-20@../algorithms/algorithms/tree/bst/BSTIterator.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_bst@23-42@../algorithms/algorithms/tree/bst/is_bst.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+count_left_node@21-27@../algorithms/algorithms/tree/bst/count_left_node.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+setUp@45-55@../algorithms/algorithms/tree/bst/count_left_node.py
+	NLOC: 11.0
+	CCN: 1.0
+	NLOC/CCN: 11.0
+	CCN/NLOC: 0.09091
+test_count_left_node@57-58@../algorithms/algorithms/tree/bst/count_left_node.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+has_path_sum@18-29@../algorithms/algorithms/tree/path_sum.py
+	NLOC: 7.0
+	CCN: 6.0
+	NLOC/CCN: 1.16667
+	CCN/NLOC: 0.85714
+has_path_sum2@33-46@../algorithms/algorithms/tree/path_sum.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+has_path_sum3@50-63@../algorithms/algorithms/tree/path_sum.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+max_path_sum@1-4@../algorithms/algorithms/tree/max_path_sum.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+helper@7-13@../algorithms/algorithms/tree/max_path_sum.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+is_same_tree@10-15@../algorithms/algorithms/tree/same_tree.py
+	NLOC: 6.0
+	CCN: 7.0
+	NLOC/CCN: 0.85714
+	CCN/NLOC: 1.16667
+__init__@2-5@../algorithms/algorithms/tree/tree.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+reverse@3-10@../algorithms/algorithms/tree/invert_tree.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_balanced@1-2@../algorithms/algorithms/tree/is_balanced.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__is_balanced_recursive@5-9@../algorithms/algorithms/tree/is_balanced.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__get_depth@12-22@../algorithms/algorithms/tree/is_balanced.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+binary_tree_paths@1-6@../algorithms/algorithms/tree/binary_tree_paths.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfs@9-15@../algorithms/algorithms/tree/binary_tree_paths.py
+	NLOC: 7.0
+	CCN: 5.0
+	NLOC/CCN: 1.4
+	CCN/NLOC: 0.71429
+tree_print@15-23@../algorithms/algorithms/tree/pretty_print.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+__init__@24-27@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__repr__@29-30@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_leaf@33-35@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@41-45@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+_split_child@47-61@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 12.0
+	CCN: 2.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+insert_key@63-72@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+_insert_to_nonfull_node@74-89@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find@91-102@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 12.0
+	CCN: 7.0
+	NLOC/CCN: 1.71429
+	CCN/NLOC: 0.58333
+remove_key@104-105@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+_remove_key@107-131@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 22.0
+	CCN: 7.0
+	NLOC/CCN: 3.14286
+	CCN/NLOC: 0.31818
+_repair_tree@133-155@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 16.0
+	CCN: 7.0
+	NLOC/CCN: 2.28571
+	CCN/NLOC: 0.4375
+_rotate_left@157-171@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+_rotate_right@173-188@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 10.0
+	CCN: 2.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+_merge@190-201@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+_remove_from_nonleaf_node@203-216@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 13.0
+	CCN: 3.0
+	NLOC/CCN: 4.33333
+	CCN/NLOC: 0.23077
+_find_largest_and_delete_in_left_subtree@218-227@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+_find_largest_and_delete_in_right_subtree@229-238@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+traverse_tree@240-242@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+_traverse_tree@244-251@../algorithms/algorithms/tree/b_tree.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+is_symmetric@23-26@../algorithms/algorithms/tree/is_symmetric.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+helper@29-34@../algorithms/algorithms/tree/is_symmetric.py
+	NLOC: 6.0
+	CCN: 7.0
+	NLOC/CCN: 0.85714
+	CCN/NLOC: 1.16667
+is_symmetric_iterative@37-52@../algorithms/algorithms/tree/is_symmetric.py
+	NLOC: 16.0
+	CCN: 8.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_subtree@51-63@../algorithms/algorithms/tree/is_subtree.py
+	NLOC: 13.0
+	CCN: 3.0
+	NLOC/CCN: 4.33333
+	CCN/NLOC: 0.23077
+comp@66-71@../algorithms/algorithms/tree/is_subtree.py
+	NLOC: 6.0
+	CCN: 7.0
+	NLOC/CCN: 0.85714
+	CCN/NLOC: 1.16667
+max_height@18-33@../algorithms/algorithms/tree/max_height.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+print_tree@36-40@../algorithms/algorithms/tree/max_height.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+min_depth@4-13@../algorithms/algorithms/tree/min_height.py
+	NLOC: 6.0
+	CCN: 4.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+min_height@17-33@../algorithms/algorithms/tree/min_height.py
+	NLOC: 17.0
+	CCN: 8.0
+	NLOC/CCN: 2.125
+	CCN/NLOC: 0.47059
+print_tree@36-40@../algorithms/algorithms/tree/min_height.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+bin_tree_to_list@4-13@../algorithms/algorithms/tree/bin_tree_to_list.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+bin_tree_to_list_util@16-31@../algorithms/algorithms/tree/bin_tree_to_list.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+print_tree@34-37@../algorithms/algorithms/tree/bin_tree_to_list.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@26-29@../algorithms/algorithms/tree/construct_tree_postorder_preorder.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+construct_tree_util@33-74@../algorithms/algorithms/tree/construct_tree_postorder_preorder.py
+	NLOC: 19.0
+	CCN: 9.0
+	NLOC/CCN: 2.11111
+	CCN/NLOC: 0.47368
+construct_tree@77-86@../algorithms/algorithms/tree/construct_tree_postorder_preorder.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+print_inorder@90-102@../algorithms/algorithms/tree/construct_tree_postorder_preorder.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+lca@24-37@../algorithms/algorithms/tree/lowest_common_ancestor.py
+	NLOC: 8.0
+	CCN: 7.0
+	NLOC/CCN: 1.14286
+	CCN/NLOC: 0.875
+path_sum@22-27@../algorithms/algorithms/tree/path_sum2.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfs@30-37@../algorithms/algorithms/tree/path_sum2.py
+	NLOC: 8.0
+	CCN: 6.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+path_sum2@41-54@../algorithms/algorithms/tree/path_sum2.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+path_sum3@58-71@../algorithms/algorithms/tree/path_sum2.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+longest_consecutive@28-37@../algorithms/algorithms/tree/longest_consecutive.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfs@40-49@../algorithms/algorithms/tree/longest_consecutive.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+__init__@19-21@../algorithms/algorithms/tree/deepest_left.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+find_deepest_left@24-31@../algorithms/algorithms/tree/deepest_left.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+match_symbol@28-36@../algorithms/algorithms/strings/breaking_bad.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+match_symbol_1@38-53@../algorithms/algorithms/strings/breaking_bad.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+__init__@64-66@../algorithms/algorithms/strings/breaking_bad.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+bracket@69-95@../algorithms/algorithms/strings/breaking_bad.py
+	NLOC: 27.0
+	CCN: 13.0
+	NLOC/CCN: 2.07692
+	CCN/NLOC: 0.48148
+license_number@2-11@../algorithms/algorithms/strings/license_number.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+check_pangram@5-10@../algorithms/algorithms/strings/check_pangram.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+strong_password@32-43@../algorithms/algorithms/strings/strong_password.py
+	NLOC: 11.0
+	CCN: 9.0
+	NLOC/CCN: 1.22222
+	CCN/NLOC: 0.81818
+delete_reoccurring_characters@10-17@../algorithms/algorithms/strings/delete_reoccurring.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+strip_url_params1@14-68@../algorithms/algorithms/strings/strip_url_params.py
+	NLOC: 50.0
+	CCN: 20.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+strip_url_params2@71-81@../algorithms/algorithms/strings/strip_url_params.py
+	NLOC: 9.0
+	CCN: 6.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+strip_url_params3@85-95@../algorithms/algorithms/strings/strip_url_params.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+repeat_substring@19-25@../algorithms/algorithms/strings/repeat_substring.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+recursive@1-5@../algorithms/algorithms/strings/reverse_string.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+iterative@7-14@../algorithms/algorithms/strings/reverse_string.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+pythonic@16-18@../algorithms/algorithms/strings/reverse_string.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+ultra_pythonic@20-21@../algorithms/algorithms/strings/reverse_string.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+panagram@20-36@../algorithms/algorithms/strings/panagram.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+reverse@2-6@../algorithms/algorithms/strings/reverse_words.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+reverse_words@9-14@../algorithms/algorithms/strings/reverse_words.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+roman_to_int@7-15@../algorithms/algorithms/strings/roman_to_int.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_rotated@12-16@../algorithms/algorithms/strings/is_rotated.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+is_rotated_v1@22-31@../algorithms/algorithms/strings/is_rotated.py
+	NLOC: 9.0
+	CCN: 6.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+caesar_cipher@10-19@../algorithms/algorithms/strings/caesar_cipher.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+is_palindrome@17-32@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+remove_punctuation@49-53@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 2.0
+	CCN: 3.0
+	NLOC/CCN: 0.66667
+	CCN/NLOC: 1.5
+string_reverse@56-57@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_palindrome_reverse@59-65@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+is_palindrome_two_pointer@69-75@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_palindrome_stack@79-88@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+is_palindrome_deque@91-105@../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+fizzbuzz@28-47@../algorithms/algorithms/strings/fizzbuzz.py
+	NLOC: 16.0
+	CCN: 8.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+fizzbuzz_with_helper_func@50-51@../algorithms/algorithms/strings/fizzbuzz.py
+	NLOC: 2.0
+	CCN: 2.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+fb@53-55@../algorithms/algorithms/strings/fizzbuzz.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+encode@8-16@../algorithms/algorithms/strings/encode_decode.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+decode@18-30@../algorithms/algorithms/strings/encode_decode.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+text_justification@34-89@../algorithms/algorithms/strings/text_justification.py
+	NLOC: 46.0
+	CCN: 13.0
+	NLOC/CCN: 3.53846
+	CCN/NLOC: 0.28261
+domain_name_1@13-23@../algorithms/algorithms/strings/domain_extractor.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+domain_name_2@27-28@../algorithms/algorithms/strings/domain_extractor.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+judge_circle@16-25@../algorithms/algorithms/strings/judge_circle.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+__init__@5-18@../algorithms/algorithms/strings/rabin_karp.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+move_window@20-27@../algorithms/algorithms/strings/rabin_karp.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+window_text@29-30@../algorithms/algorithms/strings/rabin_karp.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+rabin_karp@32-47@../algorithms/algorithms/strings/rabin_karp.py
+	NLOC: 13.0
+	CCN: 7.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+int_to_roman@6-15@../algorithms/algorithms/strings/int_to_roman.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+knuth_morris_pratt@3-44@../algorithms/algorithms/strings/knuth_morris_pratt.py
+	NLOC: 40.0
+	CCN: 11.0
+	NLOC/CCN: 3.63636
+	CCN/NLOC: 0.275
+atbash@11-27@../algorithms/algorithms/strings/atbash_cipher.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+word_squares.build@54-62@../algorithms/algorithms/strings/word_squares.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+word_squares@47-66@../algorithms/algorithms/strings/word_squares.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+common_prefix@21-30@../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+longest_common_prefix_v1@32-38@../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+longest_common_prefix_v2@43-50@../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 8.0
+	CCN: 6.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+longest_common_prefix_v3@55-58@../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+longest_common@60-66@../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+is_valid_coordinates_0@24-36@../algorithms/algorithms/strings/validate_coordinates.py
+	NLOC: 13.0
+	CCN: 7.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+is_valid_coordinates_1@39-45@../algorithms/algorithms/strings/validate_coordinates.py
+	NLOC: 6.0
+	CCN: 5.0
+	NLOC/CCN: 1.2
+	CCN/NLOC: 0.83333
+is_valid_coordinates_regular_expression@48-49@../algorithms/algorithms/strings/validate_coordinates.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+make_sentence@18-27@../algorithms/algorithms/strings/make_sentence.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+contain_string@15-25@../algorithms/algorithms/strings/contain_string.py
+	NLOC: 11.0
+	CCN: 6.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+count_binary_substring@21-33@../algorithms/algorithms/strings/count_binary_substring.py
+	NLOC: 13.0
+	CCN: 3.0
+	NLOC/CCN: 4.33333
+	CCN/NLOC: 0.23077
+first_unique_char@14-27@../algorithms/algorithms/strings/first_unique_char.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+repeat_string@13-24@../algorithms/algorithms/strings/repeat_string.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+multiply@15-28@../algorithms/algorithms/strings/multiply_strings.py
+	NLOC: 14.0
+	CCN: 3.0
+	NLOC/CCN: 4.66667
+	CCN/NLOC: 0.21429
+convert_morse_word@81-86@../algorithms/algorithms/strings/unique_morse.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+unique_morse@88-94@../algorithms/algorithms/strings/unique_morse.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+is_one_edit@6-19@../algorithms/algorithms/strings/one_edit_distance.py
+	NLOC: 9.0
+	CCN: 7.0
+	NLOC/CCN: 1.28571
+	CCN/NLOC: 0.77778
+is_one_edit2@22-35@../algorithms/algorithms/strings/one_edit_distance.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+group_anagrams@15-28@../algorithms/algorithms/strings/group_anagrams.py
+	NLOC: 14.0
+	CCN: 3.0
+	NLOC/CCN: 4.66667
+	CCN/NLOC: 0.21429
+rotate@14-19@../algorithms/algorithms/strings/rotate.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+rotate_alt@21-23@../algorithms/algorithms/strings/rotate.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+decode_string@20-38@../algorithms/algorithms/strings/decode_string.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_merge_recursive@15-26@../algorithms/algorithms/strings/merge_string_checker.py
+	NLOC: 12.0
+	CCN: 8.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+is_merge_iterative@30-42@../algorithms/algorithms/strings/merge_string_checker.py
+	NLOC: 13.0
+	CCN: 9.0
+	NLOC/CCN: 1.44444
+	CCN/NLOC: 0.69231
+add_binary@12-26@../algorithms/algorithms/strings/add_binary.py
+	NLOC: 14.0
+	CCN: 6.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+longest_palindrome@18-44@../algorithms/algorithms/strings/longest_palindromic_substring.py
+	NLOC: 23.0
+	CCN: 10.0
+	NLOC/CCN: 2.3
+	CCN/NLOC: 0.43478
+min_distance@14-15@../algorithms/algorithms/strings/min_distance.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+lcs@17-26@../algorithms/algorithms/strings/min_distance.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+reverse_vowel@2-13@../algorithms/algorithms/strings/reverse_vowel.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+flip_bit_longest_seq@10-30@../algorithms/algorithms/bit/flip_bit_longest_sequence.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+count_ones_recur@17-22@../algorithms/algorithms/bit/count_ones.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+count_ones_iter@25-32@../algorithms/algorithms/bit/count_ones.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+binary_gap@24-35@../algorithms/algorithms/bit/binary_gap.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+binary_gap_improved@38-53@../algorithms/algorithms/bit/binary_gap.py
+	NLOC: 16.0
+	CCN: 4.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+remove_bit@11-15@../algorithms/algorithms/bit/remove_bit.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+reverse_bits@9-16@../algorithms/algorithms/bit/reverse_bits.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+swap_pair@16-21@../algorithms/algorithms/bit/swap_pair.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+get_bit@14-15@../algorithms/algorithms/bit/bit_operation.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+set_bit@21-22@../algorithms/algorithms/bit/bit_operation.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+clear_bit@27-29@../algorithms/algorithms/bit/bit_operation.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+update_bit@35-37@../algorithms/algorithms/bit/bit_operation.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+single_number3@29-49@../algorithms/algorithms/bit/single_number3.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+single_number2@22-27@../algorithms/algorithms/bit/single_number2.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+insert_one_bit@30-37@../algorithms/algorithms/bit/insert_bit.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+insert_mult_bits@39-44@../algorithms/algorithms/bit/insert_bit.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+count_flips_to_convert@10-19@../algorithms/algorithms/bit/count_flips_to_convert.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+is_power_of_two@4-9@../algorithms/algorithms/bit/power_of_two.py
+	NLOC: 2.0
+	CCN: 2.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+single_number@13-23@../algorithms/algorithms/bit/single_number.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+add_bitwise_operator@8-14@../algorithms/algorithms/bit/add_bitwise_operator.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+subsets@21-34@../algorithms/algorithms/bit/subsets.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+int_to_bytes_big_endian@4-10@../algorithms/algorithms/bit/bytes_int_conversion.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+int_to_bytes_little_endian@13-18@../algorithms/algorithms/bit/bytes_int_conversion.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+bytes_big_endian_to_int@21-26@../algorithms/algorithms/bit/bytes_int_conversion.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+bytes_little_endian_to_int@29-35@../algorithms/algorithms/bit/bytes_int_conversion.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+find_difference@22-28@../algorithms/algorithms/bit/find_difference.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+find_missing_number@11-18@../algorithms/algorithms/bit/find_missing_number.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+find_missing_number2@21-27@../algorithms/algorithms/bit/find_missing_number.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+has_alternative_bit@20-32@../algorithms/algorithms/bit/has_alternative_bit.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+has_alternative_bit_fast@35-38@../algorithms/algorithms/bit/has_alternative_bit.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+DFA@1-17@../algorithms/algorithms/automata/dfa.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+num_islands@25-32@../algorithms/algorithms/dfs/count_islands.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs@35-44@../algorithms/algorithms/dfs/count_islands.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+pacific_atlantic@32-54@../algorithms/algorithms/dfs/pacific_atlantic.py
+	NLOC: 19.0
+	CCN: 13.0
+	NLOC/CCN: 1.46154
+	CCN/NLOC: 0.68421
+dfs@56-65@../algorithms/algorithms/dfs/pacific_atlantic.py
+	NLOC: 10.0
+	CCN: 7.0
+	NLOC/CCN: 1.42857
+	CCN/NLOC: 0.7
+get_factors.factor@40-59@../algorithms/algorithms/dfs/all_factors.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+get_factors@30-60@../algorithms/algorithms/dfs/all_factors.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+get_factors_iterative1@63-84@../algorithms/algorithms/dfs/all_factors.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+get_factors_iterative2@87-111@../algorithms/algorithms/dfs/all_factors.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+walls_and_gates@22-26@../algorithms/algorithms/dfs/walls_and_gates.py
+	NLOC: 5.0
+	CCN: 4.0
+	NLOC/CCN: 1.25
+	CCN/NLOC: 0.8
+dfs@29-38@../algorithms/algorithms/dfs/walls_and_gates.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+find_path@24-26@../algorithms/algorithms/dfs/maze_search.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfs@29-55@../algorithms/algorithms/dfs/maze_search.py
+	NLOC: 20.0
+	CCN: 11.0
+	NLOC/CCN: 1.81818
+	CCN/NLOC: 0.55
+__init__@24-28@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+possible_values@30-45@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 16.0
+	CCN: 7.0
+	NLOC/CCN: 2.28571
+	CCN/NLOC: 0.4375
+solve@47-58@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+valid_one@60-71@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 12.0
+	CCN: 7.0
+	NLOC/CCN: 1.71429
+	CCN/NLOC: 0.58333
+undo@73-80@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+__str__@82-95@../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+shell_sort@1-21@../algorithms/algorithms/sort/shell_sort.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+bucket_sort@1-17@../algorithms/algorithms/sort/bucket_sort.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+next_sort@19-28@../algorithms/algorithms/sort/bucket_sort.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+quick_sort@1-10@../algorithms/algorithms/sort/quick_sort.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+quick_sort_recur@12-23@../algorithms/algorithms/sort/quick_sort.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+partition@25-32@../algorithms/algorithms/sort/quick_sort.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+merge_sort@1-13@../algorithms/algorithms/sort/merge_sort.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+merge@16-38@../algorithms/algorithms/sort/merge_sort.py
+	NLOC: 14.0
+	CCN: 6.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+cycle_sort@1-46@../algorithms/algorithms/sort/cycle_sort.py
+	NLOC: 22.0
+	CCN: 10.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+pigeonhole_sort@12-28@../algorithms/algorithms/sort/pigeonhole_sort.py
+	NLOC: 14.0
+	CCN: 4.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+top_sort_recursive.dfs@9-21@../algorithms/algorithms/sort/top_sort.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+top_sort_recursive@3-24@../algorithms/algorithms/sort/top_sort.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+top_sort.is_ready@32-42@../algorithms/algorithms/sort/top_sort.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+top_sort@26-66@../algorithms/algorithms/sort/top_sort.py
+	NLOC: 25.0
+	CCN: 9.0
+	NLOC/CCN: 2.77778
+	CCN/NLOC: 0.36
+pancake_sort@1-25@../algorithms/algorithms/sort/pancake_sort.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+insertion_sort@1-25@../algorithms/algorithms/sort/insertion_sort.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+gnome_sort@10-19@../algorithms/algorithms/sort/gnome_sort.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+bubble_sort.swap@14-15@../algorithms/algorithms/sort/bubble_sort.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bubble_sort@13-35@../algorithms/algorithms/sort/bubble_sort.py
+	NLOC: 19.0
+	CCN: 6.0
+	NLOC/CCN: 3.16667
+	CCN/NLOC: 0.31579
+stoogesort@11-35@../algorithms/algorithms/sort/stooge_sort.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+selection_sort@1-23@../algorithms/algorithms/sort/selection_sort.py
+	NLOC: 14.0
+	CCN: 6.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+bogo_sort.is_sorted@14-24@../algorithms/algorithms/sort/bogo_sort.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+bogo_sort@3-32@../algorithms/algorithms/sort/bogo_sort.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+radix_sort@5-31@../algorithms/algorithms/sort/radix_sort.py
+	NLOC: 21.0
+	CCN: 8.0
+	NLOC/CCN: 2.625
+	CCN/NLOC: 0.38095
+counting_sort@1-36@../algorithms/algorithms/sort/counting_sort.py
+	NLOC: 18.0
+	CCN: 6.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+wiggle_sort@4-7@../algorithms/algorithms/sort/wiggle_sort.py
+	NLOC: 4.0
+	CCN: 3.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+sort_colors@14-24@../algorithms/algorithms/sort/sort_colors.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+max_heap_sort@1-15@../algorithms/algorithms/sort/heap_sort.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+max_heapify@18-45@../algorithms/algorithms/sort/heap_sort.py
+	NLOC: 18.0
+	CCN: 7.0
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+min_heap_sort@47-58@../algorithms/algorithms/sort/heap_sort.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+min_heapify@61-92@../algorithms/algorithms/sort/heap_sort.py
+	NLOC: 20.0
+	CCN: 7.0
+	NLOC/CCN: 2.85714
+	CCN/NLOC: 0.35
+exchange_sort@1-11@../algorithms/algorithms/sort/exchange_sort.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+cocktail_shaker_sort.swap@12-13@../algorithms/algorithms/sort/cocktail_shaker_sort.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+cocktail_shaker_sort@1-30@../algorithms/algorithms/sort/cocktail_shaker_sort.py
+	NLOC: 18.0
+	CCN: 7.0
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+comb_sort.swap@11-12@../algorithms/algorithms/sort/comb_sort.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+comb_sort@10-32@../algorithms/algorithms/sort/comb_sort.py
+	NLOC: 20.0
+	CCN: 5.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+can_attend_meetings@12-21@../algorithms/algorithms/sort/meeting_rooms.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bitonic_sort.compare@12-17@../algorithms/algorithms/sort/bitonic_sort.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bitonic_sort.bitonic_merge@19-28@../algorithms/algorithms/sort/bitonic_sort.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+bitonic_sort@1-43@../algorithms/algorithms/sort/bitonic_sort.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+find_words.backtrack@19-53@../algorithms/algorithms/backtrack/find_words.py
+	NLOC: 16.0
+	CCN: 8.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_words@17-73@../algorithms/algorithms/backtrack/find_words.py
+	NLOC: 16.0
+	CCN: 7.0
+	NLOC/CCN: 2.28571
+	CCN/NLOC: 0.4375
+permute@17-28@../algorithms/algorithms/backtrack/permute.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+permute_iter@31-40@../algorithms/algorithms/backtrack/permute.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+permute_recursive.dfs@45-50@../algorithms/algorithms/backtrack/permute.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+permute_recursive@44-54@../algorithms/algorithms/backtrack/permute.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+subsets_unique.backtrack@23-33@../algorithms/algorithms/backtrack/subsets_unique.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+subsets_unique@21-37@../algorithms/algorithms/backtrack/subsets_unique.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+array_sum_combinations.over@22-31@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+array_sum_combinations.construct_candidates@33-39@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+array_sum_combinations.backtrack@41-52@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+array_sum_combinations@20-56@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+unique_array_sum_combinations.check_sum@69-73@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+unique_array_sum_combinations@59-84@../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+anagram@10-22@../algorithms/algorithms/backtrack/anagram.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+permute_unique@15-25@../algorithms/algorithms/backtrack/permute_unique.py
+	NLOC: 11.0
+	CCN: 6.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+letter_combinations@20-40@../algorithms/algorithms/backtrack/letter_combination.py
+	NLOC: 21.0
+	CCN: 5.0
+	NLOC/CCN: 4.2
+	CCN/NLOC: 0.2381
+get_factors@40-49@../algorithms/algorithms/backtrack/factor_combinations.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+recursive_get_factors.factor@55-61@../algorithms/algorithms/backtrack/factor_combinations.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+recursive_get_factors@53-63@../algorithms/algorithms/backtrack/factor_combinations.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+add_operators.dfs@22-39@../algorithms/algorithms/backtrack/add_operators.py
+	NLOC: 18.0
+	CCN: 7.0
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+add_operators@15-45@../algorithms/algorithms/backtrack/add_operators.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+subsets.backtrack@26-35@../algorithms/algorithms/backtrack/subsets.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+subsets@22-39@../algorithms/algorithms/backtrack/subsets.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+subsets_v2@55-59@../algorithms/algorithms/backtrack/subsets.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+generate_parenthesis_v1.add_pair@18-25@../algorithms/algorithms/backtrack/generate_parenthesis.py
+	NLOC: 8.0
+	CCN: 5.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+generate_parenthesis_v1@17-29@../algorithms/algorithms/backtrack/generate_parenthesis.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+generate_parenthesis_v2.add_pair@33-39@../algorithms/algorithms/backtrack/generate_parenthesis.py
+	NLOC: 7.0
+	CCN: 6.0
+	NLOC/CCN: 1.16667
+	CCN/NLOC: 0.85714
+generate_parenthesis_v2@32-43@../algorithms/algorithms/backtrack/generate_parenthesis.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+generate_abbreviations.backtrack@10-22@../algorithms/algorithms/backtrack/generate_abbreviations.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+generate_abbreviations@8-26@../algorithms/algorithms/backtrack/generate_abbreviations.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+pattern_match.backtrack@23-40@../algorithms/algorithms/backtrack/pattern_match.py
+	NLOC: 15.0
+	CCN: 11.0
+	NLOC/CCN: 1.36364
+	CCN/NLOC: 0.73333
+pattern_match@17-42@../algorithms/algorithms/backtrack/pattern_match.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+palindromic_substrings@12-21@../algorithms/algorithms/backtrack/palindrome_partitioning.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+palindromic_substrings_iter@34-45@../algorithms/algorithms/backtrack/palindrome_partitioning.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+combination_sum.dfs@21-28@../algorithms/algorithms/backtrack/combination_sum.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+combination_sum@19-33@../algorithms/algorithms/backtrack/combination_sum.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+__init__@40-43@../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+add@45-52@../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+root@54-64@../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+unite@66-79@../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+num_islands@81-126@../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+rotate_right@17-39@../algorithms/algorithms/linkedlist/rotate_list.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@16-18@../algorithms/algorithms/linkedlist/partition.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+print_linked_list@21-27@../algorithms/algorithms/linkedlist/partition.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+partition@30-51@../algorithms/algorithms/linkedlist/partition.py
+	NLOC: 21.0
+	CCN: 7.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+test@54-72@../algorithms/algorithms/linkedlist/partition.py
+	NLOC: 17.0
+	CCN: 1.0
+	NLOC/CCN: 17.0
+	CCN/NLOC: 0.05882
+reverse_list@12-25@../algorithms/algorithms/linkedlist/reverse.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+reverse_list_recursive@32-43@../algorithms/algorithms/linkedlist/reverse.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+__init__@11-13@../algorithms/algorithms/linkedlist/merge_two_list.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+merge_two_list@15-26@../algorithms/algorithms/linkedlist/merge_two_list.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+merge_two_list_recur@29-37@../algorithms/algorithms/linkedlist/merge_two_list.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+__init__@13-15@../algorithms/algorithms/linkedlist/delete_node.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+delete_node@18-22@../algorithms/algorithms/linkedlist/delete_node.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+test_delete_node@27-58@../algorithms/algorithms/linkedlist/delete_node.py
+	NLOC: 20.0
+	CCN: 2.0
+	NLOC/CCN: 10.0
+	CCN/NLOC: 0.1
+is_palindrome@1-25@../algorithms/algorithms/linkedlist/is_palindrome.py
+	NLOC: 21.0
+	CCN: 7.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_palindrome_stack@28-49@../algorithms/algorithms/linkedlist/is_palindrome.py
+	NLOC: 15.0
+	CCN: 8.0
+	NLOC/CCN: 1.875
+	CCN/NLOC: 0.53333
+is_palindrome_dict@52-89@../algorithms/algorithms/linkedlist/is_palindrome.py
+	NLOC: 26.0
+	CCN: 10.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+__init__@15-18@../algorithms/algorithms/linkedlist/linkedlist.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@22-24@../algorithms/algorithms/linkedlist/linkedlist.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+remove_range@12-28@../algorithms/algorithms/linkedlist/remove_range.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+__init__@18-20@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+add_two_numbers@23-40@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 18.0
+	CCN: 6.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+convert_to_list@43-63@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 20.0
+	CCN: 3.0
+	NLOC/CCN: 6.66667
+	CCN/NLOC: 0.15
+convert_to_str@66-74@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+test_convert_to_str@83-87@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+test_add_two_numbers@89-124@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 29.0
+	CCN: 1.0
+	NLOC/CCN: 29.0
+	CCN/NLOC: 0.03448
+test_convert_to_list@126-128@../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@9-11@../algorithms/algorithms/linkedlist/is_cyclic.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_cyclic@13-27@../algorithms/algorithms/linkedlist/is_cyclic.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+__init__@11-14@../algorithms/algorithms/linkedlist/copy_random_pointer.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+copy_random_pointer_v1@17-31@../algorithms/algorithms/linkedlist/copy_random_pointer.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+copy_random_pointer_v2@35-48@../algorithms/algorithms/linkedlist/copy_random_pointer.py
+	NLOC: 10.0
+	CCN: 2.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+__init__@2-4@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+kth_to_last_eval@7-24@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 11.0
+	CCN: 6.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+kth_to_last_dict@27-41@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+kth_to_last@44-62@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+print_linked_list@65-71@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+test@74-117@../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 36.0
+	CCN: 4.0
+	NLOC/CCN: 9.0
+	CCN/NLOC: 0.11111
+__init__@16-18@../algorithms/algorithms/linkedlist/intersection.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+intersection@21-64@../algorithms/algorithms/linkedlist/intersection.py
+	NLOC: 31.0
+	CCN: 14.0
+	NLOC/CCN: 2.21429
+	CCN/NLOC: 0.45161
+test_intersection@69-96@../algorithms/algorithms/linkedlist/intersection.py
+	NLOC: 19.0
+	CCN: 1.0
+	NLOC/CCN: 19.0
+	CCN/NLOC: 0.05263
+__init__@14-16@../algorithms/algorithms/linkedlist/first_cyclic_node.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+first_cyclic_node@19-37@../algorithms/algorithms/linkedlist/first_cyclic_node.py
+	NLOC: 13.0
+	CCN: 7.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+test_first_cyclic_node@42-59@../algorithms/algorithms/linkedlist/first_cyclic_node.py
+	NLOC: 13.0
+	CCN: 1.0
+	NLOC/CCN: 13.0
+	CCN/NLOC: 0.07692
+__init__@2-4@../algorithms/algorithms/linkedlist/remove_duplicates.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+remove_dups@6-19@../algorithms/algorithms/linkedlist/remove_duplicates.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+remove_dups_wothout_set@21-34@../algorithms/algorithms/linkedlist/remove_duplicates.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+print_linked_list@36-42@../algorithms/algorithms/linkedlist/remove_duplicates.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+__init__@13-15@../algorithms/algorithms/linkedlist/swap_in_pairs.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+swap_pairs@17-30@../algorithms/algorithms/linkedlist/swap_in_pairs.py
+	NLOC: 14.0
+	CCN: 4.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+is_sorted@11-19@../algorithms/algorithms/linkedlist/is_sorted.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+dfs@22-28@../algorithms/algorithms/graph/count_connected_number_of_component.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+count_components@30-42@../algorithms/algorithms/graph/count_connected_number_of_component.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+main@44-55@../algorithms/algorithms/graph/count_connected_number_of_component.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@10-12@../algorithms/algorithms/graph/dijkstra.py
+	NLOC: 3.0
+	CCN: 3.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+min_distance@14-25@../algorithms/algorithms/graph/dijkstra.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+dijkstra@27-49@../algorithms/algorithms/graph/dijkstra.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+__init__@13-16@../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+add_edge@18-22@../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs@24-29@../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfsutil@31-43@../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_reachable@45-51@../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__choose_state@14-24@../algorithms/algorithms/graph/markov_chain.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+next_state@26-31@../algorithms/algorithms/graph/markov_chain.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+iterating_markov_chain@33-39@../algorithms/algorithms/graph/markov_chain.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs_traverse@10-22@../algorithms/algorithms/graph/traversal.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bfs_traverse@24-36@../algorithms/algorithms/graph/traversal.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs_traverse_recursive@38-48@../algorithms/algorithms/graph/traversal.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_path@6-19@../algorithms/algorithms/graph/find_path.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+find_all_path@22-37@../algorithms/algorithms/graph/find_path.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+find_shortest_path@39-55@../algorithms/algorithms/graph/find_path.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+prims_minimum_spanning@20-42@../algorithms/algorithms/graph/prims_minimum_spanning.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+__init__@11-19@../algorithms/algorithms/graph/transitive_closure_dfs.py
+	NLOC: 4.0
+	CCN: 3.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+add_edge@21-28@../algorithms/algorithms/graph/transitive_closure_dfs.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+dfs_util@30-42@../algorithms/algorithms/graph/transitive_closure_dfs.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+transitive_closure@44-55@../algorithms/algorithms/graph/transitive_closure_dfs.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@38-40@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+shallow_copy@42-46@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+add_neighbor@48-52@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+clone_graph1@55-74@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+clone_graph2@77-96@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+clone_graph@99-108@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+dfs@111-123@../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@11-12@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+get_name@15-23@../algorithms/algorithms/graph/graph.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__eq__@25-26@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__repr__@28-29@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__hash__@31-32@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__ne__@34-35@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__lt__@37-38@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__le__@40-41@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__gt__@43-44@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__ge__@46-47@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__bool__@49-50@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@58-60@../algorithms/algorithms/graph/graph.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__eq__@62-65@../algorithms/algorithms/graph/graph.py
+	NLOC: 4.0
+	CCN: 3.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+__repr__@67-68@../algorithms/algorithms/graph/graph.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@77-89@../algorithms/algorithms/graph/graph.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+add_node@91-100@../algorithms/algorithms/graph/graph.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+add_edge@102-111@../algorithms/algorithms/graph/graph.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+__init__@13-16@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@26-35@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+merge_set@37-54@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+find_set@56-67@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+kruskal@70-105@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+main@108-148@../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+bellman_ford@5-38@../algorithms/algorithms/graph/bellman_ford.py
+	NLOC: 15.0
+	CCN: 8.0
+	NLOC/CCN: 1.875
+	CCN/NLOC: 0.53333
+initialize_single_source@40-48@../algorithms/algorithms/graph/bellman_ford.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+__init__@14-27@../algorithms/algorithms/graph/tarjan.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+strongconnect@29-65@../algorithms/algorithms/graph/tarjan.py
+	NLOC: 22.0
+	CCN: 7.0
+	NLOC/CCN: 3.14286
+	CCN/NLOC: 0.31818
+find_all_cliques.expand_clique@17-29@../algorithms/algorithms/graph/find_all_cliques.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+find_all_cliques.get_connected@31-36@../algorithms/algorithms/graph/find_all_cliques.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_all_cliques@7-42@../algorithms/algorithms/graph/find_all_cliques.py
+	NLOC: 8.0
+	CCN: 1.0
+	NLOC/CCN: 8.0
+	CCN/NLOC: 0.125
+all_pairs_shortest_path@27-42@../algorithms/algorithms/graph/all_pairs_shortest_path.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+maximum_flow_dfs@27-87@../algorithms/algorithms/graph/maximum_flow_dfs.py
+	NLOC: 30.0
+	CCN: 10.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_in_cycle@22-35@../algorithms/algorithms/graph/cycle_detection.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+contains_cycle@38-55@../algorithms/algorithms/graph/cycle_detection.py
+	NLOC: 7.0
+	CCN: 5.0
+	NLOC/CCN: 1.4
+	CCN/NLOC: 0.71429
+dfs_transposed@16-27@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs@30-40@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+add_edge@43-50@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+scc@53-78@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 18.0
+	CCN: 10.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+build_graph@81-94@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+solve_sat@97-126@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 19.0
+	CCN: 8.0
+	NLOC/CCN: 2.375
+	CCN/NLOC: 0.42105
+main@129-142@../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+maximum_flow_bfs@28-87@../algorithms/algorithms/graph/maximum_flow_bfs.py
+	NLOC: 30.0
+	CCN: 10.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+check_bipartite@6-40@../algorithms/algorithms/graph/check_bipartite.py
+	NLOC: 17.0
+	CCN: 8.0
+	NLOC/CCN: 2.125
+	CCN/NLOC: 0.47059
+__init__@15-21@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+add_edge@23-27@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs@29-37@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dfs_util@39-46@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+reverse_graph@48-58@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_strongly_connected@61-69@../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dfs@14-31@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+ford_fulkerson@33-49@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+edmonds_karp@51-90@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 33.0
+	CCN: 12.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+dinic_bfs@92-107@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+dinic_dfs@109-127@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+dinic@129-149@../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 16.0
+	CCN: 8.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+get_histogram@17-28@../algorithms/algorithms/distribution/histogram.py
+	NLOC: 10.0
+	CCN: 2.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+one_sparse@24-46@../algorithms/algorithms/streaming/one_sparse_recovery.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+_check_every_number_in_bitsum@50-54@../algorithms/algorithms/streaming/one_sparse_recovery.py
+	NLOC: 5.0
+	CCN: 4.0
+	NLOC/CCN: 1.25
+	CCN/NLOC: 0.8
+_get_bit_sum@57-68@../algorithms/algorithms/streaming/one_sparse_recovery.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+misras_gries@27-56@../algorithms/algorithms/streaming/misra_gries.py
+	NLOC: 20.0
+	CCN: 9.0
+	NLOC/CCN: 2.22222
+	CCN/NLOC: 0.45
+_count_frequency@59-60@../algorithms/algorithms/streaming/misra_gries.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+search_rotate@39-61@../algorithms/algorithms/search/search_rotate.py
+	NLOC: 17.0
+	CCN: 6.0
+	NLOC/CCN: 2.83333
+	CCN/NLOC: 0.35294
+search_rotate_recur@64-80@../algorithms/algorithms/search/search_rotate.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+binary_search@17-35@../algorithms/algorithms/search/binary_search.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+binary_search_recur@37-51@../algorithms/algorithms/search/binary_search.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+search_range@12-33@../algorithms/algorithms/search/search_range.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+first_occurrence@6-23@../algorithms/algorithms/search/first_occurrence.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+ternary_search@14-42@../algorithms/algorithms/search/ternary_search.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+next_greatest_letter@29-34@../algorithms/algorithms/search/next_greatest_letter.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+next_greatest_letter_v1@36-51@../algorithms/algorithms/search/next_greatest_letter.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+next_greatest_letter_v2@53-60@../algorithms/algorithms/search/next_greatest_letter.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+search_insert@5-24@../algorithms/algorithms/search/search_insert.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+linear_search@6-15@../algorithms/algorithms/search/linear_search.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+find_min_rotate@9-22@../algorithms/algorithms/search/find_min_rotate.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+find_min_rotate_recur@24-33@../algorithms/algorithms/search/find_min_rotate.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+interpolation_search@17-56@../algorithms/algorithms/search/interpolation_search.py
+	NLOC: 29.0
+	CCN: 5.0
+	NLOC/CCN: 5.8
+	CCN/NLOC: 0.17241
+two_sum@19-38@../algorithms/algorithms/search/two_sum.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+two_sum1@40-52@../algorithms/algorithms/search/two_sum.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+two_sum2@54-71@../algorithms/algorithms/search/two_sum.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+last_occurrence@6-20@../algorithms/algorithms/search/last_occurrence.py
+	NLOC: 11.0
+	CCN: 7.0
+	NLOC/CCN: 1.57143
+	CCN/NLOC: 0.63636
+jump_search@9-45@../algorithms/algorithms/search/jump_search.py
+	NLOC: 17.0
+	CCN: 7.0
+	NLOC/CCN: 2.42857
+	CCN/NLOC: 0.41176
+full_path@5-6@../algorithms/algorithms/unix/path/full_path.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+split@16-23@../algorithms/algorithms/unix/path/split.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+join_with_slash@12-18@../algorithms/algorithms/unix/path/join_with_slash.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+simplify_path_v1@19-20@../algorithms/algorithms/unix/path/simplify_path.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+simplify_path_v2@22-29@../algorithms/algorithms/unix/path/simplify_path.py
+	NLOC: 8.0
+	CCN: 7.0
+	NLOC/CCN: 1.14286
+	CCN/NLOC: 0.875
+__init__@5-8@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__init__@29-32@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+put@34-46@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+get@48-55@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+del_@57-69@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+hash@71-72@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__len__@74-75@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__getitem__@77-78@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__delitem__@80-81@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__setitem__@83-84@../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_isomorphic@21-40@../algorithms/algorithms/map/is_isomorphic.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+max_common_sub_string@9-28@../algorithms/algorithms/map/longest_common_subsequence.py
+	NLOC: 19.0
+	CCN: 8.0
+	NLOC/CCN: 2.375
+	CCN/NLOC: 0.42105
+word_pattern@25-40@../algorithms/algorithms/map/word_pattern.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+is_anagram@17-29@../algorithms/algorithms/map/is_anagram.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+longest_palindromic_subsequence@1-29@../algorithms/algorithms/map/longest_palindromic_subsequence.py
+	NLOC: 25.0
+	CCN: 9.0
+	NLOC/CCN: 2.77778
+	CCN/NLOC: 0.36
+__init__@16-18@../algorithms/algorithms/map/randomized_set.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+insert@20-25@../algorithms/algorithms/map/randomized_set.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+remove@27-34@../algorithms/algorithms/map/randomized_set.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+get_random@36-38@../algorithms/algorithms/map/randomized_set.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@16-20@../algorithms/algorithms/map/hashtable.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+put@22-42@../algorithms/algorithms/map/hashtable.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+get@44-57@../algorithms/algorithms/map/hashtable.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+del_@59-75@../algorithms/algorithms/map/hashtable.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+hash@77-78@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+_rehash@80-84@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__getitem__@86-87@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__delitem__@89-90@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__setitem__@92-93@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__len__@95-96@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@102-103@../algorithms/algorithms/map/hashtable.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+put@105-109@../algorithms/algorithms/map/hashtable.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__resize@111-119@../algorithms/algorithms/map/hashtable.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+is_valid_sudoku@8-14@../algorithms/algorithms/map/valid_sudoku.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+__init__@38-39@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+perc_up@42-43@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+insert@46-47@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+perc_down@50-51@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+min_child@54-55@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+remove_min@58-59@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 1.0
+	CCN: 1.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+__init__@65-67@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+perc_up@69-74@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+insert@76-91@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+min_child@93-98@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+perc_down@100-106@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+remove_min@115-122@../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+k_closest@15-43@../algorithms/algorithms/heap/k_closest_points.py
+	NLOC: 24.0
+	CCN: 4.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+distance@46-48@../algorithms/algorithms/heap/k_closest_points.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+max_sliding_window@23-41@../algorithms/algorithms/heap/sliding_window_max.py
+	NLOC: 14.0
+	CCN: 4.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+__init__@14-16@../algorithms/algorithms/heap/merge_sorted_k_lists.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+merge_k_lists@19-33@../algorithms/algorithms/heap/merge_sorted_k_lists.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+merge_k_lists@36-49@../algorithms/algorithms/heap/merge_sorted_k_lists.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+get_skyline@39-60@../algorithms/algorithms/heap/skyline.py
+	NLOC: 17.0
+	CCN: 13.0
+	NLOC/CCN: 1.30769
+	CCN/NLOC: 0.76471
+distance@3-19@../algorithms/algorithms/ml/nearest_neighbor.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+nearest_neighbor@22-41@../algorithms/algorithms/ml/nearest_neighbor.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+count_islands@40-65@../algorithms/algorithms/bfs/count_islands.py
+	NLOC: 23.0
+	CCN: 14.0
+	NLOC/CCN: 1.64286
+	CCN/NLOC: 0.6087
+shortest_distance@9-28@../algorithms/algorithms/bfs/shortest_distance_from_all_buildings.py
+	NLOC: 16.0
+	CCN: 12.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+bfs@30-40@../algorithms/algorithms/bfs/shortest_distance_from_all_buildings.py
+	NLOC: 10.0
+	CCN: 7.0
+	NLOC/CCN: 1.42857
+	CCN/NLOC: 0.7
+ladder_length@24-64@../algorithms/algorithms/bfs/word_ladder.py
+	NLOC: 26.0
+	CCN: 12.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+word_range@67-72@../algorithms/algorithms/bfs/word_ladder.py
+	NLOC: 6.0
+	CCN: 5.0
+	NLOC/CCN: 1.2
+	CCN/NLOC: 0.83333
+maze_search@29-66@../algorithms/algorithms/bfs/maze_search.py
+	NLOC: 25.0
+	CCN: 12.0
+	NLOC/CCN: 2.08333
+	CCN/NLOC: 0.48
+longest_non_repeat_v1@14-29@../algorithms/algorithms/arrays/longest_non_repeat.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+longest_non_repeat_v2@31-47@../algorithms/algorithms/arrays/longest_non_repeat.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+get_longest_non_repeat_v1@50-69@../algorithms/algorithms/arrays/longest_non_repeat.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+get_longest_non_repeat_v2@71-91@../algorithms/algorithms/arrays/longest_non_repeat.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+flatten@10-18@../algorithms/algorithms/arrays/flatten.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+flatten_iter@22-31@../algorithms/algorithms/arrays/flatten.py
+	NLOC: 6.0
+	CCN: 4.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+max_ones_index@19-43@../algorithms/algorithms/arrays/max_ones_index.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+plus_one_v1@10-28@../algorithms/algorithms/arrays/plus_one.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+plus_one_v2@31-39@../algorithms/algorithms/arrays/plus_one.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+plus_one_v3@42-48@../algorithms/algorithms/arrays/plus_one.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+n_sum.sum_closure_default@52-53@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+n_sum.compare_closure_default@55-62@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+n_sum.same_closure_default@64-65@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+n_sum.n_sum@67-91@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 23.0
+	CCN: 5.0
+	NLOC/CCN: 4.6
+	CCN/NLOC: 0.21739
+n_sum.two_sum@93-115@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 23.0
+	CCN: 8.0
+	NLOC/CCN: 2.875
+	CCN/NLOC: 0.34783
+n_sum.append_elem_to_each_list@117-122@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+n_sum.union@124-134@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+n_sum@34-140@../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 13.0
+	CCN: 1.0
+	NLOC/CCN: 13.0
+	CCN/NLOC: 0.07692
+missing_ranges@6-22@../algorithms/algorithms/arrays/missing_ranges.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+limit@16-25@../algorithms/algorithms/arrays/limit.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+summarize_ranges@9-27@../algorithms/algorithms/arrays/summarize_ranges.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+move_zeros@12-23@../algorithms/algorithms/arrays/move_zeros.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+three_sum@18-48@../algorithms/algorithms/arrays/three_sum.py
+	NLOC: 22.0
+	CCN: 11.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+trimmean@14-24@../algorithms/algorithms/arrays/trimmean.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+top_1@15-36@../algorithms/algorithms/arrays/top_1.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+delete_nth_naive@13-18@../algorithms/algorithms/arrays/delete_nth.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+delete_nth@22-32@../algorithms/algorithms/arrays/delete_nth.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+rotate_v1@13-29@../algorithms/algorithms/arrays/rotate.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+rotate_v2.reverse@42-46@../algorithms/algorithms/arrays/rotate.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+rotate_v2@32-53@../algorithms/algorithms/arrays/rotate.py
+	NLOC: 9.0
+	CCN: 1.0
+	NLOC/CCN: 9.0
+	CCN/NLOC: 0.11111
+rotate_v3@56-61@../algorithms/algorithms/arrays/rotate.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+josephus@12-19@../algorithms/algorithms/arrays/josephus.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+two_sum@16-23@../algorithms/algorithms/arrays/two_sum.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+__init__@14-16@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__repr__@18-19@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__iter__@21-22@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__getitem__@24-27@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__len__@29-30@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__contains__@32-35@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__eq__@37-40@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 4.0
+	CCN: 3.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+as_list@42-44@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+merge@47-55@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+print_intervals@58-63@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+merge_intervals@66-77@../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+garage@35-54@../algorithms/algorithms/arrays/garage.py
+	NLOC: 18.0
+	CCN: 5.0
+	NLOC/CCN: 3.6
+	CCN/NLOC: 0.27778
+binary@17-19@../algorithms/algorithms/compression/elias.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+unary@22-23@../algorithms/algorithms/compression/elias.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+elias_generic@25-41@../algorithms/algorithms/compression/elias.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+elias_gamma@43-47@../algorithms/algorithms/compression/elias.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+elias_delta@49-53@../algorithms/algorithms/compression/elias.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@13-17@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+__lt__@19-20@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__gt__@22-23@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__eq__@25-26@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__str__@28-29@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__repr__@31-32@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@36-39@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+get_number_of_additional_bits_in_the_last_byte@41-43@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+load_tree@45-73@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 26.0
+	CCN: 4.0
+	NLOC/CCN: 6.5
+	CCN/NLOC: 0.15385
+_fill_tree@75-85@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+_load_byte@87-102@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 13.0
+	CCN: 3.0
+	NLOC/CCN: 4.33333
+	CCN/NLOC: 0.23077
+get_bit@104-109@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+get_byte@111-118@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+__init__@122-125@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+write_char@127-128@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+write_int@130-132@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+write_bits@134-142@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+save_tree.get_code_tree@153-162@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+save_tree@144-167@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+_save_information_about_additional_bits@169-183@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 8.0
+	CCN: 1.0
+	NLOC/CCN: 8.0
+	CCN/NLOC: 0.125
+close@185-189@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+__init__@197-200@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+find@202-220@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+_reset@222-224@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@228-229@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+decode_file@232-240@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 7.0
+	CCN: 1.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+_decode_and_write_signs_to_file@243-259@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+encode_file@262-275@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 12.0
+	CCN: 1.0
+	NLOC/CCN: 12.0
+	CCN/NLOC: 0.08333
+_encode_and_write_signs_to_file@278-283@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+_get_char_frequency@286-298@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 12.0
+	CCN: 3.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+_generate_codes@301-304@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+_create_tree@307-317@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+_go_through_tree_and_create_codes@320-328@../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+encode_rle@9-36@../algorithms/algorithms/compression/rle_compression.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+decode_rle@39-58@../algorithms/algorithms/compression/rle_compression.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+max_contiguous_subsequence_sum@25-42@../algorithms/algorithms/greedy/max_contiguous_subsequence_sum.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+get_primes@27-45@../algorithms/algorithms/maths/primes_sieve_of_eratosthenes.py
+	NLOC: 15.0
+	CCN: 7.0
+	NLOC/CCN: 2.14286
+	CCN/NLOC: 0.46667
+prime_check@12-28@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 13.0
+	CCN: 9.0
+	NLOC/CCN: 1.44444
+	CCN/NLOC: 0.69231
+find_order@37-47@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+euler_totient@57-68@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_primitive_root@77-91@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+alice_private_key@106-110@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+alice_public_key@113-117@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bob_private_key@120-124@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bob_public_key@127-131@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+alice_shared_key@134-138@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+bob_shared_key@141-145@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+diffie_hellman_key_exchange@148-184@../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 26.0
+	CCN: 5.0
+	NLOC/CCN: 5.2
+	CCN/NLOC: 0.19231
+find_next_square@8-12@../algorithms/algorithms/maths/next_perfect_square.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+find_next_square2@14-17@../algorithms/algorithms/maths/next_perfect_square.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+decimal_to_binary_util@9-25@../algorithms/algorithms/maths/decimal_to_binary_ip.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+decimal_to_binary_ip@27-35@../algorithms/algorithms/maths/decimal_to_binary_ip.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+next_bigger@25-45@../algorithms/algorithms/maths/next_bigger.py
+	NLOC: 14.0
+	CCN: 7.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+test_next_bigger@50-59@../algorithms/algorithms/maths/next_bigger.py
+	NLOC: 8.0
+	CCN: 1.0
+	NLOC/CCN: 8.0
+	CCN/NLOC: 0.125
+is_strobogrammatic@12-25@../algorithms/algorithms/maths/is_strobogrammatic.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+is_strobogrammatic2@28-30@../algorithms/algorithms/maths/is_strobogrammatic.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+gcd@6-24@../algorithms/algorithms/maths/gcd.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+lcm@26-28@../algorithms/algorithms/maths/gcd.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+trailing_zero@41-46@../algorithms/algorithms/maths/gcd.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+gcd_bit@52-63@../algorithms/algorithms/maths/gcd.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+generate_key.modinv@40-46@../algorithms/algorithms/maths/rsa.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+generate_key.generate_key.gen_prime.is_prime@51-57@../algorithms/algorithms/maths/rsa.py
+	NLOC: 7.0
+	CCN: 4.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+generate_key.gen_prime@48-63@../algorithms/algorithms/maths/rsa.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+generate_key@34-85@../algorithms/algorithms/maths/rsa.py
+	NLOC: 18.0
+	CCN: 5.0
+	NLOC/CCN: 3.6
+	CCN/NLOC: 0.27778
+encrypt@88-89@../algorithms/algorithms/maths/rsa.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+decrypt@92-93@../algorithms/algorithms/maths/rsa.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_prime.pow2_factor@12-18@../algorithms/algorithms/maths/rabin_miller.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_prime.valid_witness@20-39@../algorithms/algorithms/maths/rabin_miller.py
+	NLOC: 11.0
+	CCN: 6.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+is_prime@10-51@../algorithms/algorithms/maths/rabin_miller.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+num_perfect_squares@17-47@../algorithms/algorithms/maths/num_perfect_squares.py
+	NLOC: 11.0
+	CCN: 7.0
+	NLOC/CCN: 1.57143
+	CCN/NLOC: 0.63636
+find_order@12-26@../algorithms/algorithms/maths/find_primitive_root_simple.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+euler_totient@35-46@../algorithms/algorithms/maths/find_primitive_root_simple.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_primitive_root@54-67@../algorithms/algorithms/maths/find_primitive_root_simple.py
+	NLOC: 12.0
+	CCN: 5.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+num_digits@8-12@../algorithms/algorithms/maths/num_digits.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+combination@4-8@../algorithms/algorithms/maths/combination.py
+	NLOC: 4.0
+	CCN: 3.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+combination_memo.recur@13-18@../algorithms/algorithms/maths/combination.py
+	NLOC: 6.0
+	CCN: 4.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+combination_memo@10-19@../algorithms/algorithms/maths/combination.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+_l2_distance@11-19@../algorithms/algorithms/maths/cosine_similarity.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+cosine_similarity@22-43@../algorithms/algorithms/maths/cosine_similarity.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+euler_totient@7-18@../algorithms/algorithms/maths/euler_totient.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+recursive_binomial_coefficient@1-26@../algorithms/algorithms/maths/recursive_binomial_coefficient.py
+	NLOC: 8.0
+	CCN: 5.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+int_to_base@11-30@../algorithms/algorithms/maths/base_conversion.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+base_to_int@33-49@../algorithms/algorithms/maths/base_conversion.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+solve_chinese_remainder@7-39@../algorithms/algorithms/maths/chinese_remainder_theorem.py
+	NLOC: 21.0
+	CCN: 10.0
+	NLOC/CCN: 2.1
+	CCN/NLOC: 0.47619
+_check_coprime@41-46@../algorithms/algorithms/maths/chinese_remainder_theorem.py
+	NLOC: 6.0
+	CCN: 4.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+cycle_product@67-88@../algorithms/algorithms/maths/symmetry_group_cycle_index.py
+	NLOC: 21.0
+	CCN: 5.0
+	NLOC/CCN: 4.2
+	CCN/NLOC: 0.2381
+cycle_product_for_two_polynomials@91-102@../algorithms/algorithms/maths/symmetry_group_cycle_index.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+cycle_index_sym_helper@105-121@../algorithms/algorithms/maths/symmetry_group_cycle_index.py
+	NLOC: 17.0
+	CCN: 3.0
+	NLOC/CCN: 5.66667
+	CCN/NLOC: 0.17647
+get_cycle_index_sym@124-159@../algorithms/algorithms/maths/symmetry_group_cycle_index.py
+	NLOC: 35.0
+	CCN: 2.0
+	NLOC/CCN: 17.5
+	CCN/NLOC: 0.05714
+magic_number@16-33@../algorithms/algorithms/maths/magic_number.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+factorial@4-19@../algorithms/algorithms/maths/factorial.py
+	NLOC: 13.0
+	CCN: 9.0
+	NLOC/CCN: 1.44444
+	CCN/NLOC: 0.69231
+factorial_recur@22-35@../algorithms/algorithms/maths/factorial.py
+	NLOC: 11.0
+	CCN: 8.0
+	NLOC/CCN: 1.375
+	CCN/NLOC: 0.72727
+gen_strobogrammatic@11-17@../algorithms/algorithms/maths/generate_strobogrammtic.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+helper@19-33@../algorithms/algorithms/maths/generate_strobogrammtic.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+strobogrammatic_in_range@35-53@../algorithms/algorithms/maths/generate_strobogrammtic.py
+	NLOC: 14.0
+	CCN: 7.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+helper2@55-69@../algorithms/algorithms/maths/generate_strobogrammtic.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+extended_gcd@6-24@../algorithms/algorithms/maths/extended_gcd.py
+	NLOC: 10.0
+	CCN: 2.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+pythagoras@6-20@../algorithms/algorithms/maths/pythagoras.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+find_factorial@21-27@../algorithms/algorithms/maths/krishnamurthy_number.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+krishnamurthy_number@30-46@../algorithms/algorithms/maths/krishnamurthy_number.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+prime_check@1-17@../algorithms/algorithms/maths/prime_check.py
+	NLOC: 13.0
+	CCN: 9.0
+	NLOC/CCN: 1.44444
+	CCN/NLOC: 0.69231
+extended_gcd@4-22@../algorithms/algorithms/maths/modular_inverse.py
+	NLOC: 15.0
+	CCN: 2.0
+	NLOC/CCN: 7.5
+	CCN/NLOC: 0.13333
+modular_inverse@25-34@../algorithms/algorithms/maths/modular_inverse.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+hailstone@8-21@../algorithms/algorithms/maths/hailstone.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+find_order@14-27@../algorithms/algorithms/maths/find_order_simple.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+find_nth_digit@1-17@../algorithms/algorithms/maths/nth_digit.py
+	NLOC: 12.0
+	CCN: 2.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+__init__@15-52@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 35.0
+	CCN: 7.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+_rationalize_if_possible@55-64@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+equal_upto_scalar@67-75@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+__add__@78-98@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 9.0
+	CCN: 7.0
+	NLOC/CCN: 1.28571
+	CCN/NLOC: 0.77778
+__eq__@101-106@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__mul__@109-139@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 18.0
+	CCN: 11.0
+	NLOC/CCN: 1.63636
+	CCN/NLOC: 0.61111
+inverse@142-157@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 7.0
+	CCN: 5.0
+	NLOC/CCN: 1.4
+	CCN/NLOC: 0.71429
+__truediv__@160-173@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 8.0
+	CCN: 6.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+__floordiv__@176-181@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+clone@184-189@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 3.0
+	CCN: 2.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+clean@192-197@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 3.0
+	CCN: 3.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+__sub__@200-214@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 10.0
+	CCN: 8.0
+	NLOC/CCN: 1.25
+	CCN/NLOC: 0.8
+__hash__@216-235@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 20.0
+	CCN: 4.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+all_variables@237-242@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+substitute@244-260@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 17.0
+	CCN: 8.0
+	NLOC/CCN: 2.125
+	CCN/NLOC: 0.47059
+__str__@262-283@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 21.0
+	CCN: 6.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+__init__@294-317@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 24.0
+	CCN: 4.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+_rationalize_if_possible@320-329@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__add__@333-361@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 22.0
+	CCN: 15.0
+	NLOC/CCN: 1.46667
+	CCN/NLOC: 0.68182
+__sub__@364-396@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 24.0
+	CCN: 15.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+__mul__@399-428@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 23.0
+	CCN: 14.0
+	NLOC/CCN: 1.64286
+	CCN/NLOC: 0.6087
+__floordiv__@431-436@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__truediv__@439-464@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 18.0
+	CCN: 13.0
+	NLOC/CCN: 1.38462
+	CCN/NLOC: 0.72222
+clone@467-471@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 2.0
+	CCN: 2.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+variables@473-483@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+all_monomials@485-489@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+__eq__@492-505@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 14.0
+	CCN: 6.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+subs@508-525@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 17.0
+	CCN: 8.0
+	NLOC/CCN: 2.125
+	CCN/NLOC: 0.47059
+__str__@527-532@../algorithms/algorithms/maths/polynomial.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+modular_exponential@1-18@../algorithms/algorithms/maths/modular_exponential.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+power@5-24@../algorithms/algorithms/maths/power.py
+	NLOC: 11.0
+	CCN: 4.0
+	NLOC/CCN: 2.75
+	CCN/NLOC: 0.36364
+power_recur@27-48@../algorithms/algorithms/maths/power.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+square_root@12-19@../algorithms/algorithms/maths/sqrt_precision_factor.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+sum_dig_pow@13-29@../algorithms/algorithms/maths/summing_digits.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+cut_rod@6-22@../algorithms/algorithms/dp/rod_cut.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+house_robber@15-19@../algorithms/algorithms/dp/house_robber.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+__init__@10-13@../algorithms/algorithms/dp/job_scheduling.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+binary_search@15-38@../algorithms/algorithms/dp/job_scheduling.py
+	NLOC: 13.0
+	CCN: 4.0
+	NLOC/CCN: 3.25
+	CCN/NLOC: 0.30769
+schedule@40-68@../algorithms/algorithms/dp/job_scheduling.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+longest_common_subsequence@25-46@../algorithms/algorithms/dp/longest_common_subsequence.py
+	NLOC: 13.0
+	CCN: 7.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+max_profit_naive@24-33@../algorithms/algorithms/dp/buy_sell_stock.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+max_profit_optimized@37-48@../algorithms/algorithms/dp/buy_sell_stock.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_match@22-61@../algorithms/algorithms/dp/regex_matching.py
+	NLOC: 16.0
+	CCN: 10.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+__init__@17-19@../algorithms/algorithms/dp/knapsack.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+get_maximum_value@22-27@../algorithms/algorithms/dp/knapsack.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+max_subarray@2-7@../algorithms/algorithms/dp/max_subarray.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+matrix_chain_order@10-28@../algorithms/algorithms/dp/matrix_chain_order.py
+	NLOC: 14.0
+	CCN: 9.0
+	NLOC/CCN: 1.55556
+	CCN/NLOC: 0.64286
+print_optimal_solution@31-44@../algorithms/algorithms/dp/matrix_chain_order.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+main@47-58@../algorithms/algorithms/dp/matrix_chain_order.py
+	NLOC: 6.0
+	CCN: 1.0
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+fib_recursive@20-38@../algorithms/algorithms/dp/fib.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+fib_list@43-62@../algorithms/algorithms/dp/fib.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+fib_iter@67-90@../algorithms/algorithms/dp/fib.py
+	NLOC: 12.0
+	CCN: 3.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+count@19-34@../algorithms/algorithms/dp/coin_change.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+longest_increasing_subsequence@24-38@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+longest_increasing_subsequence_optimized.update@54-63@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+longest_increasing_subsequence_optimized.get_max@65-72@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 8.0
+	CCN: 5.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+longest_increasing_subsequence_optimized@41-78@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 11.0
+	CCN: 2.0
+	NLOC/CCN: 5.5
+	CCN/NLOC: 0.18182
+longest_increasing_subsequence_optimized2.update@92-101@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+longest_increasing_subsequence_optimized2.get_max@103-110@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 8.0
+	CCN: 5.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+longest_increasing_subsequence_optimized2@81-117@../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 13.0
+	CCN: 3.0
+	NLOC/CCN: 4.33333
+	CCN/NLOC: 0.23077
+num_decodings@20-33@../algorithms/algorithms/dp/num_decodings.py
+	NLOC: 10.0
+	CCN: 7.0
+	NLOC/CCN: 1.42857
+	CCN/NLOC: 0.7
+num_decodings2@36-56@../algorithms/algorithms/dp/num_decodings.py
+	NLOC: 14.0
+	CCN: 8.0
+	NLOC/CCN: 1.75
+	CCN/NLOC: 0.57143
+int_divide@40-55@../algorithms/algorithms/dp/int_divide.py
+	NLOC: 12.0
+	CCN: 7.0
+	NLOC/CCN: 1.71429
+	CCN/NLOC: 0.58333
+edit_distance@46-69@../algorithms/algorithms/dp/edit_distance.py
+	NLOC: 12.0
+	CCN: 8.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+max_product@11-22@../algorithms/algorithms/dp/max_product_subarray.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+subarray_with_max_product@40-66@../algorithms/algorithms/dp/max_product_subarray.py
+	NLOC: 21.0
+	CCN: 6.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+find_k_factor@33-85@../algorithms/algorithms/dp/k_factor.py
+	NLOC: 31.0
+	CCN: 9.0
+	NLOC/CCN: 3.44444
+	CCN/NLOC: 0.29032
+climb_stairs@14-22@../algorithms/algorithms/dp/climbing_stairs.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+climb_stairs_optimized@28-36@../algorithms/algorithms/dp/climbing_stairs.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+word_break@21-34@../algorithms/algorithms/dp/word_break.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+hosoya@22-35@../algorithms/algorithms/dp/hosoya_triangle.py
+	NLOC: 10.0
+	CCN: 7.0
+	NLOC/CCN: 1.42857
+	CCN/NLOC: 0.7
+print_hosoya@37-45@../algorithms/algorithms/dp/hosoya_triangle.py
+	NLOC: 5.0
+	CCN: 3.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+hosoya_testing@47-56@../algorithms/algorithms/dp/hosoya_triangle.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+min_cost@29-45@../algorithms/algorithms/dp/min_cost_path.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+helper_topdown@32-46@../algorithms/algorithms/dp/combination_sum.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+combination_sum_topdown@49-59@../algorithms/algorithms/dp/combination_sum.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+combination_sum_bottom_up@61-74@../algorithms/algorithms/dp/combination_sum.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+planting_trees@13-49@../algorithms/algorithms/dp/planting_trees.py
+	NLOC: 18.0
+	CCN: 8.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+egg_drop@28-58@../algorithms/algorithms/dp/egg_drop.py
+	NLOC: 15.0
+	CCN: 9.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+__init__@20-21@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__len__@23-24@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_empty@26-27@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+enqueue@30-31@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+dequeue@34-35@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+peek@38-39@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__iter__@42-43@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@48-57@../algorithms/algorithms/queues/queue.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+__iter__@59-65@../algorithms/algorithms/queues/queue.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+enqueue@67-72@../algorithms/algorithms/queues/queue.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+dequeue@74-81@../algorithms/algorithms/queues/queue.py
+	NLOC: 8.0
+	CCN: 2.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+peek@83-87@../algorithms/algorithms/queues/queue.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+_expand@89-93@../algorithms/algorithms/queues/queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@97-99@../algorithms/algorithms/queues/queue.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@104-107@../algorithms/algorithms/queues/queue.py
+	NLOC: 4.0
+	CCN: 1.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+__iter__@109-115@../algorithms/algorithms/queues/queue.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+enqueue@117-125@../algorithms/algorithms/queues/queue.py
+	NLOC: 9.0
+	CCN: 2.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+dequeue@127-137@../algorithms/algorithms/queues/queue.py
+	NLOC: 11.0
+	CCN: 3.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+peek@139-143@../algorithms/algorithms/queues/queue.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+reconstruct_queue@18-27@../algorithms/algorithms/queues/reconstruct_queue.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+max_sliding_window@23-34@../algorithms/algorithms/queues/max_sliding_window.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@6-11@../algorithms/algorithms/queues/moving_average.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+next@13-19@../algorithms/algorithms/queues/moving_average.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@2-9@../algorithms/algorithms/queues/zigzagiterator.py
+	NLOC: 3.0
+	CCN: 3.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+next@11-19@../algorithms/algorithms/queues/zigzagiterator.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+has_next@21-27@../algorithms/algorithms/queues/zigzagiterator.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@10-12@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__repr__@14-15@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@19-28@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__repr__@30-31@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+size@33-36@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+push@38-49@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+pop@51-55@../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+remove_min@13-30@../algorithms/algorithms/stack/remove_min.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+first_switch_pairs@26-40@../algorithms/algorithms/stack/switch_pairs.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+second_switch_pairs@43-66@../algorithms/algorithms/stack/switch_pairs.py
+	NLOC: 19.0
+	CCN: 7.0
+	NLOC/CCN: 2.71429
+	CCN/NLOC: 0.36842
+is_valid@11-22@../algorithms/algorithms/stack/valid_parenthesis.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+first_is_consecutive@22-37@../algorithms/algorithms/stack/is_consecutive.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+second_is_consecutive@40-60@../algorithms/algorithms/stack/is_consecutive.py
+	NLOC: 18.0
+	CCN: 7.0
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+__init__@6-7@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+is_empty@9-10@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+push_t@12-13@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+push@16-25@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+pop@27-30@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+peek@32-33@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+size@35-36@../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@19-20@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__len__@22-23@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__str__@25-27@../algorithms/algorithms/stack/stack.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+is_empty@29-30@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__iter__@33-34@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+push@37-38@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+pop@41-42@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+peek@45-46@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@50-57@../algorithms/algorithms/stack/stack.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__iter__@59-65@../algorithms/algorithms/stack/stack.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+push@67-71@../algorithms/algorithms/stack/stack.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+pop@73-78@../algorithms/algorithms/stack/stack.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+peek@80-84@../algorithms/algorithms/stack/stack.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+_expand@86-91@../algorithms/algorithms/stack/stack.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__init__@96-98@../algorithms/algorithms/stack/stack.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__init__@103-105@../algorithms/algorithms/stack/stack.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__iter__@107-113@../algorithms/algorithms/stack/stack.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+push@115-119@../algorithms/algorithms/stack/stack.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+pop@121-127@../algorithms/algorithms/stack/stack.py
+	NLOC: 7.0
+	CCN: 2.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+peek@129-132@../algorithms/algorithms/stack/stack.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+first_stutter@17-26@../algorithms/algorithms/stack/stutter.py
+	NLOC: 9.0
+	CCN: 3.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+second_stutter@29-46@../algorithms/algorithms/stack/stutter.py
+	NLOC: 13.0
+	CCN: 5.0
+	NLOC/CCN: 2.6
+	CCN/NLOC: 0.38462
+simplify_path@14-28@../algorithms/algorithms/stack/simplify_path.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+length_longest_path@36-58@../algorithms/algorithms/stack/longest_abs_path.py
+	NLOC: 19.0
+	CCN: 4.0
+	NLOC/CCN: 4.75
+	CCN/NLOC: 0.21053
+is_sorted@14-32@../algorithms/algorithms/stack/is_sorted.py
+	NLOC: 16.0
+	CCN: 6.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+powerset@25-34@../algorithms/algorithms/set/set_covering.py
+	NLOC: 4.0
+	CCN: 2.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+optimal_set_cover@37-58@../algorithms/algorithms/set/set_covering.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+greedy_set_cover@61-95@../algorithms/algorithms/set/set_covering.py
+	NLOC: 19.0
+	CCN: 8.0
+	NLOC/CCN: 2.375
+	CCN/NLOC: 0.42105
+__init__@21-23@../algorithms/algorithms/set/randomized_set.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+insert@25-29@../algorithms/algorithms/set/randomized_set.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+remove@31-40@../algorithms/algorithms/set/randomized_set.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+random_element@42-43@../algorithms/algorithms/set/randomized_set.py
+	NLOC: 2.0
+	CCN: 1.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__test@46-66@../algorithms/algorithms/set/randomized_set.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+find_keyboard_row@12-27@../algorithms/algorithms/set/find_keyboard_row.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+search_in_a_sorted_matrix@9-19@../algorithms/algorithms/matrix/search_in_sorted_matrix.py
+	NLOC: 11.0
+	CCN: 5.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+main@22-31@../algorithms/algorithms/matrix/search_in_sorted_matrix.py
+	NLOC: 10.0
+	CCN: 1.0
+	NLOC/CCN: 10.0
+	CCN/NLOC: 0.1
+count_paths@13-30@../algorithms/algorithms/matrix/count_paths.py
+	NLOC: 12.0
+	CCN: 9.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+main@33-35@../algorithms/algorithms/matrix/count_paths.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+sort_diagonally@25-77@../algorithms/algorithms/matrix/sort_matrix_diagonally.py
+	NLOC: 35.0
+	CCN: 10.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+cholesky_decomposition@27-51@../algorithms/algorithms/matrix/cholesky_matrix_decomposition.py
+	NLOC: 20.0
+	CCN: 9.0
+	NLOC/CCN: 2.22222
+	CCN/NLOC: 0.45
+multiply@10-28@../algorithms/algorithms/matrix/multiply.py
+	NLOC: 18.0
+	CCN: 6.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+multiply@27-45@../algorithms/algorithms/matrix/sparse_mul.py
+	NLOC: 14.0
+	CCN: 11.0
+	NLOC/CCN: 1.27273
+	CCN/NLOC: 0.78571
+multiply@49-72@../algorithms/algorithms/matrix/sparse_mul.py
+	NLOC: 19.0
+	CCN: 13.0
+	NLOC/CCN: 1.46154
+	CCN/NLOC: 0.68421
+multiply@76-108@../algorithms/algorithms/matrix/sparse_mul.py
+	NLOC: 28.0
+	CCN: 18.0
+	NLOC/CCN: 1.55556
+	CCN/NLOC: 0.64286
+multiply@1-14@../algorithms/algorithms/matrix/matrix_exponentiation.py
+	NLOC: 12.0
+	CCN: 6.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+identity@17-27@../algorithms/algorithms/matrix/matrix_exponentiation.py
+	NLOC: 9.0
+	CCN: 4.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+matrix_exponentiation@30-43@../algorithms/algorithms/matrix/matrix_exponentiation.py
+	NLOC: 14.0
+	CCN: 3.0
+	NLOC/CCN: 4.66667
+	CCN/NLOC: 0.21429
+sum_sub_squares@4-23@../algorithms/algorithms/matrix/sum_sub_squares.py
+	NLOC: 15.0
+	CCN: 8.0
+	NLOC/CCN: 1.875
+	CCN/NLOC: 0.53333
+invert_matrix@26-63@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 27.0
+	CCN: 7.0
+	NLOC/CCN: 3.85714
+	CCN/NLOC: 0.25926
+get_determinant@66-77@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 10.0
+	CCN: 3.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+get_matrix_of_minors@80-90@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+get_minor@93-104@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 8.0
+	CCN: 3.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+transpose_and_multiply@107-114@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 7.0
+	CCN: 3.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+array_is_matrix@117-124@../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+rotate@17-24@../algorithms/algorithms/matrix/rotate_image.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+spiral_traversal@17-45@../algorithms/algorithms/matrix/spiral_traversal.py
+	NLOC: 24.0
+	CCN: 10.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+max_killed_enemies@21-41@../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 15.0
+	CCN: 9.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+row_kills@45-52@../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+col_kills@56-63@../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 8.0
+	CCN: 4.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+test_3x4@76-80@../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 5.0
+	CCN: 1.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+test_4x4@82-94@../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 13.0
+	CCN: 1.0
+	NLOC/CCN: 13.0
+	CCN/NLOC: 0.07692
+vector_to_index_value_list@12-13@../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 2.0
+	CCN: 3.0
+	NLOC/CCN: 0.66667
+	CCN/NLOC: 1.5
+dot_product@16-35@../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 16.0
+	CCN: 5.0
+	NLOC/CCN: 3.2
+	CCN/NLOC: 0.3125
+__test_simple@38-40@../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 3.0
+	CCN: 1.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+__test_time.random_vector@49-54@../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 6.0
+	CCN: 3.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+__test_time@44-67@../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+crout_matrix_decomposition@30-48@../algorithms/algorithms/matrix/crout_matrix_decomposition.py
+	NLOC: 19.0
+	CCN: 9.0
+	NLOC/CCN: 2.11111
+	CCN/NLOC: 0.47368
+valid_solution_hashtable@17-44@../algorithms/algorithms/matrix/sudoku_validator.py
+	NLOC: 26.0
+	CCN: 12.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+valid_solution@48-71@../algorithms/algorithms/matrix/sudoku_validator.py
+	NLOC: 16.0
+	CCN: 9.0
+	NLOC/CCN: 1.77778
+	CCN/NLOC: 0.5625
+valid_solution_set@75-91@../algorithms/algorithms/matrix/sudoku_validator.py
+	NLOC: 13.0
+	CCN: 11.0
+	NLOC/CCN: 1.18182
+	CCN/NLOC: 0.84615
+rotate_clockwise@1-10@../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+rotate_counterclockwise@13-22@../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+top_left_invert@25-34@../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+bottom_left_invert@37-46@../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 10.0
+	CCN: 4.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+print_matrix@50-54@../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/tree/fenwick_tree/fenwick_tree.py
+	NLOC: 41.0
+	CCN: 5.0
+	NLOC/CCN: 8.2
+	CCN/NLOC: 0.12195
+../algorithms/algorithms/tree/segment_tree/segment_tree.py
+	NLOC: 44.0
+	CCN: 6.8
+	NLOC/CCN: 6.47059
+	CCN/NLOC: 0.15455
+../algorithms/algorithms/tree/segment_tree/iterative_segment_tree.py
+	NLOC: 48.0
+	CCN: 6.0
+	NLOC/CCN: 8.0
+	CCN/NLOC: 0.125
+../algorithms/algorithms/tree/trie/add_and_search.py
+	NLOC: 68.0
+	CCN: 7.0
+	NLOC/CCN: 9.71429
+	CCN/NLOC: 0.10294
+../algorithms/algorithms/tree/trie/trie.py
+	NLOC: 33.0
+	CCN: 4.8
+	NLOC/CCN: 6.875
+	CCN/NLOC: 0.14545
+../algorithms/algorithms/tree/traversal/inorder.py
+	NLOC: 43.0
+	CCN: 8.7
+	NLOC/CCN: 4.94253
+	CCN/NLOC: 0.20233
+../algorithms/algorithms/tree/traversal/level_order.py
+	NLOC: 35.0
+	CCN: 17.0
+	NLOC/CCN: 2.05882
+	CCN/NLOC: 0.48571
+../algorithms/algorithms/tree/traversal/postorder.py
+	NLOC: 34.0
+	CCN: 10.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+../algorithms/algorithms/tree/traversal/__init__.py
+	NLOC: 3.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/tree/traversal/zigzag.py
+	NLOC: 39.0
+	CCN: 19.0
+	NLOC/CCN: 2.05263
+	CCN/NLOC: 0.48718
+../algorithms/algorithms/tree/traversal/preorder.py
+	NLOC: 32.0
+	CCN: 9.0
+	NLOC/CCN: 3.55556
+	CCN/NLOC: 0.28125
+../algorithms/algorithms/tree/avl/__init__.py
+	NLOC: 0.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: -1
+../algorithms/algorithms/tree/avl/avl.py
+	NLOC: 84.0
+	CCN: 9.8
+	NLOC/CCN: 8.57143
+	CCN/NLOC: 0.11667
+../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 212.0
+	CCN: 16.6
+	NLOC/CCN: 12.77108
+	CCN/NLOC: 0.0783
+../algorithms/algorithms/tree/bst/kth_smallest.py
+	NLOC: 41.0
+	CCN: 6.5
+	NLOC/CCN: 6.30769
+	CCN/NLOC: 0.15854
+../algorithms/algorithms/tree/bst/serialize_deserialize.py
+	NLOC: 27.0
+	CCN: 5.6
+	NLOC/CCN: 4.82143
+	CCN/NLOC: 0.20741
+../algorithms/algorithms/tree/bst/unique_bst.py
+	NLOC: 33.0
+	CCN: 8.0
+	NLOC/CCN: 4.125
+	CCN/NLOC: 0.24242
+../algorithms/algorithms/tree/bst/height.py
+	NLOC: 55.0
+	CCN: 6.0
+	NLOC/CCN: 9.16667
+	CCN/NLOC: 0.10909
+../algorithms/algorithms/tree/bst/bst.py
+	NLOC: 121.0
+	CCN: 5.3
+	NLOC/CCN: 22.83019
+	CCN/NLOC: 0.0438
+../algorithms/algorithms/tree/bst/predecessor.py
+	NLOC: 9.0
+	CCN: 9.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/tree/bst/num_empty.py
+	NLOC: 62.0
+	CCN: 7.3
+	NLOC/CCN: 8.49315
+	CCN/NLOC: 0.11774
+../algorithms/algorithms/tree/bst/delete_node.py
+	NLOC: 55.0
+	CCN: 16.0
+	NLOC/CCN: 3.4375
+	CCN/NLOC: 0.29091
+../algorithms/algorithms/tree/bst/array_to_bst.py
+	NLOC: 17.0
+	CCN: 6.0
+	NLOC/CCN: 2.83333
+	CCN/NLOC: 0.35294
+../algorithms/algorithms/tree/bst/successor.py
+	NLOC: 9.0
+	CCN: 9.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/tree/bst/depth_sum.py
+	NLOC: 60.0
+	CCN: 5.8
+	NLOC/CCN: 10.34483
+	CCN/NLOC: 0.09667
+../algorithms/algorithms/tree/bst/bst_closest_value.py
+	NLOC: 7.0
+	CCN: 7.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/tree/bst/lowest_common_ancestor.py
+	NLOC: 29.0
+	CCN: 8.0
+	NLOC/CCN: 3.625
+	CCN/NLOC: 0.27586
+../algorithms/algorithms/tree/bst/BSTIterator.py
+	NLOC: 17.0
+	CCN: 5.3
+	NLOC/CCN: 3.20755
+	CCN/NLOC: 0.31176
+../algorithms/algorithms/tree/bst/is_bst.py
+	NLOC: 34.0
+	CCN: 13.0
+	NLOC/CCN: 2.61538
+	CCN/NLOC: 0.38235
+../algorithms/algorithms/tree/bst/count_left_node.py
+	NLOC: 56.0
+	CCN: 6.7
+	NLOC/CCN: 8.35821
+	CCN/NLOC: 0.11964
+../algorithms/algorithms/tree/path_sum.py
+	NLOC: 50.0
+	CCN: 11.7
+	NLOC/CCN: 4.2735
+	CCN/NLOC: 0.234
+../algorithms/algorithms/tree/max_path_sum.py
+	NLOC: 11.0
+	CCN: 5.5
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/tree/same_tree.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+../algorithms/algorithms/tree/tree.py
+	NLOC: 5.0
+	CCN: 4.0
+	NLOC/CCN: 1.25
+	CCN/NLOC: 0.8
+../algorithms/algorithms/tree/invert_tree.py
+	NLOC: 8.0
+	CCN: 8.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/tree/is_balanced.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/tree/binary_tree_paths.py
+	NLOC: 13.0
+	CCN: 6.5
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/tree/pretty_print.py
+	NLOC: 10.0
+	CCN: 9.0
+	NLOC/CCN: 1.11111
+	CCN/NLOC: 0.9
+../algorithms/algorithms/tree/b_tree.py
+	NLOC: 190.0
+	CCN: 8.8
+	NLOC/CCN: 21.59091
+	CCN/NLOC: 0.04632
+../algorithms/algorithms/tree/is_symmetric.py
+	NLOC: 46.0
+	CCN: 8.7
+	NLOC/CCN: 5.28736
+	CCN/NLOC: 0.18913
+../algorithms/algorithms/tree/is_subtree.py
+	NLOC: 67.0
+	CCN: 9.5
+	NLOC/CCN: 7.05263
+	CCN/NLOC: 0.14179
+../algorithms/algorithms/tree/max_height.py
+	NLOC: 39.0
+	CCN: 10.5
+	NLOC/CCN: 3.71429
+	CCN/NLOC: 0.26923
+../algorithms/algorithms/tree/min_height.py
+	NLOC: 40.0
+	CCN: 9.3
+	NLOC/CCN: 4.30108
+	CCN/NLOC: 0.2325
+../algorithms/algorithms/tree/bin_tree_to_list.py
+	NLOC: 28.0
+	CCN: 9.0
+	NLOC/CCN: 3.11111
+	CCN/NLOC: 0.32143
+../algorithms/algorithms/tree/construct_tree_postorder_preorder.py
+	NLOC: 66.0
+	CCN: 9.0
+	NLOC/CCN: 7.33333
+	CCN/NLOC: 0.13636
+../algorithms/algorithms/tree/lowest_common_ancestor.py
+	NLOC: 29.0
+	CCN: 8.0
+	NLOC/CCN: 3.625
+	CCN/NLOC: 0.27586
+../algorithms/algorithms/tree/path_sum2.py
+	NLOC: 61.0
+	CCN: 10.5
+	NLOC/CCN: 5.80952
+	CCN/NLOC: 0.17213
+../algorithms/algorithms/tree/longest_consecutive.py
+	NLOC: 41.0
+	CCN: 8.0
+	NLOC/CCN: 5.125
+	CCN/NLOC: 0.19512
+../algorithms/algorithms/tree/deepest_left.py
+	NLOC: 25.0
+	CCN: 5.5
+	NLOC/CCN: 4.54545
+	CCN/NLOC: 0.22
+../algorithms/algorithms/strings/breaking_bad.py
+	NLOC: 83.0
+	CCN: 13.0
+	NLOC/CCN: 6.38462
+	CCN/NLOC: 0.15663
+../algorithms/algorithms/strings/license_number.py
+	NLOC: 10.0
+	CCN: 10.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/strings/check_pangram.py
+	NLOC: 9.0
+	CCN: 6.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+../algorithms/algorithms/strings/strong_password.py
+	NLOC: 42.0
+	CCN: 11.0
+	NLOC/CCN: 3.81818
+	CCN/NLOC: 0.2619
+../algorithms/algorithms/strings/delete_reoccurring.py
+	NLOC: 15.0
+	CCN: 8.0
+	NLOC/CCN: 1.875
+	CCN/NLOC: 0.53333
+../algorithms/algorithms/strings/strip_url_params.py
+	NLOC: 78.0
+	CCN: 22.3
+	NLOC/CCN: 3.49776
+	CCN/NLOC: 0.2859
+../algorithms/algorithms/strings/repeat_substring.py
+	NLOC: 21.0
+	CCN: 3.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+../algorithms/algorithms/strings/reverse_string.py
+	NLOC: 18.0
+	CCN: 4.5
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+../algorithms/algorithms/strings/panagram.py
+	NLOC: 25.0
+	CCN: 8.0
+	NLOC/CCN: 3.125
+	CCN/NLOC: 0.32
+../algorithms/algorithms/strings/reverse_words.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+../algorithms/algorithms/strings/roman_to_int.py
+	NLOC: 16.0
+	CCN: 9.0
+	NLOC/CCN: 1.77778
+	CCN/NLOC: 0.5625
+../algorithms/algorithms/strings/is_rotated.py
+	NLOC: 28.0
+	CCN: 7.0
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+../algorithms/algorithms/strings/caesar_cipher.py
+	NLOC: 18.0
+	CCN: 10.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+../algorithms/algorithms/strings/is_palindrome.py
+	NLOC: 77.0
+	CCN: 6.9
+	NLOC/CCN: 11.15942
+	CCN/NLOC: 0.08961
+../algorithms/algorithms/strings/fizzbuzz.py
+	NLOC: 46.0
+	CCN: 7.0
+	NLOC/CCN: 6.57143
+	CCN/NLOC: 0.15217
+../algorithms/algorithms/strings/encode_decode.py
+	NLOC: 18.0
+	CCN: 7.0
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+../algorithms/algorithms/strings/text_justification.py
+	NLOC: 77.0
+	CCN: 46.0
+	NLOC/CCN: 1.67391
+	CCN/NLOC: 0.5974
+../algorithms/algorithms/strings/domain_extractor.py
+	NLOC: 18.0
+	CCN: 4.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+../algorithms/algorithms/strings/__init__.py
+	NLOC: 41.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/strings/judge_circle.py
+	NLOC: 25.0
+	CCN: 10.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/strings/rabin_karp.py
+	NLOC: 31.0
+	CCN: 7.5
+	NLOC/CCN: 4.13333
+	CCN/NLOC: 0.24194
+../algorithms/algorithms/strings/int_to_roman.py
+	NLOC: 10.0
+	CCN: 6.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+../algorithms/algorithms/strings/knuth_morris_pratt.py
+	NLOC: 41.0
+	CCN: 40.0
+	NLOC/CCN: 1.025
+	CCN/NLOC: 0.97561
+../algorithms/algorithms/strings/atbash_cipher.py
+	NLOC: 23.0
+	CCN: 14.0
+	NLOC/CCN: 1.64286
+	CCN/NLOC: 0.6087
+../algorithms/algorithms/strings/word_squares.py
+	NLOC: 20.0
+	CCN: 10.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/strings/longest_common_prefix.py
+	NLOC: 61.0
+	CCN: 7.2
+	NLOC/CCN: 8.47222
+	CCN/NLOC: 0.11803
+../algorithms/algorithms/strings/validate_coordinates.py
+	NLOC: 41.0
+	CCN: 7.0
+	NLOC/CCN: 5.85714
+	CCN/NLOC: 0.17073
+../algorithms/algorithms/strings/make_sentence.py
+	NLOC: 24.0
+	CCN: 10.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+../algorithms/algorithms/strings/contain_string.py
+	NLOC: 25.0
+	CCN: 11.0
+	NLOC/CCN: 2.27273
+	CCN/NLOC: 0.44
+../algorithms/algorithms/strings/count_binary_substring.py
+	NLOC: 33.0
+	CCN: 13.0
+	NLOC/CCN: 2.53846
+	CCN/NLOC: 0.39394
+../algorithms/algorithms/strings/first_unique_char.py
+	NLOC: 23.0
+	CCN: 10.0
+	NLOC/CCN: 2.3
+	CCN/NLOC: 0.43478
+../algorithms/algorithms/strings/repeat_string.py
+	NLOC: 23.0
+	CCN: 11.0
+	NLOC/CCN: 2.09091
+	CCN/NLOC: 0.47826
+../algorithms/algorithms/strings/multiply_strings.py
+	NLOC: 31.0
+	CCN: 14.0
+	NLOC/CCN: 2.21429
+	CCN/NLOC: 0.45161
+../algorithms/algorithms/strings/unique_morse.py
+	NLOC: 92.0
+	CCN: 6.5
+	NLOC/CCN: 14.15385
+	CCN/NLOC: 0.07065
+../algorithms/algorithms/strings/one_edit_distance.py
+	NLOC: 26.0
+	CCN: 11.5
+	NLOC/CCN: 2.26087
+	CCN/NLOC: 0.44231
+../algorithms/algorithms/strings/group_anagrams.py
+	NLOC: 26.0
+	CCN: 14.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+../algorithms/algorithms/strings/rotate.py
+	NLOC: 22.0
+	CCN: 4.5
+	NLOC/CCN: 4.88889
+	CCN/NLOC: 0.20455
+../algorithms/algorithms/strings/decode_string.py
+	NLOC: 15.0
+	CCN: 15.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/strings/merge_string_checker.py
+	NLOC: 36.0
+	CCN: 12.5
+	NLOC/CCN: 2.88
+	CCN/NLOC: 0.34722
+../algorithms/algorithms/strings/add_binary.py
+	NLOC: 23.0
+	CCN: 14.0
+	NLOC/CCN: 1.64286
+	CCN/NLOC: 0.6087
+../algorithms/algorithms/strings/longest_palindromic_substring.py
+	NLOC: 39.0
+	CCN: 23.0
+	NLOC/CCN: 1.69565
+	CCN/NLOC: 0.58974
+../algorithms/algorithms/strings/min_distance.py
+	NLOC: 21.0
+	CCN: 4.5
+	NLOC/CCN: 4.66667
+	CCN/NLOC: 0.21429
+../algorithms/algorithms/strings/reverse_vowel.py
+	NLOC: 12.0
+	CCN: 12.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/bit/flip_bit_longest_sequence.py
+	NLOC: 23.0
+	CCN: 16.0
+	NLOC/CCN: 1.4375
+	CCN/NLOC: 0.69565
+../algorithms/algorithms/bit/count_ones.py
+	NLOC: 26.0
+	CCN: 5.0
+	NLOC/CCN: 5.2
+	CCN/NLOC: 0.19231
+../algorithms/algorithms/bit/binary_gap.py
+	NLOC: 45.0
+	CCN: 14.0
+	NLOC/CCN: 3.21429
+	CCN/NLOC: 0.31111
+../algorithms/algorithms/bit/remove_bit.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+../algorithms/algorithms/bit/reverse_bits.py
+	NLOC: 16.0
+	CCN: 8.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/bit/swap_pair.py
+	NLOC: 18.0
+	CCN: 4.0
+	NLOC/CCN: 4.5
+	CCN/NLOC: 0.22222
+../algorithms/algorithms/bit/bit_operation.py
+	NLOC: 33.0
+	CCN: 2.5
+	NLOC/CCN: 13.2
+	CCN/NLOC: 0.07576
+../algorithms/algorithms/bit/single_number3.py
+	NLOC: 38.0
+	CCN: 12.0
+	NLOC/CCN: 3.16667
+	CCN/NLOC: 0.31579
+../algorithms/algorithms/bit/single_number2.py
+	NLOC: 25.0
+	CCN: 6.0
+	NLOC/CCN: 4.16667
+	CCN/NLOC: 0.24
+../algorithms/algorithms/bit/__init__.py
+	NLOC: 19.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/bit/insert_bit.py
+	NLOC: 40.0
+	CCN: 6.0
+	NLOC/CCN: 6.66667
+	CCN/NLOC: 0.15
+../algorithms/algorithms/bit/count_flips_to_convert.py
+	NLOC: 14.0
+	CCN: 7.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/bit/power_of_two.py
+	NLOC: 5.0
+	CCN: 2.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/bit/single_number.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+../algorithms/algorithms/bit/add_bitwise_operator.py
+	NLOC: 13.0
+	CCN: 6.0
+	NLOC/CCN: 2.16667
+	CCN/NLOC: 0.46154
+../algorithms/algorithms/bit/subsets.py
+	NLOC: 74.0
+	CCN: 8.0
+	NLOC/CCN: 9.25
+	CCN/NLOC: 0.10811
+../algorithms/algorithms/bit/bytes_int_conversion.py
+	NLOC: 26.0
+	CCN: 6.2
+	NLOC/CCN: 4.19355
+	CCN/NLOC: 0.23846
+../algorithms/algorithms/bit/find_difference.py
+	NLOC: 25.0
+	CCN: 5.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+../algorithms/algorithms/bit/find_missing_number.py
+	NLOC: 22.0
+	CCN: 6.0
+	NLOC/CCN: 3.66667
+	CCN/NLOC: 0.27273
+../algorithms/algorithms/bit/has_alternative_bit.py
+	NLOC: 34.0
+	CCN: 8.5
+	NLOC/CCN: 4.0
+	CCN/NLOC: 0.25
+../algorithms/algorithms/automata/__init__.py
+	NLOC: 1.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/automata/dfa.py
+	NLOC: 13.0
+	CCN: 13.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/dfs/count_islands.py
+	NLOC: 41.0
+	CCN: 9.0
+	NLOC/CCN: 4.55556
+	CCN/NLOC: 0.21951
+../algorithms/algorithms/dfs/__init__.py
+	NLOC: 6.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/dfs/pacific_atlantic.py
+	NLOC: 29.0
+	CCN: 14.5
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/dfs/all_factors.py
+	NLOC: 63.0
+	CCN: 8.8
+	NLOC/CCN: 7.15909
+	CCN/NLOC: 0.13968
+../algorithms/algorithms/dfs/walls_and_gates.py
+	NLOC: 35.0
+	CCN: 7.5
+	NLOC/CCN: 4.66667
+	CCN/NLOC: 0.21429
+../algorithms/algorithms/dfs/maze_search.py
+	NLOC: 44.0
+	CCN: 11.5
+	NLOC/CCN: 3.82609
+	CCN/NLOC: 0.26136
+../algorithms/algorithms/dfs/sudoku_solver.py
+	NLOC: 83.0
+	CCN: 10.0
+	NLOC/CCN: 8.3
+	CCN/NLOC: 0.12048
+../algorithms/algorithms/sort/shell_sort.py
+	NLOC: 15.0
+	CCN: 15.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/bucket_sort.py
+	NLOC: 19.0
+	CCN: 9.5
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/sort/quick_sort.py
+	NLOC: 23.0
+	CCN: 7.7
+	NLOC/CCN: 2.98701
+	CCN/NLOC: 0.33478
+../algorithms/algorithms/sort/merge_sort.py
+	NLOC: 20.0
+	CCN: 10.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/sort/cycle_sort.py
+	NLOC: 22.0
+	CCN: 22.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/pigeonhole_sort.py
+	NLOC: 23.0
+	CCN: 14.0
+	NLOC/CCN: 1.64286
+	CCN/NLOC: 0.6087
+../algorithms/algorithms/sort/top_sort.py
+	NLOC: 52.0
+	CCN: 13.2
+	NLOC/CCN: 3.93939
+	CCN/NLOC: 0.25385
+../algorithms/algorithms/sort/pancake_sort.py
+	NLOC: 11.0
+	CCN: 11.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/insertion_sort.py
+	NLOC: 15.0
+	CCN: 15.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/gnome_sort.py
+	NLOC: 17.0
+	CCN: 10.0
+	NLOC/CCN: 1.7
+	CCN/NLOC: 0.58824
+../algorithms/algorithms/sort/bubble_sort.py
+	NLOC: 30.0
+	CCN: 10.5
+	NLOC/CCN: 2.85714
+	CCN/NLOC: 0.35
+../algorithms/algorithms/sort/__init__.py
+	NLOC: 21.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/sort/stooge_sort.py
+	NLOC: 25.0
+	CCN: 12.0
+	NLOC/CCN: 2.08333
+	CCN/NLOC: 0.48
+../algorithms/algorithms/sort/selection_sort.py
+	NLOC: 14.0
+	CCN: 14.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/bogo_sort.py
+	NLOC: 19.0
+	CCN: 9.5
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/sort/radix_sort.py
+	NLOC: 25.0
+	CCN: 21.0
+	NLOC/CCN: 1.19048
+	CCN/NLOC: 0.84
+../algorithms/algorithms/sort/counting_sort.py
+	NLOC: 18.0
+	CCN: 18.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/wiggle_sort.py
+	NLOC: 12.0
+	CCN: 4.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/sort/sort_colors.py
+	NLOC: 26.0
+	CCN: 11.0
+	NLOC/CCN: 2.36364
+	CCN/NLOC: 0.42308
+../algorithms/algorithms/sort/heap_sort.py
+	NLOC: 55.0
+	CCN: 13.8
+	NLOC/CCN: 3.98551
+	CCN/NLOC: 0.25091
+../algorithms/algorithms/sort/exchange_sort.py
+	NLOC: 7.0
+	CCN: 7.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/sort/cocktail_shaker_sort.py
+	NLOC: 19.0
+	CCN: 10.0
+	NLOC/CCN: 1.9
+	CCN/NLOC: 0.52632
+../algorithms/algorithms/sort/comb_sort.py
+	NLOC: 28.0
+	CCN: 11.0
+	NLOC/CCN: 2.54545
+	CCN/NLOC: 0.39286
+../algorithms/algorithms/sort/meeting_rooms.py
+	NLOC: 15.0
+	CCN: 6.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/sort/bitonic_sort.py
+	NLOC: 24.0
+	CCN: 8.7
+	NLOC/CCN: 2.75862
+	CCN/NLOC: 0.3625
+../algorithms/algorithms/backtrack/find_words.py
+	NLOC: 45.0
+	CCN: 16.0
+	NLOC/CCN: 2.8125
+	CCN/NLOC: 0.35556
+../algorithms/algorithms/backtrack/permute.py
+	NLOC: 40.0
+	CCN: 6.8
+	NLOC/CCN: 5.88235
+	CCN/NLOC: 0.17
+../algorithms/algorithms/backtrack/subsets_unique.py
+	NLOC: 30.0
+	CCN: 6.5
+	NLOC/CCN: 4.61538
+	CCN/NLOC: 0.21667
+../algorithms/algorithms/backtrack/array_sum_combinations.py
+	NLOC: 63.0
+	CCN: 8.3
+	NLOC/CCN: 7.59036
+	CCN/NLOC: 0.13175
+../algorithms/algorithms/backtrack/anagram.py
+	NLOC: 17.0
+	CCN: 10.0
+	NLOC/CCN: 1.7
+	CCN/NLOC: 0.58824
+../algorithms/algorithms/backtrack/__init__.py
+	NLOC: 15.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/backtrack/permute_unique.py
+	NLOC: 23.0
+	CCN: 11.0
+	NLOC/CCN: 2.09091
+	CCN/NLOC: 0.47826
+../algorithms/algorithms/backtrack/letter_combination.py
+	NLOC: 38.0
+	CCN: 21.0
+	NLOC/CCN: 1.80952
+	CCN/NLOC: 0.55263
+../algorithms/algorithms/backtrack/factor_combinations.py
+	NLOC: 55.0
+	CCN: 6.7
+	NLOC/CCN: 8.20896
+	CCN/NLOC: 0.12182
+../algorithms/algorithms/backtrack/add_operators.py
+	NLOC: 36.0
+	CCN: 12.5
+	NLOC/CCN: 2.88
+	CCN/NLOC: 0.34722
+../algorithms/algorithms/backtrack/subsets.py
+	NLOC: 46.0
+	CCN: 6.0
+	NLOC/CCN: 7.66667
+	CCN/NLOC: 0.13043
+../algorithms/algorithms/backtrack/generate_parenthesis.py
+	NLOC: 37.0
+	CCN: 6.2
+	NLOC/CCN: 5.96774
+	CCN/NLOC: 0.16757
+../algorithms/algorithms/backtrack/generate_abbreviations.py
+	NLOC: 20.0
+	CCN: 8.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/backtrack/pattern_match.py
+	NLOC: 31.0
+	CCN: 9.0
+	NLOC/CCN: 3.44444
+	CCN/NLOC: 0.29032
+../algorithms/algorithms/backtrack/palindrome_partitioning.py
+	NLOC: 36.0
+	CCN: 9.5
+	NLOC/CCN: 3.78947
+	CCN/NLOC: 0.26389
+../algorithms/algorithms/backtrack/combination_sum.py
+	NLOC: 29.0
+	CCN: 7.0
+	NLOC/CCN: 4.14286
+	CCN/NLOC: 0.24138
+../algorithms/algorithms/unionfind/count_islands.py
+	NLOC: 70.0
+	CCN: 6.6
+	NLOC/CCN: 10.60606
+	CCN/NLOC: 0.09429
+../algorithms/algorithms/linkedlist/rotate_list.py
+	NLOC: 23.0
+	CCN: 15.0
+	NLOC/CCN: 1.53333
+	CCN/NLOC: 0.65217
+../algorithms/algorithms/linkedlist/partition.py
+	NLOC: 63.0
+	CCN: 12.0
+	NLOC/CCN: 5.25
+	CCN/NLOC: 0.19048
+../algorithms/algorithms/linkedlist/reverse.py
+	NLOC: 25.0
+	CCN: 9.0
+	NLOC/CCN: 2.77778
+	CCN/NLOC: 0.36
+../algorithms/algorithms/linkedlist/merge_two_list.py
+	NLOC: 33.0
+	CCN: 8.0
+	NLOC/CCN: 4.125
+	CCN/NLOC: 0.24242
+../algorithms/algorithms/linkedlist/delete_node.py
+	NLOC: 41.0
+	CCN: 9.3
+	NLOC/CCN: 4.4086
+	CCN/NLOC: 0.22683
+../algorithms/algorithms/linkedlist/is_palindrome.py
+	NLOC: 62.0
+	CCN: 20.7
+	NLOC/CCN: 2.99517
+	CCN/NLOC: 0.33387
+../algorithms/algorithms/linkedlist/linkedlist.py
+	NLOC: 9.0
+	CCN: 3.5
+	NLOC/CCN: 2.57143
+	CCN/NLOC: 0.38889
+../algorithms/algorithms/linkedlist/__init__.py
+	NLOC: 9.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/linkedlist/remove_range.py
+	NLOC: 25.0
+	CCN: 14.0
+	NLOC/CCN: 1.78571
+	CCN/NLOC: 0.56
+../algorithms/algorithms/linkedlist/add_two_numbers.py
+	NLOC: 108.0
+	CCN: 12.4
+	NLOC/CCN: 8.70968
+	CCN/NLOC: 0.11481
+../algorithms/algorithms/linkedlist/is_cyclic.py
+	NLOC: 21.0
+	CCN: 7.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/linkedlist/copy_random_pointer.py
+	NLOC: 33.0
+	CCN: 8.3
+	NLOC/CCN: 3.9759
+	CCN/NLOC: 0.25152
+../algorithms/algorithms/linkedlist/kth_to_last.py
+	NLOC: 83.0
+	CCN: 13.3
+	NLOC/CCN: 6.2406
+	CCN/NLOC: 0.16024
+../algorithms/algorithms/linkedlist/intersection.py
+	NLOC: 69.0
+	CCN: 17.7
+	NLOC/CCN: 3.89831
+	CCN/NLOC: 0.25652
+../algorithms/algorithms/linkedlist/first_cyclic_node.py
+	NLOC: 42.0
+	CCN: 9.7
+	NLOC/CCN: 4.3299
+	CCN/NLOC: 0.23095
+../algorithms/algorithms/linkedlist/remove_duplicates.py
+	NLOC: 50.0
+	CCN: 7.5
+	NLOC/CCN: 6.66667
+	CCN/NLOC: 0.15
+../algorithms/algorithms/linkedlist/swap_in_pairs.py
+	NLOC: 29.0
+	CCN: 8.5
+	NLOC/CCN: 3.41176
+	CCN/NLOC: 0.2931
+../algorithms/algorithms/linkedlist/is_sorted.py
+	NLOC: 19.0
+	CCN: 9.0
+	NLOC/CCN: 2.11111
+	CCN/NLOC: 0.47368
+../algorithms/algorithms/graph/count_connected_number_of_component.py
+	NLOC: 41.0
+	CCN: 7.3
+	NLOC/CCN: 5.61644
+	CCN/NLOC: 0.17805
+../algorithms/algorithms/graph/dijkstra.py
+	NLOC: 32.0
+	CCN: 8.3
+	NLOC/CCN: 3.85542
+	CCN/NLOC: 0.25938
+../algorithms/algorithms/graph/path_between_two_vertices_in_digraph.py
+	NLOC: 29.0
+	CCN: 4.2
+	NLOC/CCN: 6.90476
+	CCN/NLOC: 0.14483
+../algorithms/algorithms/graph/markov_chain.py
+	NLOC: 26.0
+	CCN: 5.0
+	NLOC/CCN: 5.2
+	CCN/NLOC: 0.19231
+../algorithms/algorithms/graph/traversal.py
+	NLOC: 31.0
+	CCN: 9.3
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+../algorithms/algorithms/graph/find_path.py
+	NLOC: 41.0
+	CCN: 12.7
+	NLOC/CCN: 3.22835
+	CCN/NLOC: 0.30976
+../algorithms/algorithms/graph/prims_minimum_spanning.py
+	NLOC: 32.0
+	CCN: 16.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/graph/transitive_closure_dfs.py
+	NLOC: 27.0
+	CCN: 4.5
+	NLOC/CCN: 6.0
+	CCN/NLOC: 0.16667
+../algorithms/algorithms/graph/clone_graph.py
+	NLOC: 91.0
+	CCN: 8.1
+	NLOC/CCN: 11.23457
+	CCN/NLOC: 0.08901
+../algorithms/algorithms/graph/graph.py
+	NLOC: 80.0
+	CCN: 3.6
+	NLOC/CCN: 22.22222
+	CCN/NLOC: 0.045
+../algorithms/algorithms/graph/minimum_spanning_tree.py
+	NLOC: 61.0
+	CCN: 7.5
+	NLOC/CCN: 8.13333
+	CCN/NLOC: 0.12295
+../algorithms/algorithms/graph/__init__.py
+	NLOC: 11.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/graph/bellman_ford.py
+	NLOC: 23.0
+	CCN: 10.0
+	NLOC/CCN: 2.3
+	CCN/NLOC: 0.43478
+../algorithms/algorithms/graph/tarjan.py
+	NLOC: 42.0
+	CCN: 16.0
+	NLOC/CCN: 2.625
+	CCN/NLOC: 0.38095
+../algorithms/algorithms/graph/find_all_cliques.py
+	NLOC: 30.0
+	CCN: 9.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+../algorithms/algorithms/graph/all_pairs_shortest_path.py
+	NLOC: 34.0
+	CCN: 9.0
+	NLOC/CCN: 3.77778
+	CCN/NLOC: 0.26471
+../algorithms/algorithms/graph/maximum_flow_dfs.py
+	NLOC: 55.0
+	CCN: 30.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+../algorithms/algorithms/graph/cycle_detection.py
+	NLOC: 34.0
+	CCN: 8.0
+	NLOC/CCN: 4.25
+	CCN/NLOC: 0.23529
+../algorithms/algorithms/graph/satisfiability.py
+	NLOC: 88.0
+	CCN: 10.3
+	NLOC/CCN: 8.54369
+	CCN/NLOC: 0.11705
+../algorithms/algorithms/graph/maximum_flow_bfs.py
+	NLOC: 56.0
+	CCN: 30.0
+	NLOC/CCN: 1.86667
+	CCN/NLOC: 0.53571
+../algorithms/algorithms/graph/check_bipartite.py
+	NLOC: 21.0
+	CCN: 17.0
+	NLOC/CCN: 1.23529
+	CCN/NLOC: 0.80952
+../algorithms/algorithms/graph/check_digraph_strongly_connected.py
+	NLOC: 39.0
+	CCN: 4.7
+	NLOC/CCN: 8.29787
+	CCN/NLOC: 0.12051
+../algorithms/algorithms/graph/maximum_flow.py
+	NLOC: 111.0
+	CCN: 16.8
+	NLOC/CCN: 6.60714
+	CCN/NLOC: 0.15135
+../algorithms/algorithms/distribution/histogram.py
+	NLOC: 24.0
+	CCN: 10.0
+	NLOC/CCN: 2.4
+	CCN/NLOC: 0.41667
+../algorithms/algorithms/streaming/one_sparse_recovery.py
+	NLOC: 55.0
+	CCN: 11.0
+	NLOC/CCN: 5.0
+	CCN/NLOC: 0.2
+../algorithms/algorithms/streaming/__init__.py
+	NLOC: 2.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/streaming/misra_gries.py
+	NLOC: 46.0
+	CCN: 11.0
+	NLOC/CCN: 4.18182
+	CCN/NLOC: 0.23913
+../algorithms/algorithms/search/search_rotate.py
+	NLOC: 68.0
+	CCN: 15.0
+	NLOC/CCN: 4.53333
+	CCN/NLOC: 0.22059
+../algorithms/algorithms/search/binary_search.py
+	NLOC: 26.0
+	CCN: 10.5
+	NLOC/CCN: 2.47619
+	CCN/NLOC: 0.40385
+../algorithms/algorithms/search/search_range.py
+	NLOC: 26.0
+	CCN: 15.0
+	NLOC/CCN: 1.73333
+	CCN/NLOC: 0.57692
+../algorithms/algorithms/search/first_occurrence.py
+	NLOC: 17.0
+	CCN: 12.0
+	NLOC/CCN: 1.41667
+	CCN/NLOC: 0.70588
+../algorithms/algorithms/search/__init__.py
+	NLOC: 16.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/search/ternary_search.py
+	NLOC: 29.0
+	CCN: 16.0
+	NLOC/CCN: 1.8125
+	CCN/NLOC: 0.55172
+../algorithms/algorithms/search/next_greatest_letter.py
+	NLOC: 47.0
+	CCN: 7.0
+	NLOC/CCN: 6.71429
+	CCN/NLOC: 0.14894
+../algorithms/algorithms/search/search_insert.py
+	NLOC: 13.0
+	CCN: 10.0
+	NLOC/CCN: 1.3
+	CCN/NLOC: 0.76923
+../algorithms/algorithms/search/linear_search.py
+	NLOC: 9.0
+	CCN: 5.0
+	NLOC/CCN: 1.8
+	CCN/NLOC: 0.55556
+../algorithms/algorithms/search/find_min_rotate.py
+	NLOC: 25.0
+	CCN: 8.5
+	NLOC/CCN: 2.94118
+	CCN/NLOC: 0.34
+../algorithms/algorithms/search/interpolation_search.py
+	NLOC: 45.0
+	CCN: 29.0
+	NLOC/CCN: 1.55172
+	CCN/NLOC: 0.64444
+../algorithms/algorithms/search/two_sum.py
+	NLOC: 48.0
+	CCN: 10.3
+	NLOC/CCN: 4.66019
+	CCN/NLOC: 0.21458
+../algorithms/algorithms/search/last_occurrence.py
+	NLOC: 16.0
+	CCN: 11.0
+	NLOC/CCN: 1.45455
+	CCN/NLOC: 0.6875
+../algorithms/algorithms/search/jump_search.py
+	NLOC: 23.0
+	CCN: 17.0
+	NLOC/CCN: 1.35294
+	CCN/NLOC: 0.73913
+../algorithms/algorithms/unix/path/full_path.py
+	NLOC: 6.0
+	CCN: 2.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/unix/path/split.py
+	NLOC: 20.0
+	CCN: 6.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+../algorithms/algorithms/unix/path/join_with_slash.py
+	NLOC: 15.0
+	CCN: 5.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/unix/path/simplify_path.py
+	NLOC: 27.0
+	CCN: 5.0
+	NLOC/CCN: 5.4
+	CCN/NLOC: 0.18519
+../algorithms/algorithms/unix/__init__.py
+	NLOC: 4.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/map/separate_chaining_hashtable.py
+	NLOC: 71.0
+	CCN: 5.2
+	NLOC/CCN: 13.65385
+	CCN/NLOC: 0.07324
+../algorithms/algorithms/map/is_isomorphic.py
+	NLOC: 35.0
+	CCN: 15.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+../algorithms/algorithms/map/longest_common_subsequence.py
+	NLOC: 25.0
+	CCN: 19.0
+	NLOC/CCN: 1.31579
+	CCN/NLOC: 0.76
+../algorithms/algorithms/map/word_pattern.py
+	NLOC: 40.0
+	CCN: 16.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+../algorithms/algorithms/map/is_anagram.py
+	NLOC: 24.0
+	CCN: 8.0
+	NLOC/CCN: 3.0
+	CCN/NLOC: 0.33333
+../algorithms/algorithms/map/__init__.py
+	NLOC: 6.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/map/longest_palindromic_subsequence.py
+	NLOC: 25.0
+	CCN: 25.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/map/randomized_set.py
+	NLOC: 44.0
+	CCN: 5.0
+	NLOC/CCN: 8.8
+	CCN/NLOC: 0.11364
+../algorithms/algorithms/map/hashtable.py
+	NLOC: 85.0
+	CCN: 5.4
+	NLOC/CCN: 15.74074
+	CCN/NLOC: 0.06353
+../algorithms/algorithms/map/valid_sudoku.py
+	NLOC: 13.0
+	CCN: 7.0
+	NLOC/CCN: 1.85714
+	CCN/NLOC: 0.53846
+../algorithms/algorithms/heap/binary_heap.py
+	NLOC: 88.0
+	CCN: 3.3
+	NLOC/CCN: 26.66667
+	CCN/NLOC: 0.0375
+../algorithms/algorithms/heap/k_closest_points.py
+	NLOC: 37.0
+	CCN: 13.5
+	NLOC/CCN: 2.74074
+	CCN/NLOC: 0.36486
+../algorithms/algorithms/heap/__init__.py
+	NLOC: 5.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/heap/sliding_window_max.py
+	NLOC: 34.0
+	CCN: 14.0
+	NLOC/CCN: 2.42857
+	CCN/NLOC: 0.41176
+../algorithms/algorithms/heap/merge_sorted_k_lists.py
+	NLOC: 57.0
+	CCN: 9.7
+	NLOC/CCN: 5.87629
+	CCN/NLOC: 0.17018
+../algorithms/algorithms/heap/skyline.py
+	NLOC: 53.0
+	CCN: 17.0
+	NLOC/CCN: 3.11765
+	CCN/NLOC: 0.32075
+../algorithms/algorithms/ml/nearest_neighbor.py
+	NLOC: 20.0
+	CCN: 9.5
+	NLOC/CCN: 2.10526
+	CCN/NLOC: 0.475
+../algorithms/algorithms/bfs/count_islands.py
+	NLOC: 60.0
+	CCN: 23.0
+	NLOC/CCN: 2.6087
+	CCN/NLOC: 0.38333
+../algorithms/algorithms/bfs/shortest_distance_from_all_buildings.py
+	NLOC: 32.0
+	CCN: 13.0
+	NLOC/CCN: 2.46154
+	CCN/NLOC: 0.40625
+../algorithms/algorithms/bfs/__init__.py
+	NLOC: 4.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/bfs/word_ladder.py
+	NLOC: 53.0
+	CCN: 16.0
+	NLOC/CCN: 3.3125
+	CCN/NLOC: 0.30189
+../algorithms/algorithms/bfs/maze_search.py
+	NLOC: 51.0
+	CCN: 25.0
+	NLOC/CCN: 2.04
+	CCN/NLOC: 0.4902
+../algorithms/algorithms/arrays/longest_non_repeat.py
+	NLOC: 65.0
+	CCN: 13.5
+	NLOC/CCN: 4.81481
+	CCN/NLOC: 0.20769
+../algorithms/algorithms/arrays/flatten.py
+	NLOC: 21.0
+	CCN: 7.5
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+../algorithms/algorithms/arrays/max_ones_index.py
+	NLOC: 32.0
+	CCN: 16.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/arrays/plus_one.py
+	NLOC: 37.0
+	CCN: 10.0
+	NLOC/CCN: 3.7
+	CCN/NLOC: 0.27027
+../algorithms/algorithms/arrays/n_sum.py
+	NLOC: 109.0
+	CCN: 10.6
+	NLOC/CCN: 10.28302
+	CCN/NLOC: 0.09725
+../algorithms/algorithms/arrays/__init__.py
+	NLOC: 18.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/arrays/missing_ranges.py
+	NLOC: 16.0
+	CCN: 12.0
+	NLOC/CCN: 1.33333
+	CCN/NLOC: 0.75
+../algorithms/algorithms/arrays/limit.py
+	NLOC: 21.0
+	CCN: 8.0
+	NLOC/CCN: 2.625
+	CCN/NLOC: 0.38095
+../algorithms/algorithms/arrays/summarize_ranges.py
+	NLOC: 21.0
+	CCN: 15.0
+	NLOC/CCN: 1.4
+	CCN/NLOC: 0.71429
+../algorithms/algorithms/arrays/move_zeros.py
+	NLOC: 19.0
+	CCN: 10.0
+	NLOC/CCN: 1.9
+	CCN/NLOC: 0.52632
+../algorithms/algorithms/arrays/three_sum.py
+	NLOC: 37.0
+	CCN: 22.0
+	NLOC/CCN: 1.68182
+	CCN/NLOC: 0.59459
+../algorithms/algorithms/arrays/trimmean.py
+	NLOC: 22.0
+	CCN: 9.0
+	NLOC/CCN: 2.44444
+	CCN/NLOC: 0.40909
+../algorithms/algorithms/arrays/top_1.py
+	NLOC: 30.0
+	CCN: 16.0
+	NLOC/CCN: 1.875
+	CCN/NLOC: 0.53333
+../algorithms/algorithms/arrays/delete_nth.py
+	NLOC: 23.0
+	CCN: 7.0
+	NLOC/CCN: 3.28571
+	CCN/NLOC: 0.30435
+../algorithms/algorithms/arrays/rotate.py
+	NLOC: 38.0
+	CCN: 7.2
+	NLOC/CCN: 5.27778
+	CCN/NLOC: 0.18947
+../algorithms/algorithms/arrays/josephus.py
+	NLOC: 18.0
+	CCN: 8.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+../algorithms/algorithms/arrays/two_sum.py
+	NLOC: 21.0
+	CCN: 8.0
+	NLOC/CCN: 2.625
+	CCN/NLOC: 0.38095
+../algorithms/algorithms/arrays/merge_intervals.py
+	NLOC: 60.0
+	CCN: 4.3
+	NLOC/CCN: 13.95349
+	CCN/NLOC: 0.07167
+../algorithms/algorithms/arrays/garage.py
+	NLOC: 61.0
+	CCN: 18.0
+	NLOC/CCN: 3.38889
+	CCN/NLOC: 0.29508
+../algorithms/algorithms/compression/elias.py
+	NLOC: 29.0
+	CCN: 3.2
+	NLOC/CCN: 9.0625
+	CCN/NLOC: 0.11034
+../algorithms/algorithms/compression/huffman_coding.py
+	NLOC: 245.0
+	CCN: 6.7
+	NLOC/CCN: 36.56716
+	CCN/NLOC: 0.02735
+../algorithms/algorithms/compression/rle_compression.py
+	NLOC: 32.0
+	CCN: 12.5
+	NLOC/CCN: 2.56
+	CCN/NLOC: 0.39062
+../algorithms/algorithms/greedy/__init__.py
+	NLOC: 1.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/greedy/max_contiguous_subsequence_sum.py
+	NLOC: 35.0
+	CCN: 13.0
+	NLOC/CCN: 2.69231
+	CCN/NLOC: 0.37143
+../algorithms/algorithms/maths/primes_sieve_of_eratosthenes.py
+	NLOC: 40.0
+	CCN: 15.0
+	NLOC/CCN: 2.66667
+	CCN/NLOC: 0.375
+../algorithms/algorithms/maths/diffie_hellman_key_exchange.py
+	NLOC: 122.0
+	CCN: 7.5
+	NLOC/CCN: 16.26667
+	CCN/NLOC: 0.06148
+../algorithms/algorithms/maths/next_perfect_square.py
+	NLOC: 14.0
+	CCN: 4.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+../algorithms/algorithms/maths/decimal_to_binary_ip.py
+	NLOC: 24.0
+	CCN: 8.5
+	NLOC/CCN: 2.82353
+	CCN/NLOC: 0.35417
+../algorithms/algorithms/maths/next_bigger.py
+	NLOC: 47.0
+	CCN: 11.0
+	NLOC/CCN: 4.27273
+	CCN/NLOC: 0.23404
+../algorithms/algorithms/maths/is_strobogrammatic.py
+	NLOC: 21.0
+	CCN: 6.0
+	NLOC/CCN: 3.5
+	CCN/NLOC: 0.28571
+../algorithms/algorithms/maths/gcd.py
+	NLOC: 50.0
+	CCN: 7.8
+	NLOC/CCN: 6.41026
+	CCN/NLOC: 0.156
+../algorithms/algorithms/maths/rsa.py
+	NLOC: 61.0
+	CCN: 6.8
+	NLOC/CCN: 8.97059
+	CCN/NLOC: 0.11148
+../algorithms/algorithms/maths/rabin_miller.py
+	NLOC: 32.0
+	CCN: 9.0
+	NLOC/CCN: 3.55556
+	CCN/NLOC: 0.28125
+../algorithms/algorithms/maths/num_perfect_squares.py
+	NLOC: 25.0
+	CCN: 11.0
+	NLOC/CCN: 2.27273
+	CCN/NLOC: 0.44
+../algorithms/algorithms/maths/find_primitive_root_simple.py
+	NLOC: 55.0
+	CCN: 10.7
+	NLOC/CCN: 5.14019
+	CCN/NLOC: 0.19455
+../algorithms/algorithms/maths/__init__.py
+	NLOC: 28.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/maths/num_digits.py
+	NLOC: 10.0
+	CCN: 5.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/maths/combination.py
+	NLOC: 16.0
+	CCN: 4.7
+	NLOC/CCN: 3.40426
+	CCN/NLOC: 0.29375
+../algorithms/algorithms/maths/cosine_similarity.py
+	NLOC: 25.0
+	CCN: 8.5
+	NLOC/CCN: 2.94118
+	CCN/NLOC: 0.34
+../algorithms/algorithms/maths/euler_totient.py
+	NLOC: 16.0
+	CCN: 10.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+../algorithms/algorithms/maths/recursive_binomial_coefficient.py
+	NLOC: 8.0
+	CCN: 8.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/maths/base_conversion.py
+	NLOC: 33.0
+	CCN: 12.5
+	NLOC/CCN: 2.64
+	CCN/NLOC: 0.37879
+../algorithms/algorithms/maths/chinese_remainder_theorem.py
+	NLOC: 32.0
+	CCN: 13.5
+	NLOC/CCN: 2.37037
+	CCN/NLOC: 0.42188
+../algorithms/algorithms/maths/symmetry_group_cycle_index.py
+	NLOC: 147.0
+	CCN: 21.0
+	NLOC/CCN: 7.0
+	CCN/NLOC: 0.14286
+../algorithms/algorithms/maths/magic_number.py
+	NLOC: 23.0
+	CCN: 9.0
+	NLOC/CCN: 2.55556
+	CCN/NLOC: 0.3913
+../algorithms/algorithms/maths/factorial.py
+	NLOC: 27.0
+	CCN: 12.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+../algorithms/algorithms/maths/generate_strobogrammtic.py
+	NLOC: 55.0
+	CCN: 11.5
+	NLOC/CCN: 4.78261
+	CCN/NLOC: 0.20909
+../algorithms/algorithms/maths/extended_gcd.py
+	NLOC: 15.0
+	CCN: 10.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+../algorithms/algorithms/maths/pythagoras.py
+	NLOC: 15.0
+	CCN: 11.0
+	NLOC/CCN: 1.36364
+	CCN/NLOC: 0.73333
+../algorithms/algorithms/maths/krishnamurthy_number.py
+	NLOC: 33.0
+	CCN: 7.5
+	NLOC/CCN: 4.4
+	CCN/NLOC: 0.22727
+../algorithms/algorithms/maths/prime_check.py
+	NLOC: 13.0
+	CCN: 13.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/maths/modular_inverse.py
+	NLOC: 24.0
+	CCN: 12.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/maths/hailstone.py
+	NLOC: 15.0
+	CCN: 9.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+../algorithms/algorithms/maths/find_order_simple.py
+	NLOC: 21.0
+	CCN: 10.0
+	NLOC/CCN: 2.1
+	CCN/NLOC: 0.47619
+../algorithms/algorithms/maths/nth_digit.py
+	NLOC: 12.0
+	CCN: 12.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/maths/polynomial.py
+	NLOC: 373.0
+	CCN: 12.2
+	NLOC/CCN: 30.57377
+	CCN/NLOC: 0.03271
+../algorithms/algorithms/maths/modular_exponential.py
+	NLOC: 11.0
+	CCN: 11.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/maths/power.py
+	NLOC: 28.0
+	CCN: 12.0
+	NLOC/CCN: 2.33333
+	CCN/NLOC: 0.42857
+../algorithms/algorithms/maths/sqrt_precision_factor.py
+	NLOC: 14.0
+	CCN: 5.0
+	NLOC/CCN: 2.8
+	CCN/NLOC: 0.35714
+../algorithms/algorithms/maths/summing_digits.py
+	NLOC: 26.0
+	CCN: 13.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/dp/rod_cut.py
+	NLOC: 14.0
+	CCN: 9.0
+	NLOC/CCN: 1.55556
+	CCN/NLOC: 0.64286
+../algorithms/algorithms/dp/house_robber.py
+	NLOC: 17.0
+	CCN: 5.0
+	NLOC/CCN: 3.4
+	CCN/NLOC: 0.29412
+../algorithms/algorithms/dp/job_scheduling.py
+	NLOC: 37.0
+	CCN: 9.7
+	NLOC/CCN: 3.81443
+	CCN/NLOC: 0.26216
+../algorithms/algorithms/dp/longest_common_subsequence.py
+	NLOC: 35.0
+	CCN: 13.0
+	NLOC/CCN: 2.69231
+	CCN/NLOC: 0.37143
+../algorithms/algorithms/dp/buy_sell_stock.py
+	NLOC: 32.0
+	CCN: 6.0
+	NLOC/CCN: 5.33333
+	CCN/NLOC: 0.1875
+../algorithms/algorithms/dp/regex_matching.py
+	NLOC: 36.0
+	CCN: 16.0
+	NLOC/CCN: 2.25
+	CCN/NLOC: 0.44444
+../algorithms/algorithms/dp/knapsack.py
+	NLOC: 22.0
+	CCN: 4.5
+	NLOC/CCN: 4.88889
+	CCN/NLOC: 0.20455
+../algorithms/algorithms/dp/max_subarray.py
+	NLOC: 9.0
+	CCN: 6.0
+	NLOC/CCN: 1.5
+	CCN/NLOC: 0.66667
+../algorithms/algorithms/dp/__init__.py
+	NLOC: 23.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/dp/matrix_chain_order.py
+	NLOC: 37.0
+	CCN: 9.3
+	NLOC/CCN: 3.97849
+	CCN/NLOC: 0.25135
+../algorithms/algorithms/dp/fib.py
+	NLOC: 40.0
+	CCN: 7.7
+	NLOC/CCN: 5.19481
+	CCN/NLOC: 0.1925
+../algorithms/algorithms/dp/coin_change.py
+	NLOC: 23.0
+	CCN: 6.0
+	NLOC/CCN: 3.83333
+	CCN/NLOC: 0.26087
+../algorithms/algorithms/dp/longest_increasing.py
+	NLOC: 86.0
+	CCN: 9.9
+	NLOC/CCN: 8.68687
+	CCN/NLOC: 0.11512
+../algorithms/algorithms/dp/num_decodings.py
+	NLOC: 41.0
+	CCN: 12.0
+	NLOC/CCN: 3.41667
+	CCN/NLOC: 0.29268
+../algorithms/algorithms/dp/int_divide.py
+	NLOC: 49.0
+	CCN: 12.0
+	NLOC/CCN: 4.08333
+	CCN/NLOC: 0.2449
+../algorithms/algorithms/dp/edit_distance.py
+	NLOC: 55.0
+	CCN: 12.0
+	NLOC/CCN: 4.58333
+	CCN/NLOC: 0.21818
+../algorithms/algorithms/dp/max_product_subarray.py
+	NLOC: 50.0
+	CCN: 14.5
+	NLOC/CCN: 3.44828
+	CCN/NLOC: 0.29
+../algorithms/algorithms/dp/k_factor.py
+	NLOC: 62.0
+	CCN: 31.0
+	NLOC/CCN: 2.0
+	CCN/NLOC: 0.5
+../algorithms/algorithms/dp/climbing_stairs.py
+	NLOC: 19.0
+	CCN: 5.0
+	NLOC/CCN: 3.8
+	CCN/NLOC: 0.26316
+../algorithms/algorithms/dp/word_break.py
+	NLOC: 30.0
+	CCN: 9.0
+	NLOC/CCN: 3.33333
+	CCN/NLOC: 0.3
+../algorithms/algorithms/dp/hosoya_triangle.py
+	NLOC: 41.0
+	CCN: 7.0
+	NLOC/CCN: 5.85714
+	CCN/NLOC: 0.17073
+../algorithms/algorithms/dp/min_cost_path.py
+	NLOC: 42.0
+	CCN: 8.0
+	NLOC/CCN: 5.25
+	CCN/NLOC: 0.19048
+../algorithms/algorithms/dp/combination_sum.py
+	NLOC: 51.0
+	CCN: 7.3
+	NLOC/CCN: 6.9863
+	CCN/NLOC: 0.14314
+../algorithms/algorithms/dp/planting_trees.py
+	NLOC: 28.0
+	CCN: 18.0
+	NLOC/CCN: 1.55556
+	CCN/NLOC: 0.64286
+../algorithms/algorithms/dp/egg_drop.py
+	NLOC: 38.0
+	CCN: 15.0
+	NLOC/CCN: 2.53333
+	CCN/NLOC: 0.39474
+../algorithms/algorithms/queues/queue.py
+	NLOC: 107.0
+	CCN: 4.4
+	NLOC/CCN: 24.31818
+	CCN/NLOC: 0.04112
+../algorithms/algorithms/queues/reconstruct_queue.py
+	NLOC: 6.0
+	CCN: 6.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/queues/max_sliding_window.py
+	NLOC: 31.0
+	CCN: 12.0
+	NLOC/CCN: 2.58333
+	CCN/NLOC: 0.3871
+../algorithms/algorithms/queues/moving_average.py
+	NLOC: 14.0
+	CCN: 2.5
+	NLOC/CCN: 5.6
+	CCN/NLOC: 0.17857
+../algorithms/algorithms/queues/__init__.py
+	NLOC: 4.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/queues/zigzagiterator.py
+	NLOC: 19.0
+	CCN: 4.3
+	NLOC/CCN: 4.4186
+	CCN/NLOC: 0.22632
+../algorithms/algorithms/queues/priority_queue.py
+	NLOC: 35.0
+	CCN: 3.9
+	NLOC/CCN: 8.97436
+	CCN/NLOC: 0.11143
+../algorithms/algorithms/stack/remove_min.py
+	NLOC: 26.0
+	CCN: 16.0
+	NLOC/CCN: 1.625
+	CCN/NLOC: 0.61538
+../algorithms/algorithms/stack/switch_pairs.py
+	NLOC: 57.0
+	CCN: 17.0
+	NLOC/CCN: 3.35294
+	CCN/NLOC: 0.29825
+../algorithms/algorithms/stack/valid_parenthesis.py
+	NLOC: 20.0
+	CCN: 12.0
+	NLOC/CCN: 1.66667
+	CCN/NLOC: 0.6
+../algorithms/algorithms/stack/__init__.py
+	NLOC: 10.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/stack/is_consecutive.py
+	NLOC: 51.0
+	CCN: 16.0
+	NLOC/CCN: 3.1875
+	CCN/NLOC: 0.31373
+../algorithms/algorithms/stack/ordered_stack.py
+	NLOC: 25.0
+	CCN: 3.4
+	NLOC/CCN: 7.35294
+	CCN/NLOC: 0.136
+../algorithms/algorithms/stack/stack.py
+	NLOC: 97.0
+	CCN: 3.6
+	NLOC/CCN: 26.94444
+	CCN/NLOC: 0.03711
+../algorithms/algorithms/stack/stutter.py
+	NLOC: 36.0
+	CCN: 11.0
+	NLOC/CCN: 3.27273
+	CCN/NLOC: 0.30556
+../algorithms/algorithms/stack/simplify_path.py
+	NLOC: 24.0
+	CCN: 11.0
+	NLOC/CCN: 2.18182
+	CCN/NLOC: 0.45833
+../algorithms/algorithms/stack/longest_abs_path.py
+	NLOC: 23.0
+	CCN: 19.0
+	NLOC/CCN: 1.21053
+	CCN/NLOC: 0.82609
+../algorithms/algorithms/stack/is_sorted.py
+	NLOC: 27.0
+	CCN: 16.0
+	NLOC/CCN: 1.6875
+	CCN/NLOC: 0.59259
+../algorithms/algorithms/set/__init__.py
+	NLOC: 1.0
+	CCN: 0.0
+	NLOC/CCN: -1
+	CCN/NLOC: 0.0
+../algorithms/algorithms/set/set_covering.py
+	NLOC: 72.0
+	CCN: 12.3
+	NLOC/CCN: 5.85366
+	CCN/NLOC: 0.17083
+../algorithms/algorithms/set/randomized_set.py
+	NLOC: 52.0
+	CCN: 7.2
+	NLOC/CCN: 7.22222
+	CCN/NLOC: 0.13846
+../algorithms/algorithms/set/find_keyboard_row.py
+	NLOC: 22.0
+	CCN: 12.0
+	NLOC/CCN: 1.83333
+	CCN/NLOC: 0.54545
+../algorithms/algorithms/matrix/search_in_sorted_matrix.py
+	NLOC: 23.0
+	CCN: 10.5
+	NLOC/CCN: 2.19048
+	CCN/NLOC: 0.45652
+../algorithms/algorithms/matrix/count_paths.py
+	NLOC: 17.0
+	CCN: 7.5
+	NLOC/CCN: 2.26667
+	CCN/NLOC: 0.44118
+../algorithms/algorithms/matrix/sort_matrix_diagonally.py
+	NLOC: 56.0
+	CCN: 35.0
+	NLOC/CCN: 1.6
+	CCN/NLOC: 0.625
+../algorithms/algorithms/matrix/cholesky_matrix_decomposition.py
+	NLOC: 44.0
+	CCN: 20.0
+	NLOC/CCN: 2.2
+	CCN/NLOC: 0.45455
+../algorithms/algorithms/matrix/multiply.py
+	NLOC: 25.0
+	CCN: 18.0
+	NLOC/CCN: 1.38889
+	CCN/NLOC: 0.72
+../algorithms/algorithms/matrix/sparse_mul.py
+	NLOC: 84.0
+	CCN: 20.3
+	NLOC/CCN: 4.13793
+	CCN/NLOC: 0.24167
+../algorithms/algorithms/matrix/matrix_exponentiation.py
+	NLOC: 35.0
+	CCN: 11.7
+	NLOC/CCN: 2.99145
+	CCN/NLOC: 0.33429
+../algorithms/algorithms/matrix/sum_sub_squares.py
+	NLOC: 15.0
+	CCN: 15.0
+	NLOC/CCN: 1.0
+	CCN/NLOC: 1.0
+../algorithms/algorithms/matrix/matrix_inversion.py
+	NLOC: 93.0
+	CCN: 11.7
+	NLOC/CCN: 7.94872
+	CCN/NLOC: 0.12581
+../algorithms/algorithms/matrix/rotate_image.py
+	NLOC: 23.0
+	CCN: 8.0
+	NLOC/CCN: 2.875
+	CCN/NLOC: 0.34783
+../algorithms/algorithms/matrix/spiral_traversal.py
+	NLOC: 43.0
+	CCN: 24.0
+	NLOC/CCN: 1.79167
+	CCN/NLOC: 0.55814
+../algorithms/algorithms/matrix/bomb_enemy.py
+	NLOC: 74.0
+	CCN: 9.8
+	NLOC/CCN: 7.55102
+	CCN/NLOC: 0.13243
+../algorithms/algorithms/matrix/sparse_dot_vector.py
+	NLOC: 50.0
+	CCN: 8.2
+	NLOC/CCN: 6.09756
+	CCN/NLOC: 0.164
+../algorithms/algorithms/matrix/crout_matrix_decomposition.py
+	NLOC: 46.0
+	CCN: 19.0
+	NLOC/CCN: 2.42105
+	CCN/NLOC: 0.41304
+../algorithms/algorithms/matrix/sudoku_validator.py
+	NLOC: 67.0
+	CCN: 18.3
+	NLOC/CCN: 3.6612
+	CCN/NLOC: 0.27313
+../algorithms/algorithms/matrix/copy_transform.py
+	NLOC: 56.0
+	CCN: 9.0
+	NLOC/CCN: 6.22222
+	CCN/NLOC: 0.16071
+delete_fixup@209-267@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC: 47.0
+	CCN: 18.0
+	NLOC/CCN: 2.61111
+	CCN/NLOC: 0.38298
+strip_url_params1@14-68@../algorithms/algorithms/strings/strip_url_params.py
+	NLOC: 50.0
+	CCN: 20.0
+	NLOC/CCN: 2.5
+	CCN/NLOC: 0.4
+multiply@76-108@../algorithms/algorithms/matrix/sparse_mul.py
+	NLOC: 28.0
+	CCN: 18.0
+	NLOC/CCN: 1.55556
+	CCN/NLOC: 0.64286
+3
+	NLOC: 13704.0
+	CCN: 9.1
+	NLOC/CCN: 1505.93407
+	CCN/NLOC: 0.00066
+
+--- AVERAGE, TOTAL ---
+NLOC: 36177.0,	 27.18032
+CCN:  7196.0,	 5.40646
+N/C:  5770.18036,	 4.33522
+C/N:  534.22336,	 0.40137
