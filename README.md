@@ -1,7 +1,18 @@
-# DD2480 Assignment 3
-DD2480 Foundations of Software Engineering Assignment 3
+# Report for assignment 3
 
-## Onboarding
+This is a template for your report. You are free to modify it as needed.
+It is not required to use markdown for your report either, but the report
+has to be delivered in a standard, cross-platform format.
+
+## Project
+
+Name: Algorithms
+
+URL: https://github.com/keon/algorithms
+
+It is a algorithms and data structure library for Python3.
+
+## Onboarding experience
 
 The project does fulfill the requirements,
 and although there are duplicate entries in the 
@@ -49,23 +60,8 @@ As this project seems feasible to grasp,
 and is reasonably well-documented, we will most
 likely continue with it.
 
-<<< REPORT TEMPLATE >>>
 
-# Report for assignment 3
-
-This is a template for your report. You are free to modify it as needed.
-It is not required to use markdown for your report either, but the report
-has to be delivered in a standard, cross-platform format.
-
-## Project
-
-Name:
-
-URL:
-
-One or two sentences describing it
-
-## Onboarding experience
+#### Questions
 
 Did it build and run as documented?
 
@@ -76,6 +72,21 @@ for each project, along with reason(s) why you changed to a different one.
 
 
 ## Complexity
+
+The chosen functions (so far) is:
+
+```
+ladder_length @ 24-64 @ ../algorithms/algorithms/bfs/word_ladder.py
+valid_solution_hashtable @ 17-44 @ ../algorithms/algorithms/matrix/sudoku_validator.py
+invert_matrix @ 26-63 @ ../algorithms/algorithms/matrix/matrix_inversion.py
+maximum_flow_dfs @ 27-87 @ ../algorithms/algorithms/graph/maximum_flow_dfs.py
+maximum_flow_bfs @ 28-87 @ ../algorithms/algorithms/graph/maximum_flow_bfs.py
+find_k_factor @ 33-85 @ ../algorithms/algorithms/dp/k_factor.py
+edmonds_karp @ 51-90 @ ../algorithms/algorithms/graph/maximum_flow.py
+fix_insert @ 88-141 @ ../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+sort_diagonally @ 25-77 @ ../algorithms/algorithms/matrix/sort_matrix_diagonally.py
+knuth_morris_pratt @ 3-44 @ ../algorithms/algorithms/strings/knuth_morris_pratt.py
+```
 
 1. What are your results for ten complex functions?
    * Did all methods (tools vs. manual count) get the same result?
