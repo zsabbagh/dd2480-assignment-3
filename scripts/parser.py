@@ -48,6 +48,8 @@ def main():
         # Structure of measurement
         # NLOC    CCN   token  PARAM  length  location  
         filename = l[5]
+        if '@' not in filename:
+            continue
         ignore_file = False
         if args.nonclass and os.path.exists(filename):
             temp = open(filename, 'r').read().rstrip().split('\n')

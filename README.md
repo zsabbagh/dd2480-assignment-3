@@ -4,6 +4,10 @@ This is a template for your report. You are free to modify it as needed.
 It is not required to use markdown for your report either, but the report
 has to be delivered in a standard, cross-platform format.
 
+## Contributions and Goals
+
+- Zakaria: **Goal is to achieve P+**. 
+
 ## Project
 
 Name: Algorithms
@@ -73,30 +77,88 @@ for each project, along with reason(s) why you changed to a different one.
 
 ## Complexity
 
-The chosen functions (so far) is:
+We interpreted second P requirement 
+"You also manually count the complexity of five functions (on paper or as comments)"
+as being scalable to the group count.
+Currently, the three (currently) active members then propose that
+we would need to count three functions, with six presented.
+The chosen functions (so far) is, with results:
 
 ```
-ladder_length @ 24-64 @ ../algorithms/algorithms/bfs/word_ladder.py
-valid_solution_hashtable @ 17-44 @ ../algorithms/algorithms/matrix/sudoku_validator.py
-invert_matrix @ 26-63 @ ../algorithms/algorithms/matrix/matrix_inversion.py
-maximum_flow_dfs @ 27-87 @ ../algorithms/algorithms/graph/maximum_flow_dfs.py
 maximum_flow_bfs @ 28-87 @ ../algorithms/algorithms/graph/maximum_flow_bfs.py
-find_k_factor @ 33-85 @ ../algorithms/algorithms/dp/k_factor.py
-edmonds_karp @ 51-90 @ ../algorithms/algorithms/graph/maximum_flow.py
-fix_insert @ 88-141 @ ../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
-sort_diagonally @ 25-77 @ ../algorithms/algorithms/matrix/sort_matrix_diagonally.py
-knuth_morris_pratt @ 3-44 @ ../algorithms/algorithms/strings/knuth_morris_pratt.py
+   NLOC     30
+   CCN      10
+
+delete_fixup@209-267@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
+	NLOC     47.0
+	CCN      18.0
+
+edmonds_karp @ algorithms/graph/maximum_flow.py
+   NLOC     33
+   CCN      12
+
+fix_insert @ algorithms/tree/red_black_tree/red_black_tree.py
+   NLOC     35
+   CCN      11
+
+sort_diagonally @ algorithms/matrix/sort_matrix_diagonally.py
+   NLOC     35
+   CCN      10
+   Zakaria  8
+   Glacier  8
+
+knuth_morris_pratt @ algorithms/strings/knuth_morris_pratt.py
+   NLOC     40
+   CCN      11
+   Zakaria  9
+   Einar    11
 ```
 
-1. What are your results for ten complex functions?
-   * Did all methods (tools vs. manual count) get the same result?
-   * Are the results clear?
-2. Are the functions just complex, or also long?
-3. What is the purpose of the functions?
-4. Are exceptions taken into account in the given measurements?
-5. Is the documentation clear w.r.t. all the possible outcomes?
+### What are your results for ten complex functions?
+ALl methods did not get the same result.
+Lizard got +2 extra on `sort_diagonally`, which we did not realise why.
+Furthermore, `knuth_morris_pratt` differed with +2 as well.
+After testing, it was clear that Lizard counts `[ 0 for _ in range(m) ]` as 
+a CCN increment. 
+However, it could be argued that this is incorrect, since the statement
+is equivelant to `[0] * m`.
+Moreover the results are clear.
+
+### Are the functions just complex, or also long?
+
+They are relatively long.
+However, lizard includes comments, which
+means that the effective NLOC would be significantly
+lower considering the amount of function documentation
+this project has.
+### What is the purpose of the functions?
+TODO
+
+### Are exceptions taken into account in the given measurements?
+There are no `raise Error` in the code measured.
+
+### Is the documentation clear w.r.t. all the possible outcomes?
+TODO
 
 ## Refactoring
+
+### `knuth_morris_pratt` optimisation
+
+There is a simple line that could lower the complexity.
+Changing `[0 for i in range(m)]` to `[0] * m` would lower the
+complexity according to `lizard` by 1.
+According to [GeeksForGeeks](https://www.geeksforgeeks.org/python-which-is-faster-to-initialize-lists/),
+their measure states that using the list comprehension technique
+would be roughly 17.7 times slower than using
+the star operator.
+Our own benchmarks (script file is `./scripts/bench.py`) propose similar results.
+With a list-size of 1 million, comprehension is roughly
+20-24 times slower.
+For this reason, it does not only give a lower cyclomatic complexity
+(which really might not make any difference) by altering the code
+as such, but more importantly it optimises the algorithm.
+
+###
 
 Plan for refactoring complex code:
 
