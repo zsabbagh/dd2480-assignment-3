@@ -131,19 +131,65 @@ However, lizard includes comments, which
 means that the effective NLOC would be significantly
 lower considering the amount of function documentation
 this project has.
+
 ### What is the purpose of the functions?
-TODO
+
+- `knuth_morris_pratt` is a string-searching function for counting
+word occurrences.
+- `sort_matrix_diagonally` sorts a matrix with regards to a diagonal
+position, i.e. with regards to the lowest value of either column
+or row position.
+- `fix_insert` is an insertion algorithm for the red-black tree 
+data structure.
+- `edmond_karp` is a function to find the maximal flow throw a directed
+graph.
+- `delete_fixup` deletes a node in the red-black tree data structure.
+- `maximum_flow_bfs` is an algorithm for calculating maximum flow
+of a graph using breadth-first search.
+
 
 ### Are exceptions taken into account in the given measurements?
 There are no `raise Error` in the code measured.
+However, by the tool used, lizard, it does not seem to measure
+raising errors as an increase of CCN.
+Practically, it seems logical to exclude exceptions from
+the CCN calculations, as it is only a new direct exit-point.
 
 ### Is the documentation clear w.r.t. all the possible outcomes?
-TODO
+Generally, no. Sort-diagonally is not very clearly described,
+neither does it include a function comment.
+But this seems like a common practice.
+At least, it is not particularly clear of the branching in 
+each function.
+However, the algorithms are widely known, meaning
+that they might not need descriptions to that extent.
+Further researching of algorithms could be done online.
 
 ## Refactoring
 
-### `knuth_morris_pratt` optimisation
+Below are several areas of improvement and refactoring
+discussed.
 
+### Refactoring of code
+
+There are indeed several repetitions of rudimentary algorithms,
+for example BFS is one that occurs multiple times in several
+different modules / paths.
+However, there are distinct purposes and minor modifications in the algorithm,
+and refactoring each and re-using such code would make each
+algorithm collection which re-uses such functions be co-dependent
+on the functionality of one-single function.
+Modification of the function and correctness would then
+depend on it, as a result, which in turn would make the project
+less easy to add upon.
+The beauty of the current structure, although repetition occurs,
+is that each collection functions similarly to an own library
+or "sub-library", making it easier to contribute to and build
+on the collection.
+
+### Optimisation of list-creation
+
+`knuth_morris_pratt` optimisation
 There is a simple line that could lower the complexity.
 Changing `[0 for i in range(m)]` to `[0] * m` would lower the
 complexity according to `lizard` by 1.
@@ -158,15 +204,14 @@ For this reason, it does not only give a lower cyclomatic complexity
 (which really might not make any difference) by altering the code
 as such, but more importantly it optimises the algorithm.
 
-###
-
-Plan for refactoring complex code:
-
-Estimated impact of refactoring (lower CC, but other drawbacks?).
-
-Carried out refactoring (optional, P+):
-
-git diff ...
+It is important to note that this is not a one-time occurrence
+in the project.
+There are 46 *potential* candidate lines to alter
+(detected with `grep -r -E "\[.*for.*range.*\]" | grep -v "\*"` command).
+Alas, the star-operator does however create copies of references
+when used nested.
+For this reason, it is only possible to use it on the inner most
+array, or else the arrays would be copies of each other.
 
 ## Coverage
 
@@ -178,6 +223,8 @@ How well was the tool documented? Was it possible/easy/difficult to
 integrate it with your build environment?
 
 ### Your own coverage tool
+
+TODO
 
 Show a patch (or link to a branch) that shows the instrumented code to
 gather coverage measurements.
@@ -214,6 +261,8 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 ## Self-assessment: Way of working
 
+TODO
+
 Current state according to the Essence standard: ...
 
 Was the self-assessment unanimous? Any doubts about certain items?
@@ -224,7 +273,15 @@ Where is potential for improvement?
 
 ## Overall experience
 
-What are your main take-aways from this project? What did you learn?
+The key take-aways from this project is the idea of branch and code coverage.
+It is immensely clever to be able to measure how *efficiently* the 
+crafted unit-tests actually covers and tests the written code.
+It also provides certainty that the crafted tests are thought out
+and has a purpose.
+Quality is to be preferred when considering tests, not necessarily
+quantity, since tests which monitors the same code and are
+algorithmically identical does not ensure code quality.
 
-Is there something special you want to mention here?
+## P+ Contribution
 
+TODO
