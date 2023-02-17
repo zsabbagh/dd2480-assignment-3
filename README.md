@@ -7,6 +7,7 @@ has to be delivered in a standard, cross-platform format.
 ## Contributions and Goals
 
 - Zakaria: **Goal is to achieve P+**. 
+- Glacier: **Goal is to achieve atleast a P**
 
 ## Project
 
