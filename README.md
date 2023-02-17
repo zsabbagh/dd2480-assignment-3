@@ -59,6 +59,9 @@ one referred to under `Dependencies`.
 The library's tests runs well on the 
 current system (macOS Monterey 12.2.1).
 
+There are however several functions and files which are not tested at all. This was discovered when checking the branch coverage by using our own branch coverage tool.
+For example, `red_black_tree.py` which we chose two functions from ( `delete_fixup` and `fix_insert`) with relativly high cyclomatic complexity, had no unittests. 
+
 ### Continuation
 
 As this project seems feasible to grasp,
