@@ -193,6 +193,19 @@ is that each collection functions similarly to an own library
 or "sub-library", making it easier to contribute to and build
 on the collection.
 
+
+**sort_matrix_diagonally.py**: One example to simplify it's complexity, is to extract the this part:
+``` 
+            while h:
+                ele = heappop(h)
+                mat[row][col] = ele
+                row += 1
+                col += 1
+```
+This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns. 
+A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. 
+
+
 ### Optimisation of list-creation
 
 `knuth_morris_pratt` optimisation
