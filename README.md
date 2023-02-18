@@ -255,6 +255,13 @@ its output?
 
 Show the comments that describe the requirements for the coverage.
 
+We actually worked with all 6 functions when checking the coverage, as several of these already had 100% branch coverage.
+This, inorder for us to screen for appropriate functions to implement unittests for. 
+What we ultimately found was the functions in the RBT class, together with 
+`def sort_matrix_diagonally` did not have 100% coverage.
+In the case of RBT, the coverage was trivially improved by adding unittests, since these did not exist.
+
+
 Report of old coverage: [link]
 
 Report of new coverage: [link]
@@ -264,6 +271,11 @@ Test cases added:
 git diff ...
 
 Number of test cases added: two per team member (P) or at least four (P+).
+
+
+**Glacier:**
+- `sort_matrix_diagonally.py: test_sort_diagonally_with_vector`, a trivial test which checks the first identified branch. Specifically, if a matrix with 1 row or 1 column (vector) is provided as input, the entire vector should be returned.
+- TODO
 
 ## Self-assessment: Way of working
 
