@@ -1,8 +1,7 @@
 # Report for assignment 3
 
-This is a template for your report. You are free to modify it as needed.
-It is not required to use markdown for your report either, but the report
-has to be delivered in a standard, cross-platform format.
+This is the report repository for Assignment 3.
+For the forked repository of the project, see [zsabbagh/algorithms](https://github.com/zsabbagh/algorithms).
 
 ## Contributions and Goals
 
@@ -13,9 +12,9 @@ has to be delivered in a standard, cross-platform format.
 
 Name: Algorithms
 
-URL: https://github.com/keon/algorithms
+URL: [keon/algorithms](https://github.com/keon/algorithms)
 
-It is a algorithms and data structure library for Python3.
+It is a collection of algorithms and data structure for Python3.
 
 ## Onboarding experience
 
