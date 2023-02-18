@@ -5,8 +5,9 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
 
 ## Contributions and Goals
 
-- Zakaria: **Goal is to achieve P+**. 
+- Zakaria: **Goal is to achieve P+**.
 - Glacier: **Goal is to achieve atleast a P**
+- Einar: **Goal is to achieve P or P+**.
 
 ## Project
 
@@ -19,19 +20,19 @@ It is a collection of algorithms and data structure for Python3.
 ## Onboarding experience
 
 The project does fulfill the requirements,
-and although there are duplicate entries in the 
+and although there are duplicate entries in the
 Google Sheets, an email confirmation by Cyrille
-verified that we could continue with this 
+verified that we could continue with this
 project although other groups might start working on it.
 
 ### Dependencies
 
 The first thing that was noticed was that cloning
 `keon/algorithms` did not directly state what dependencies
-was required to run the tests. 
-Although minor, `pytest` was required to be installed before 
+was required to run the tests.
+Although minor, `pytest` was required to be installed before
 the tests could be run properly.
-Thus, the command `pip3 install pytest` is required for 
+Thus, the command `pip3 install pytest` is required for
 running the unit-tests described in the documentation.
 
 ### Building
@@ -50,16 +51,16 @@ through a more sophisticated website, pdf or markdown document.
 
 ### Errors
 
-There has been no error recorded yet, except the 
+There has been no error recorded yet, except the
 one referred to under `Dependencies`.
 
 ### Tests
 
-The library's tests runs well on the 
+The library's tests runs well on the
 current system (macOS Monterey 12.2.1).
 
 There are however several functions and files which are not tested at all. This was discovered when checking the branch coverage by using our own branch coverage tool.
-For example, `red_black_tree.py` which we chose two functions from ( `delete_fixup` and `fix_insert`) with relativly high cyclomatic complexity, had no unittests. 
+For example, `red_black_tree.py` which we chose two functions from ( `delete_fixup` and `fix_insert`) with relativly high cyclomatic complexity, had no unittests.
 
 ### Continuation
 
@@ -80,7 +81,7 @@ for each project, along with reason(s) why you changed to a different one.
 
 ## Complexity
 
-We interpreted second P requirement 
+We interpreted second P requirement
 "You also manually count the complexity of five functions (on paper or as comments)"
 as being scalable to the group count.
 Currently, the three (currently) active members then propose that
@@ -91,6 +92,8 @@ The chosen functions (so far) is, with results:
 maximum_flow_bfs @ 28-87 @ ../algorithms/algorithms/graph/maximum_flow_bfs.py
    NLOC     30
    CCN      10
+   Einar    7
+   Glacier  7
 
 delete_fixup@209-267@../algorithms/algorithms/tree/red_black_tree/red_black_tree.py
 	NLOC     47.0
@@ -121,8 +124,8 @@ knuth_morris_pratt @ algorithms/strings/knuth_morris_pratt.py
 ALl methods did not get the same result.
 Lizard got +2 extra on `sort_diagonally`, which we did not realise why.
 Furthermore, `knuth_morris_pratt` differed with +2 as well.
-After testing, it was clear that Lizard counts `[ 0 for _ in range(m) ]` as 
-a CCN increment. 
+After testing, it was clear that Lizard counts `[ 0 for _ in range(m) ]` as
+a CCN increment.
 However, it could be argued that this is incorrect, since the statement
 is equivelant to `[0] * m`.
 Moreover the results are clear.
@@ -142,7 +145,7 @@ word occurrences.
 - `sort_matrix_diagonally` sorts a matrix with regards to a diagonal
 position, i.e. with regards to the lowest value of either column
 or row position.
-- `fix_insert` is an insertion algorithm for the red-black tree 
+- `fix_insert` is an insertion algorithm for the red-black tree
 data structure.
 - `edmond_karp` is a function to find the maximal flow throw a directed
 graph.
@@ -162,7 +165,7 @@ the CCN calculations, as it is only a new direct exit-point.
 Generally, no. Sort-diagonally is not very clearly described,
 neither does it include a function comment.
 But this seems like a common practice.
-At least, it is not particularly clear of the branching in 
+At least, it is not particularly clear of the branching in
 each function.
 However, the algorithms are widely known, meaning
 that they might not need descriptions to that extent.
@@ -277,7 +280,7 @@ Where is potential for improvement?
 ## Overall experience
 
 The key take-aways from this project is the idea of branch and code coverage.
-It is immensely clever to be able to measure how *efficiently* the 
+It is immensely clever to be able to measure how *efficiently* the
 crafted unit-tests actually covers and tests the written code.
 It also provides certainty that the crafted tests are thought out
 and has a purpose.
