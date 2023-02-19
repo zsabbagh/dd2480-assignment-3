@@ -145,11 +145,12 @@ word occurrences.
 - `sort_matrix_diagonally` sorts a matrix with regards to a diagonal
 position, i.e. with regards to the lowest value of either column
 or row position.
-- `fix_insert` is an insertion algorithm for the red-black tree
+- `fix_insert` is a helper function for the insertion algorithm of the red-black tree
 data structure.
 - `edmond_karp` is a function to find the maximal flow throw a directed
 graph.
-- `delete_fixup` deletes a node in the red-black tree data structure.
+- `delete_fixup` is a helper function for the deletion algorithm
+in the red-black tree data structure.
 - `maximum_flow_bfs` is an algorithm for calculating maximum flow
 of a graph using breadth-first search.
 
@@ -204,6 +205,23 @@ while h:
 ```
 This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns. 
 A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. 
+
+**red_black_tree.py**: There is an issue concerning this data structure. The data structure does not currently
+"wrap" values, but rather needs an `RBNode` to insert.
+This is problematic and should really be resolved, as the functionality of the data structure now relies
+on intricacies which the class should abstract. For example:
+```
+def insert(self, node):
+```
+Clearly takes in a node. This should really take in a `value` of which one wants to store.
+Further, there are already refactoring taking place, where `delete_fixup` is such a 
+refactoring of the `delete` algorithm and `fix_insert` fixes the `insert`.
+This is to preserve colouring and the structure of the tree.
+However, as they are meant to be *private* functions, they should really be named
+`_delete_fixup`, i.e. the convention of naming for supposed-to-be private functions.
+This would clarify the purpose of them refactoring the code for each of the functions.
+Similarly, `left_rotate` and `right_rotate` does refactor the fixing functions,
+which proposes that they also should be private.
 
 
 ### Optimisation of list-creation
