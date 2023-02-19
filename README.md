@@ -6,6 +6,10 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
 ## Contributions and Goals
 
 - Zakaria: **Goal is to achieve P+**.
+    - Added 6+ tests to `red_black_tree` to improve coverage from 0 to 60+ %.
+    - Refactor and redesign `red_black_tree` class to abstract away the structure.
+    - Write parser under `scripts/` for sorting `lizard` output.
+    - Write scripts to visualise untested data, seen under the forked project `zsabbagh/algorithms/scripts/untested.py` under branch `1-coverage`.
 - Glacier: **Goal is to achieve atleast a P**
 - Einar: **Goal is to achieve P or P+**.
 
@@ -222,6 +226,9 @@ However, as they are meant to be *private* functions, they should really be name
 This would clarify the purpose of them refactoring the code for each of the functions.
 Similarly, `left_rotate` and `right_rotate` does refactor the fixing functions,
 which proposes that they also should be private.
+`RBTree` did not automatically wrap values, but rather took in nodes.
+This does not abstract away nodes as data structures.
+A plan is to refactor/redesign `red_black_tree` to function as such.
 
 
 ### Optimisation of list-creation
