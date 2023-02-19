@@ -333,6 +333,9 @@ The old coverage using coverage.py, was reported for 94%. The new coverage was r
 - `bellman_ford.py: test_bellman_ford_no_shortest_path` The bellman_ford function was not originally in our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the coverage.py report: 94%. There was no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
 **Note: the function also has a high cyclomatic complexity of 8**
 
+**Zakaria**
+- `red_black_tree`, including `fix_insert` and `delete_fixup`, was previously 0% tested, with other words it did not even show up when the tests were run. Now the tests cover more than 70% of the entire code, i.e. all of the class methods.
+
 ## Self-assessment: Way of working
 
 TODO
