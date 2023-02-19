@@ -196,15 +196,35 @@ on the collection.
 
 **sort_matrix_diagonally.py**: One example to simplify it's complexity, is to extract the this part:
 ``` 
-            while h:
-                ele = heappop(h)
-                mat[row][col] = ele
-                row += 1
-                col += 1
+while h:
+   ele = heappop(h)
+   mat[row][col] = ele
+   row += 1
+   col += 1
 ```
 This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns. 
 A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. 
 
+Another possible change would be the diagonal traversal. Specifically these two parts:
+
+```
+# Traverse diagonally, and add the values to the heap
+while row < len(mat):
+      heappush(h, (mat[row][col]))
+      row += 1
+      col += 1
+
+``` 
+```
+# Traverse Diagonally
+while col < len(mat[0]) and row < len(mat):
+   heappush(h, (mat[row][col]))
+   row += 1
+   col += 1
+```
+
+It would be neat if there was a "traverse_diagonally" function. However
+this would need a given left and right hand value of the `<` inequality and a boolean condition, which would always correspond to true in the case of traversing through the rows diagonally. One could argue this doesn't help in regards of readbility though. But it would break up the algorithm into a more modular set up.
 
 ### Optimisation of list-creation
 
@@ -262,6 +282,12 @@ its output?
 
 2. What are the limitations of your own tool?
 
+- One limitation of the tool is simple if statements in the code with no explicit else statements. Our tool would not recognize the alternative branch (corresponding to an else) if it does not explicitly say so.
+
+- Another limitation is that the tool wont work on ternary operators.
+
+- A third limiation which was discovered during the improvement of coverage, is early return statements. The tool write the final report of covered branches in the end of the function before return. In `sort_matrix_diagonally.py` one branch (an if-statement) was only included in the coverage report as missing. This was due to the fact that the function returned immidiately if it stepped into the statement. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
+
 3. Are the results of your tool consistent with existing coverage tools?
 
 ## Coverage improvement
@@ -271,7 +297,7 @@ Show the comments that describe the requirements for the coverage.
 We actually worked with all 6 functions when checking the coverage, as several of these already had 100% branch coverage.
 This, inorder for us to screen for appropriate functions to implement unittests for. 
 What we ultimately found was the functions in the RBT class, together with 
-`def sort_matrix_diagonally` did not have 100% coverage.
+`def sort_diagonally` did not have 100% coverage.
 In the case of RBT, the coverage was trivially improved by adding unittests, since these did not exist.
 
 
