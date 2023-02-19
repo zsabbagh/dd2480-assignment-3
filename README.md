@@ -315,6 +315,7 @@ Number of test cases added: two per team member (P) or at least four (P+).
 The old coverage using coverage.py, was reported for 94%. The new coverage was reported as 100%.
 
 - `bellman_ford.py: test_bellman_ford_no_shortest_path` The bellman_ford function was not originally in our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the coverage.py report: 94%. There was no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
+**Note: the function also has a high cyclomatic complexity of 8**
 
 ## Self-assessment: Way of working
 
