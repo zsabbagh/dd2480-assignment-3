@@ -312,7 +312,9 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 **Glacier:**
 - `sort_matrix_diagonally.py: test_sort_diagonally_with_vector`, a trivial test which checks the first identified branch. Specifically, if a matrix with 1 row or 1 column (vector) is provided as input, the entire vector should be returned.
-- TODO
+The old coverage using coverage.py, was reported for 94%. The new coverage was reported as 100%.
+
+- `bellman_ford.py: test_bellman_ford_no_shortest_path` The bellman_ford function was not originally in our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the coverage.py report: 94%. There was no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
 
 ## Self-assessment: Way of working
 
