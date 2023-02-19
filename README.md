@@ -124,6 +124,15 @@ knuth_morris_pratt @ algorithms/strings/knuth_morris_pratt.py
    Einar    11
 ```
 
+The calculations could be seen below:
+- `knuth_morris_pratt`, [Zakaria's calculation](https://lucid.app/lucidchart/d0f90c25-8db7-45a8-bd66-623e3d775f7a/edit?invitationId=inv_9628e855-787b-463b-851b-ddb0e51a94a0&page=0_0#)
+- `knuth_morris_pratt`, [Einar's calculation](https://lucid.app/lucidchart/14755430-cef5-4828-a84e-c21b87b93109/edit?viewport_loc=167%2C213%2C1675%2C969%2C0_0&invitationId=inv_2bb531b9-3be1-4811-a8e3-afd93101dcf3)
+  - NOTE: These two differs, and the reason for this is the `end_while` and `end_for` statements. This has been discussed with TA's, hence a third calculation is left out.
+- `sort_diagonally`, [Zakaria's calculation](https://lucid.app/lucidchart/d0f90c25-8db7-45a8-bd66-623e3d775f7a/edit?invitationId=inv_9628e855-787b-463b-851b-ddb0e51a94a0&page=0_0#)
+- `sort_diagonally`, [Glacier's calculation](https://docs.google.com/drawings/d/1en_R6TV2XD9jaH4AVHL-HzCMciKB8RFHzMa2YeVrVvM/edit?usp=sharing)
+- `maximum_flow_bfs`, [Einar's calculation](https://lucid.app/lucidchart/b9a655e3-3892-4ab9-a88b-6881475cb1da/edit?viewport_loc=64%2C-45%2C1675%2C969%2C0_0&invitationId=inv_384df42b-2a9a-48f8-be8e-171e4a5f38b3)
+- `maximum_flow_bfs`, [Glacier's calculation](https://lucid.app/lucidchart/d289c24f-e856-43bc-9626-f3a07b6edee1/edit?viewport_loc=-387%2C-1142%2C2313%2C1032%2C0_0&invitationId=inv_369dfd6a-a90d-40a1-a6d5-2cc7775bdc5b)
+
 ### What are your results for ten complex functions?
 ALl methods did not get the same result.
 Lizard got +2 extra on `sort_diagonally`, which we did not realise why.
