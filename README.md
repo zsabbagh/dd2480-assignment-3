@@ -205,26 +205,6 @@ while h:
 This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns. 
 A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. 
 
-Another possible change would be the diagonal traversal. Specifically these two parts:
-
-```
-# Traverse diagonally, and add the values to the heap
-while row < len(mat):
-      heappush(h, (mat[row][col]))
-      row += 1
-      col += 1
-
-``` 
-```
-# Traverse Diagonally
-while col < len(mat[0]) and row < len(mat):
-   heappush(h, (mat[row][col]))
-   row += 1
-   col += 1
-```
-
-It would be neat if there was a "traverse_diagonally" function. However
-this would need a given left and right hand value of the `<` inequality and a boolean condition, which would always correspond to true in the case of traversing through the rows diagonally. One could argue this doesn't help in regards of readbility though. But it would break up the algorithm into a more modular set up.
 
 ### Optimisation of list-creation
 
