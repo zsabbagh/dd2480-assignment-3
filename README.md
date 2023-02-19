@@ -209,15 +209,15 @@ on the collection.
 
 
 **sort_matrix_diagonally.py**: One example to simplify it's complexity, is to extract the this part:
-``` 
+```
 while h:
    ele = heappop(h)
    mat[row][col] = ele
    row += 1
    col += 1
 ```
-This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns. 
-A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. 
+This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns.
+A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments.
 
 **red_black_tree.py**: There is an issue concerning this data structure. The data structure does not currently
 "wrap" values, but rather needs an `RBNode` to insert.
@@ -227,7 +227,7 @@ on intricacies which the class should abstract. For example:
 def insert(self, node):
 ```
 Clearly takes in a node. This should really take in a `value` of which one wants to store.
-Further, there are already refactoring taking place, where `delete_fixup` is such a 
+Further, there are already refactoring taking place, where `delete_fixup` is such a
 refactoring of the `delete` algorithm and `fix_insert` fixes the `insert`.
 This is to preserve colouring and the structure of the tree.
 However, as they are meant to be *private* functions, they should really be named
@@ -309,8 +309,8 @@ its output?
 Show the comments that describe the requirements for the coverage.
 
 We actually worked with all 6 functions when checking the coverage, as several of these already had 100% branch coverage.
-This, inorder for us to screen for appropriate functions to implement unittests for. 
-What we ultimately found was the functions in the RBT class, together with 
+This, inorder for us to screen for appropriate functions to implement unittests for.
+What we ultimately found was the functions in the RBT class, together with
 `def sort_diagonally` did not have 100% coverage.
 In the case of RBT, the coverage was trivially improved by adding unittests, since these did not exist.
 
@@ -335,6 +335,9 @@ The old coverage using coverage.py, was reported for 94%. The new coverage was r
 
 **Zakaria**
 - `red_black_tree`, including `fix_insert` and `delete_fixup`, was previously 0% tested, with other words it did not even show up when the tests were run. Now the tests cover more than 70% of the entire code, i.e. all of the class methods.
+
+**Einar**
+- `knuth_morris_pratt` had 90% branch coverage, with one branch missing being tested. That branch was a while-loop within the making of the pi table. To enter the while-loop a specific condition must be met for the input pattern, there have to appear two identical letters in a row, followed by a letter that does not match. After creating the test case with the input parameter text being `aaaaaaa` and pattern being `aabb` the test coverage increased to 100%
 
 ## Self-assessment: Way of working
 
