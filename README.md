@@ -17,6 +17,12 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
    - Added 2 unittests in total to `sort_diagonally` and `bellman_ford`.
    - General contribution to report/README
 - Einar: **Goal is to achieve P or P+**.
+   - Calculated cyclomatic complexity on `knuth_morris_pratt` and `maximum_flow_bfs` by creating flow charts.
+   - Implemented a branch coverage tool for `knuth_morris_pratt` and `edmonds_karp`.
+   - Implemented a script, `scripts/branch_coverage_data_parser.py`, to read from our generated data file.
+   - Added 5 unit tests for `knuth_morris_pratt`, 1 to reach 100% branch coverage and 4 for path coverage.
+   - Refactoring plan for `maximum_flow_bfs`.
+
 
 ## Project
 
@@ -440,7 +446,7 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 
 Current state according to the Essence standard:
-We are in the "In Use" state. We are currently using our tools such as Github, Discord, Google Suit, lucid.app, to do our work and it has worked out fine so far. We have not inspected the tools in depth, and sometimes we've been using different tools for the same type of task which we've done in parallell. We do not have a specific procedures in place to handle feedback, so far we've simply discussed spontainously in discord if anyone has had any specific opinions on our way of working. 
+We are in the "In Use" state. We are currently using our tools such as Github, Discord, Google Suit, lucid.app, to do our work and it has worked out fine so far. We have not inspected the tools in depth, and sometimes we've been using different tools for the same type of task which we've done in parallell. We do not have a specific procedures in place to handle feedback, so far we've simply discussed spontainously in discord if anyone has had any specific opinions on our way of working.
 
 Was the self-assessment unanimous? Any doubts about certain items?
 
