@@ -236,7 +236,7 @@ while h:
    col += 1
 ```
 This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns.
-A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments.
+A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. The matrix could be returned, or sorted in place.
 
 **red_black_tree.py**: There is an issue concerning this data structure. The data structure does not currently
 "wrap" values, but rather needs an `RBNode` to insert.
@@ -296,22 +296,50 @@ integrate it with your build environment?
 
 ### Your own coverage tool
 
-TODO
+Our coverage can be found [here](https://github.com/zsabbagh/algorithms/tree/1-coverage). We identified each branch, in each function, which are tagged with and incrementing ID starting at 1. 
+In `tests/__init__.py` wer start writing to a data file.
+We then run the unittests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage.  
 
-Show a patch (or link to a branch) that shows the instrumented code to
-gather coverage measurements.
+To run the coverage tool manually on a function follow the steps.
 
-The patch is probably too long to be copied here, so please add
-the git command that is used to obtain the patch instead:
+1. create a data/branch-coverage file to store output (if it does not already exist)
+2. Run unittests which calls the specific function. For example, to run the branch coverage tool on `algorithms/matrix/sort_matrix_diagonally.py`: 
 
-git diff ...
+```
+python3 -m unittest tests/test_matrix.py
+cat data/branch-coverage
+```
 
-What kinds of constructs does your tool support, and how accurate is
-its output?
+3. The tool will output information in the following format.
+```
+--- branch-coverage ---
+function name,total branches,ratio,branches not covered
+sort_matrix_diagonally,9,0.8888888888888888,1
+```
+This would correspond to a branch coverage of 88%, with the identified branch not covered being ID:1.
+
+Running all tests will write out several lines for example:
+
+```
+--- branch-coverage ---
+function name,total branches,ratio,branches not covered
+edmonds_karp,13,1.0,0
+maximum_flow_bfs,11,1.0,
+sort_matrix_diagonally,9,0.8888888888888888,1
+knuth_morris_pratt,11,0.6363636363636364,3;5;7;9
+knuth_morris_pratt,11,0.7272727272727273,3;4;7
+knuth_morris_pratt,11,0.8181818181818182,3;10
+knuth_morris_pratt,11,0.8181818181818182,3;5
+
+```
+
+4. **TODO: ADD HOW THE PARSER PARSES AND OUTPUTS THIS INFO** 
+
 
 ### Evaluation
 
 1. How detailed is your coverage measurement?
+**TODO: what should we add here?** 
 
 2. What are the limitations of your own tool?
 
@@ -319,9 +347,17 @@ its output?
 
 - Another limitation is that the tool wont work on ternary operators.
 
-- A third limitation which was discovered during the improvement of coverage, is early return statements. The tool writes and compiles the final report of covered branches in the end of the function right before a return. In `sort_matrix_diagonally.py` one branch (an if-statement) was included in the coverage report as missing. After adding a unittest, this was still the case (using our own tool). This was due to the fact that the function returned immidiately if it stepped into the statement, thus never reporting/writing the coverage. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
+- A third limitation which was discovered during the improvement of coverage, is early return statements. The tool writes the final report of covered branches in the end of the function right before a return. In `sort_matrix_diagonally.py` one branch (an if-statement) was included in the coverage report as missing. After adding a unittest, this was still the case (using our own tool). This was due to the fact that the function returned immidiately if it stepped into the statement, thus never reporting/writing the coverage. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
 
 3. Are the results of your tool consistent with existing coverage tools?
+
+No, not neccesarily. Forexample, `sort_matrix_diagonally.py` has a coverage of 94% when checking the coverage report using coverage.py. 
+
+```
+Name                                         Stmts Miss Branch BrPart  Cover Missing
+algorithms/matrix/sort_matrix_diagonally.py   61    3     20      2    94%   33-34, 112
+```
+Our own tool, reported 88% from the ratio of 1/9, with only 9 branches identified. This points to the fact that `coverage.py` might be more finegrained.
 
 ## Coverage improvement
 
@@ -332,6 +368,8 @@ This, inorder for us to screen for appropriate functions to implement unittests 
 What we ultimately found was the functions in the RBT class, together with
 `def sort_diagonally` did not have 100% coverage.
 In the case of RBT, the coverage was trivially improved by adding unittests, since these did not exist.
+
+**TODO: should we use our own parser to fill in the following points?**
 
 
 Report of old coverage: [link]
