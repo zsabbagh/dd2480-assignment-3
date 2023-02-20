@@ -6,10 +6,24 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
 ## Contributions and Goals
 
 - Zakaria: **Goal is to achieve P+**.
-    - Added 6+ tests to `red_black_tree` to improve coverage from 0 to 60+ %.
-    - Refactor and redesign `red_black_tree` class to abstract away the structure.
-    - Write parser under `scripts/` for sorting `lizard` output.
-    - Write scripts to visualise untested data, seen under the forked project `zsabbagh/algorithms/scripts/untested.py` under branch `1-coverage`.
+    - Added 6+ tests to `red_black_tree` to improve coverage from 0 to 70+ %.
+    This includes `delete_fixup` and `fix_insert`, which had 0% coverage previously.
+    - Refactor and redesign [`red_black_tree`](https://github.com/zsabbagh/algorithms/blob/3-new-tests/algorithms/tree/red_black_tree/red_black_tree.py) class to abstract away the structure. 
+        - What this means exactly, is that the class previously took in `RBNode`s as input during insertion
+        and deletion, which does *not* abstract away the data structures functionality.
+        The change now makes the function actually treat values rather than nodes, and the added
+        tests verifies this functionality.
+        - This includes refactoring of the `RBNode` class to exist within the `RBTree` class.
+        Also, core functionality has been added and correctness has been improved and verified.
+        - Fixed implementation bugs such as deleting leaf-nodes raised errors.
+        - Added tests that verify new functionality.
+    - Been actively contributing to the project(s) since the first day.
+    - Wrote parser under [`scripts/parser.py`](scripts/parser.py) for sorting `lizard` output. This sorts and filters
+    CCN and NLOC on spans. Further, one could sort on proportion of CCN/NLOC or NLOC/CCN.
+    - Wrote scripts to visualise untested data [`scripts/untested.py`](https://github.com/zsabbagh/algorithms/blob/1-coverage/scripts/untested.py).
+        - The file lies in the forked project's branch `1-coverage` under the directoriy `scripts/`.
+        This is done by searching through the file system and check visited `.py` files by the `Coverage.py` report.
+        - The script is run with `py untested.py <path-to-report-file> -u[|--untested] [-t|--tested]`.
 - Glacier: **Goal is to achieve a P**
    -  Performed manual calculation of cyclomatic complexity on `maximum_flow_bfs` and `sort_diagonally`.
    - Implemented our own coverage tool on `sort_diagonally` and `fix_insert`.
