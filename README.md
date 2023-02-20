@@ -139,13 +139,27 @@ The calculations could be seen below:
 - `maximum_flow_bfs`, [Glacier's calculation](https://lucid.app/lucidchart/d289c24f-e856-43bc-9626-f3a07b6edee1/edit?viewport_loc=-387%2C-1142%2C2313%2C1032%2C0_0&invitationId=inv_369dfd6a-a90d-40a1-a6d5-2cc7775bdc5b)
 
 ### What are your results for ten complex functions?
-ALl methods did not get the same result.
-Lizard got +2 extra on `sort_diagonally`, which we did not realise why.
+All methods did not get the same result.
+Lizard got +2 extra on `sort_diagonally`, which we did not understand why.
 Furthermore, `knuth_morris_pratt` differed with +2 as well.
 After testing, it was clear that Lizard counts `[ 0 for _ in range(m) ]` as
 a CCN increment.
 However, it could be argued that this is incorrect, since the statement
 is equivelant to `[0] * m`.
+
+It could also be argued that Lizard sees this as a basic for loop: 
+```
+for i in range m:
+   a[i] = 0
+```
+Thus, this would be a predicate/branching, since we either enter the loop, or exit to next section of the code, adding cyclomatic complexity.
+
+The mainly chosen method to calculate the complexity by hand, was to plot a flow graph of the funciton, and count the number of closed regions.
+We also had some differing results amongst ourselves and our own calculations.
+This was partly due to how the flow graphs were plotted. For example some differing intepertations where wheter an `end-while` or `end-for` statement should have been included in the graph as a node. While others chose to plot the flow graphs as condensations graphs. There where also other methods other than that we used, which would give slightly different results. In general though, the complxity did not vary greatly in our calculations and Lizards.
+
+[Source for our used methods.](https://www.bbau.ac.in/dept/CS/TM/Cyclomatic.pdf])
+
 Moreover the results are clear.
 
 ### Are the functions just complex, or also long?
