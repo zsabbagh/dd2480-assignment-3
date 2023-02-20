@@ -177,7 +177,7 @@ lower considering the amount of function documentation
 this project has.
 
 ### What is the purpose of the functions?
-
+Many of these functions follow an algorithm described by a specification which require multiple branches to fulfill and solve complex problems.
 - `knuth_morris_pratt` is a string-searching function for counting
 word occurrences.
 - `sort_matrix_diagonally` sorts a matrix with regards to a diagonal
@@ -233,7 +233,7 @@ or "sub-library", making it easier to contribute to and build
 on the collection.
 
 
-**sort_matrix_diagonally.py**: One example to simplify it's complexity, is to extract the this part:
+**sort_matrix_diagonally.py**: One example to simplify its complexity, is to extract the this part:
 ```
 while h:
    ele = heappop(h)
@@ -244,7 +244,20 @@ while h:
 This snippet of code sorts the diagonal, and is executed in two seperate conditions. Either when the algorithm is processing the rows, or when it is processing the columns.
 A concrete improvement could be to extract the logic to a function which is called, and which takes the necessary information like the row, column, heap and matrix as arguments. The matrix could be returned, or sorted in place.
 
-**red_black_tree.py**: There is an issue concerning this data structure. The data structure does not currently
+**red_black_tree.py**: A lot of refactoring is already done in this class.
+`fix_insert` and `delete_fixup` refactors the
+insert and deletion methods. Furthermore,
+`left_rotate` and `right_rotate` refactors
+both `fix_insert` and `delete_fixup`.
+`transplant` is also a refactorisation of `delete`.
+For this reason, refactoring has already been heavily
+applied in the class, to the extent which is reasonable,
+and further refactoring might not be good practice.
+
+Further refactoring would rather make debugging more difficult, as the refactored code would not have a clear and well-defined purpose.
+This is why `left_rotate`, for example, is a reasonable code sequence to refactor - it has a clear purpose and solves something that is repeated multiple times throughout the class' methods.
+
+There is an issue concerning this data structure. The data structure does not currently
 "wrap" values, but rather needs an `RBNode` to insert.
 This is problematic and should really be resolved, as the functionality of the data structure now relies
 on intricacies which the class should abstract. For example:
@@ -334,7 +347,7 @@ integrate it with your build environment?
 ### Your own coverage tool
 
 Our coverage can be found [here](https://github.com/zsabbagh/algorithms/tree/1-coverage). We identified each branch, in each function, which are tagged with and incrementing ID starting at 1.
-In `tests/__init__.py` wer start writing to a data file.
+In `tests/__init__.py` we start writing to a data file.
 We then run the unittests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage.
 
 To run the coverage tool manually on a function follow the steps.
@@ -353,7 +366,7 @@ cat data/branch-coverage
 function name,total branches,ratio,branches not covered
 sort_matrix_diagonally,9,0.8888888888888888,1
 ```
-This would correspond to a branch coverage of 88%, with the identified branch not covered being ID:1.
+This would correspond to one test function having branch coverage of 88%, with the identified branch not covered being ID:1.
 
 Running all tests will write out several lines for example:
 
@@ -409,9 +422,9 @@ In the case of RBT, the coverage was trivially improved by adding unittests, sin
 **TODO: should we use our own parser to fill in the following points?**
 
 
-Report of old coverage: [link]
+Report of old coverage: [old_coverage.txt](https://github.com/zsabbagh/algorithms/blob/1-coverage/old_coverage.txt)
 
-Report of new coverage: [link]
+Report of new coverage: [new_coverage.txt](https://github.com/zsabbagh/algorithms/blob/3-new-tests/new_coverage.txt)
 
 Test cases added:
 
