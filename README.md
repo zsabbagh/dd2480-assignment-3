@@ -160,7 +160,7 @@ position, i.e. with regards to the lowest value of either column
 or row position.
 - `fix_insert` is a helper function for the insertion algorithm of the red-black tree
 data structure.
-- `edmond_karp` is a function to find the maximal flow throw a directed
+- `edmonds_karp` is a function to find the maximal flow throw a directed
 graph.
 - `delete_fixup` is a helper function for the deletion algorithm
 in the red-black tree data structure.
@@ -337,7 +337,17 @@ The old coverage using coverage.py, was reported for 94%. The new coverage was r
 - `red_black_tree`, including `fix_insert` and `delete_fixup`, was previously 0% tested, with other words it did not even show up when the tests were run. Now the tests cover more than 70% of the entire code, i.e. all of the class methods.
 
 **Einar**
-- `knuth_morris_pratt` had 90% branch coverage, with one branch missing being tested. That branch was a while-loop within the making of the pi table. To enter the while-loop a specific condition must be met for the input pattern, there have to appear two identical letters in a row, followed by a letter that does not match. After creating the test case with the input parameter text being `aaaaaaa` and pattern being `aabb` the test coverage increased to 100%
+- `knuth_morris_pratt` had 90% branch coverage, with one branch missing being tested. That branch was a while-loop within the making of the pi table. To enter the while-loop a specific condition must be met for the input pattern, there have to appear two identical letters in a row, followed by a letter that does not match. After creating the test case with the input parameter text being `aaaaaaa` and the pattern being `aabb` the test coverage increased to 100%.
+
+- Since adding only one test meant it had full branch coverage, I began thinking about the path coverage.
+
+  - I noticed there was not a single test where no letter from the pattern matched the text, so a test case for that was added. I also noticed there was not a test case where the text and pattern differ in data types. So I added a test case where the text is a list of integers and the pattern is a string. Those two are the first test cases where the first if-statement within the finding a pattern section is not entered.
+
+  - I also noticed that there were no test cases where either the text or pattern (or both) were an empty string. This greatly alters the path taken since it affects if the for-loops are entered when making the pi table and finding a pattern.
+    - Adding a test case where both are empty strings skips both loops.
+    - If the text is an empty string but not the pattern, we only make the pi table but skip finding a pattern.
+    - After adding a test case where the pattern is an empty string but not the text something interesting happened. The making of the pi table is skipped but within the for-loop for finding a pattern, an exception gets raised. That is because a letter from the text is compared to an indexed empty string.
+
 
 ## Self-assessment: Way of working
 
