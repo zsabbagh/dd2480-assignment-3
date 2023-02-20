@@ -147,7 +147,7 @@ a CCN increment.
 However, it could be argued that this is incorrect, since the statement
 is equivelant to `[0] * m`.
 
-It could also be argued that Lizard sees this as a basic for loop: 
+It could also be argued that Lizard sees this as a basic for loop:
 ```
 for i in range m:
    a[i] = 0
@@ -258,6 +258,37 @@ which proposes that they also should be private.
 This does not abstract away nodes as data structures.
 A plan is to refactor/redesign `red_black_tree` to function as such.
 
+**maximum_flow_bfs**: This function can be broken down into two seperate functions, one to find a path using BFS and one to use the path outcome to calculate maximum flow. For example:
+```
+def find_path(new_array):
+   #save visited nodes
+   visited = [0]*len(new_array)
+   #save parent nodes
+   path = [0]*len(new_array)
+
+   #initialize queue for BFS
+   bfs = queue.Queue()
+
+   #initial setting
+   visited[0] = 1
+   bfs.put(0)
+
+   #BFS to find path
+   while bfs.qsize() > 0:
+      #pop from queue
+      src = bfs.get()
+      for k in range(len(new_array)):
+            #checking capacity and visit
+            if(new_array[src][k] > 0 and visited[k] == 0 ):
+               #if not, put into queue and chage to visit and save path
+               visited[k] = 1
+               bfs.put(k)
+               path[k] = src
+
+   return visited, path
+```
+The now lighter `maximum_flow_bfs` can then use the variables `visited` and `path` returned by the `find_path` function to continue.
+
 
 ### Optimisation of list-creation
 
@@ -296,14 +327,14 @@ integrate it with your build environment?
 
 ### Your own coverage tool
 
-Our coverage can be found [here](https://github.com/zsabbagh/algorithms/tree/1-coverage). We identified each branch, in each function, which are tagged with and incrementing ID starting at 1. 
+Our coverage can be found [here](https://github.com/zsabbagh/algorithms/tree/1-coverage). We identified each branch, in each function, which are tagged with and incrementing ID starting at 1.
 In `tests/__init__.py` wer start writing to a data file.
-We then run the unittests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage.  
+We then run the unittests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage.
 
 To run the coverage tool manually on a function follow the steps.
 
 1. create a data/branch-coverage file to store output (if it does not already exist)
-2. Run unittests which calls the specific function. For example, to run the branch coverage tool on `algorithms/matrix/sort_matrix_diagonally.py`: 
+2. Run unittests which calls the specific function. For example, to run the branch coverage tool on `algorithms/matrix/sort_matrix_diagonally.py`:
 
 ```
 python3 -m unittest tests/test_matrix.py
@@ -333,13 +364,13 @@ knuth_morris_pratt,11,0.8181818181818182,3;5
 
 ```
 
-4. **TODO: ADD HOW THE PARSER PARSES AND OUTPUTS THIS INFO** 
+4. **TODO: ADD HOW THE PARSER PARSES AND OUTPUTS THIS INFO**
 
 
 ### Evaluation
 
 1. How detailed is your coverage measurement?
-**TODO: what should we add here?** 
+**TODO: what should we add here?**
 
 2. What are the limitations of your own tool?
 
@@ -351,7 +382,7 @@ knuth_morris_pratt,11,0.8181818181818182,3;5
 
 3. Are the results of your tool consistent with existing coverage tools?
 
-No, not neccesarily. Forexample, `sort_matrix_diagonally.py` has a coverage of 94% when checking the coverage report using coverage.py. 
+No, not neccesarily. Forexample, `sort_matrix_diagonally.py` has a coverage of 94% when checking the coverage report using coverage.py.
 
 ```
 Name                                         Stmts Miss Branch BrPart  Cover Missing
