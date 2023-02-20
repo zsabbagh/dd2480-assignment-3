@@ -438,15 +438,23 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 ## Self-assessment: Way of working
 
-TODO
 
-Current state according to the Essence standard: ...
+Current state according to the Essence standard:
+We are in the "In Use" state. We are currently using our tools such as Github, Discord, Google Suit, lucid.app, to do our work and it has worked out fine so far. We have not inspected the tools in depth, and sometimes we've been using different tools for the same type of task which we've done in parallell. We do not have a specific procedures in place to handle feedback, so far we've simply discussed spontainously in discord if anyone has had any specific opinions on our way of working. 
 
 Was the self-assessment unanimous? Any doubts about certain items?
 
+**please add any opionions here if you do not agree**
+
 How have you improved so far?
+- Synching more regarding distribution of workload/task assignment, to avoid accidently doing double work.
 
 Where is potential for improvement?
+
+- We can probably we more rigorous in agreeing and picking one specific tool, and specific conventions if we would like a more uniform collection of work.
+
+- We can do more pair-programming or common walkthroughs when starting on a specific tasks so the group can agree on a specific solution/way of working.
+
 
 ## Overall experience
 
