@@ -10,7 +10,12 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
     - Refactor and redesign `red_black_tree` class to abstract away the structure.
     - Write parser under `scripts/` for sorting `lizard` output.
     - Write scripts to visualise untested data, seen under the forked project `zsabbagh/algorithms/scripts/untested.py` under branch `1-coverage`.
-- Glacier: **Goal is to achieve atleast a P**
+- Glacier: **Goal is to achieve a P**
+   -  Performed manual calculation of cyclomatic complexity on `maximum_flow_bfs` and `sort_diagonally`.
+   - Implemented our own coverage tool on `sort_diagonally` and `fix_insert`.
+   - Refactoring plan for `sort_diagonally`.
+   - Added 2 unittests in total to `sort_diagonally` and `bellman_ford`.
+   - General contribution to report/README
 - Einar: **Goal is to achieve P or P+**.
 
 ## Project
@@ -134,13 +139,27 @@ The calculations could be seen below:
 - `maximum_flow_bfs`, [Glacier's calculation](https://lucid.app/lucidchart/d289c24f-e856-43bc-9626-f3a07b6edee1/edit?viewport_loc=-387%2C-1142%2C2313%2C1032%2C0_0&invitationId=inv_369dfd6a-a90d-40a1-a6d5-2cc7775bdc5b)
 
 ### What are your results for ten complex functions?
-ALl methods did not get the same result.
-Lizard got +2 extra on `sort_diagonally`, which we did not realise why.
+All methods did not get the same result.
+Lizard got +2 extra on `sort_diagonally`, which we did not understand why.
 Furthermore, `knuth_morris_pratt` differed with +2 as well.
 After testing, it was clear that Lizard counts `[ 0 for _ in range(m) ]` as
 a CCN increment.
 However, it could be argued that this is incorrect, since the statement
 is equivelant to `[0] * m`.
+
+It could also be argued that Lizard sees this as a basic for loop: 
+```
+for i in range m:
+   a[i] = 0
+```
+Thus, this would be a predicate/branching, since we either enter the loop, or exit to next section of the code, adding cyclomatic complexity.
+
+The mainly chosen method to calculate the complexity by hand, was to plot a flow graph of the funciton, and count the number of closed regions.
+We also had some differing results amongst ourselves and our own calculations.
+This was partly due to how the flow graphs were plotted. For example some differing intepertations where wheter an `end-while` or `end-for` statement should have been included in the graph as a node. While others chose to plot the flow graphs as condensations graphs. There where also other methods other than that we used, which would give slightly different results. In general though, the complxity did not vary greatly in our calculations and Lizards.
+
+[Source for our used methods.](https://www.bbau.ac.in/dept/CS/TM/Cyclomatic.pdf])
+
 Moreover the results are clear.
 
 ### Are the functions just complex, or also long?
@@ -300,7 +319,7 @@ its output?
 
 - Another limitation is that the tool wont work on ternary operators.
 
-- A third limiation which was discovered during the improvement of coverage, is early return statements. The tool write the final report of covered branches in the end of the function before return. In `sort_matrix_diagonally.py` one branch (an if-statement) was only included in the coverage report as missing. This was due to the fact that the function returned immidiately if it stepped into the statement. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
+- A third limitation which was discovered during the improvement of coverage, is early return statements. The tool writes and compiles the final report of covered branches in the end of the function right before a return. In `sort_matrix_diagonally.py` one branch (an if-statement) was included in the coverage report as missing. After adding a unittest, this was still the case (using our own tool). This was due to the fact that the function returned immidiately if it stepped into the statement, thus never reporting/writing the coverage. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
 
 3. Are the results of your tool consistent with existing coverage tools?
 
@@ -327,10 +346,9 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 
 **Glacier:**
-- `sort_matrix_diagonally.py: test_sort_diagonally_with_vector`, a trivial test which checks the first identified branch. Specifically, if a matrix with 1 row or 1 column (vector) is provided as input, the entire vector should be returned.
-The old coverage using coverage.py, was reported for 94%. The new coverage was reported as 100%.
+- `sort_matrix_diagonally.py: test_sort_diagonally_with_vector`, a trivial test which checks the first identified branch. Specifically, if a matrix with 1 row or 1 column (vector) is provided as input, the entire vector should be returned as it is. The old branch coverage using coverage.py, was reported fass 94%. The new coverage was reported as 100%.
 
-- `bellman_ford.py: test_bellman_ford_no_shortest_path` The bellman_ford function was not originally in our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the coverage.py report: 94%. There was no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
+- `bellman_ford.py: test_bellman_ford_no_shortest_path` The `bellman_ford` function was not originally one of our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the general tool coverage.py report: 94%. There were no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
 **Note: the function also has a high cyclomatic complexity of 8**
 
 **Zakaria**
