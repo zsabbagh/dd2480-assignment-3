@@ -6,9 +6,12 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
 ## Contributions and Goals
 
 - Zakaria: **Goal is to achieve P+**.
-    - Added 6+ tests to `red_black_tree` to improve coverage from 0 to 70+ %.
+    - Calculated cyclomatic complexity manually of functions.
+    - P+: Added 7+ tests to `red_black_tree` to improve coverage from 0 to 79 %.
     This includes `delete_fixup` and `fix_insert`, which had 0% coverage previously.
-    - Refactor and redesign [`red_black_tree`](https://github.com/zsabbagh/algorithms/blob/3-new-tests/algorithms/tree/red_black_tree/red_black_tree.py) class to abstract away the structure. 
+    - P+: Refactor `strip_url_params1` from a complexity of 20 to a complexity of 6. See [new file](https://github.com/zsabbagh/algorithms/blob/refactoring/algorithms/strings/strip_url_params.py) compared to [old file](https://github.com/zsabbagh/algorithms/blob/master/algorithms/strings/strip_url_params.py).
+    This refactoring is not necessary, but does decrease complexity without changing functionality.
+    - P+ (extraordinary): Refactor and redesign [`red_black_tree`](https://github.com/zsabbagh/algorithms/blob/3-new-tests/algorithms/tree/red_black_tree/red_black_tree.py) class to abstract away the structure.
         - What this means exactly, is that the class previously took in `RBNode`s as input during insertion
         and deletion, which does *not* abstract away the data structures functionality.
         The change now makes the function actually treat values rather than nodes, and the added
@@ -17,7 +20,8 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
         Also, core functionality has been added and correctness has been improved and verified.
         - Fixed implementation bugs such as deleting leaf-nodes raised errors.
         - Added tests that verify new functionality.
-    - Been actively contributing to the project(s) since the first day.
+    - P+: Been actively contributing to the project since the first day, with
+    consistent work using GitHub and issue tracking.
     - Wrote parser under [`scripts/parser.py`](scripts/parser.py) for sorting `lizard` output. This sorts and filters
     CCN and NLOC on spans. Further, one could sort on proportion of CCN/NLOC or NLOC/CCN.
     - Wrote scripts to visualise untested data [`scripts/untested.py`](https://github.com/zsabbagh/algorithms/blob/1-coverage/scripts/untested.py).
@@ -28,14 +32,15 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
    -  Performed manual calculation of cyclomatic complexity on `maximum_flow_bfs` and `sort_diagonally`.
    - Implemented our own coverage tool on `sort_diagonally` and `fix_insert`.
    - Refactoring plan for `sort_diagonally`.
-   - Added 2 unittests in total to `sort_diagonally` and `bellman_ford`.
+   - Added 2 unit tests in total to `sort_diagonally` and `bellman_ford`.
    - General contribution to report/README
-- Einar: **Goal is to achieve P or P+**.
+- Einar: **Goal is to achieve P**.
    - Calculated cyclomatic complexity on `knuth_morris_pratt` and `maximum_flow_bfs` by creating flow charts.
    - Implemented a branch coverage tool for `knuth_morris_pratt` and `edmonds_karp`.
    - Implemented a script, `scripts/branch_coverage_data_parser.py`, to read from our generated data file.
-   - Added 5 unit tests for `knuth_morris_pratt`, 1 to reach 100% branch coverage and 4 for path coverage.
+   - Added 4 unit tests for `knuth_morris_pratt`, 1 to reach 100% branch coverage and 3 for path coverage.
    - Refactoring plan for `maximum_flow_bfs`.
+   - General contribution to report/README
 
 
 ## Project
@@ -80,8 +85,8 @@ through a more sophisticated website, pdf or markdown document.
 
 ### Errors
 
-There has been no error recorded yet, except the
-one referred to under `Dependencies`.
+Einar found an error in one function that is described under the `Coverage improvement` chapter when writing unit tests.
+An error was also detected in the red black tree class when a leaf node was deleted.
 
 ### Tests
 
@@ -89,24 +94,13 @@ The library's tests runs well on the
 current system (macOS Monterey 12.2.1).
 
 There are however several functions and files which are not tested at all. This was discovered when checking the branch coverage by using our own branch coverage tool.
-For example, `red_black_tree.py` which we chose two functions from ( `delete_fixup` and `fix_insert`) with relativly high cyclomatic complexity, had no unittests.
+For example, `red_black_tree.py` which we chose two functions from ( `delete_fixup` and `fix_insert`) with relativly high cyclomatic complexity, had no unit tests.
 
 ### Continuation
 
 As this project seems feasible to grasp,
 and is reasonably well-documented, we will most
 likely continue with it.
-
-
-#### Questions
-
-Did it build and run as documented?
-
-See the assignment for details; if everything works out of the box,
-there is no need to write much here. If the first project(s) you picked
-ended up being unsuitable, you can describe the "onboarding experience"
-for each project, along with reason(s) why you changed to a different one.
-
 
 ## Complexity
 
@@ -351,26 +345,23 @@ array, or else the arrays would be copies of each other.
 
 ## Coverage
 
-### Tools
-
-Document your experience in using a "new"/different coverage tool.
-
-How well was the tool documented? Was it possible/easy/difficult to
-integrate it with your build environment?
+`Coverage.py` was a new tool for us, but it was very well documented and easy to get into.
+The installation process was super easy, and we never came across issues.
+Using the `--help` flag provided sufficient information of how to use the tool.
 
 ### Your own coverage tool
 
 Our coverage can be found [here](https://github.com/zsabbagh/algorithms/tree/1-coverage). We identified each branch, in each function, which are tagged with and incrementing ID starting at 1.
 In `tests/__init__.py` we start writing to a data file.
-We then run the unittests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage.
+We then run the unit tests, which calls the specific functions. If the functioncall enters a branch this information is saved. At the end of the function, we compile information about which branches were stepped into and the general coverage. If all branches are stepped into by a test the ID 0 is written to the branch-coverage file, since no branch has the ID of 0 the parser can interpret it as all branches covered and the number of columns remains the same.
 
 To run the coverage tool manually on a function follow the steps.
 
 1. create a data/branch-coverage file to store output (if it does not already exist)
-2. Run unittests which calls the specific function. For example, to run the branch coverage tool on `algorithms/matrix/sort_matrix_diagonally.py`:
+2. Run unit tests which calls the specific function. For example, to run the branch coverage tool on `algorithms/matrix/sort_matrix_diagonally.py`:
 
 ```
-python3 -m unittest tests/test_matrix.py
+python3 -m unit tests tests/test_matrix.py
 cat data/branch-coverage
 ```
 
@@ -397,21 +388,28 @@ knuth_morris_pratt,11,0.8181818181818182,3;5
 
 ```
 
-4. **TODO: ADD HOW THE PARSER PARSES AND OUTPUTS THIS INFO**
-
+4. ADD HOW THE PARSER PARSES AND OUTPUTS THIS INFO**
+After running the unit tests for the functions with our own coverage tools, the file branch-coverage
+gets populated with information. To get a JSON formatted result for each function,
+run: `python3 scripts/branch_coverage_data_parser.py`.
+Further, the `untested.py` script visualises, given a `Coverage.py` report, which
+files are left untouched by the report.
+In other words, it shows which *files* are covered by the unit tests.
 
 ### Evaluation
 
 1. How detailed is your coverage measurement?
-**TODO: what should we add here?**
+Our coverage tool only checks branch coverage. It does not check path coverage or unique paths taken through the branches.
+Furthermore, in some instances as for `maximum_flow_bfs`, our coverage tool report 100% while the `coverage.py` tool does not.
+This might indicate our tool is not as detailed in comparison.
 
 2. What are the limitations of your own tool?
 
-- One limitation of the tool is simple if statements in the code with no explicit else statements. Our tool would not recognize the alternative branch (corresponding to an else) if it does not explicitly say so.
+- One limitation of the tool is simple if statements in the code with no explicit else statements. Our tool would not recognize the alternative branch (corresponding to an else) if it does not explicitly exist. To solve this, we have manually added else statements.
 
-- Another limitation is that the tool wont work on ternary operators.
+- Another limitation is that the tool won't work on ternary operators.
 
-- A third limitation which was discovered during the improvement of coverage, is early return statements. The tool writes the final report of covered branches in the end of the function right before a return. In `sort_matrix_diagonally.py` one branch (an if-statement) was included in the coverage report as missing. After adding a unittest, this was still the case (using our own tool). This was due to the fact that the function returned immidiately if it stepped into the statement, thus never reporting/writing the coverage. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
+- A third limitation which was discovered during the improvement of coverage, is early return statements. The tool writes the final report of covered branches in the end of the function right before a return. In `sort_matrix_diagonally.py` one branch (an if-statement) was included in the coverage report as missing. After adding a unit tests, this was still the case (using our own tool). This was due to the fact that the function returned immidiately if it stepped into the statement, thus never reporting/writing the coverage. To solve this we'd have to add the reporting before each return statement, or we would have to have to rewrite the function making sure that all returns are made after the coverage reporting.
 
 3. Are the results of your tool consistent with existing coverage tools?
 
@@ -425,27 +423,17 @@ Our own tool, reported 88% from the ratio of 1/9, with only 9 branches identifie
 
 ## Coverage improvement
 
-Show the comments that describe the requirements for the coverage.
-
-We actually worked with all 6 functions when checking the coverage, as several of these already had 100% branch coverage.
-This, inorder for us to screen for appropriate functions to implement unittests for.
+We actually worked with all 6 functions when checking the coverage, as several of these already had 100% branch coverage, in order for us to screen for appropriate functions to implement unit tests for.
 What we ultimately found was the functions in the RBT class, together with
-`def sort_diagonally` did not have 100% coverage.
-In the case of RBT, the coverage was trivially improved by adding unittests, since these did not exist.
-
-**TODO: should we use our own parser to fill in the following points?**
+`sort_matrix_diagonally` and `knuth_morris_pratt` did not have 100% coverage.
+In the case of RBT, the coverage was trivially improved by adding unit tests, since these did not exist.
 
 
 Report of old coverage: [old_coverage.txt](https://github.com/zsabbagh/algorithms/blob/1-coverage/old_coverage.txt)
 
 Report of new coverage: [new_coverage.txt](https://github.com/zsabbagh/algorithms/blob/3-new-tests/new_coverage.txt)
 
-Test cases added:
-
-git diff ...
-
-Number of test cases added: two per team member (P) or at least four (P+).
-
+### Test cases added
 
 **Glacier:**
 - `sort_matrix_diagonally.py: test_sort_diagonally_with_vector`, a trivial test which checks the first identified branch. Specifically, if a matrix with 1 row or 1 column (vector) is provided as input, the entire vector should be returned as it is. The old branch coverage using coverage.py, was reported fass 94%. The new coverage was reported as 100%.
@@ -453,8 +441,11 @@ Number of test cases added: two per team member (P) or at least four (P+).
 - `bellman_ford.py: test_bellman_ford_no_shortest_path` The `bellman_ford` function was not originally one of our chosen functions. However, due to many of them already having 100% branch coverage, this function was later retrieved with the sole purpose of improving branch coverage. The previous branch coverage was according to the general tool coverage.py report: 94%. There were no tests checking if there was no valid solution. The added test is therefore a graph with a negative cycle and should result in `false`. The function now has 100% branch coverage.
 **Note: the function also has a high cyclomatic complexity of 8**
 
+- **Additional note**: when looking for new functions, several function who reported not to have 100% branch coverage, acutally did. However, some of the related unit tests were residing in the same file, or was declared with non-unique names, causing some (or all) of the tests to never run during our procedures.
+
 **Zakaria**
 - `red_black_tree`, including `fix_insert` and `delete_fixup`, was previously 0% tested, with other words it did not even show up when the tests were run. Now the tests cover more than 70% of the entire code, i.e. all of the class methods.
+- `red_black_tree` added tests to `minimum`, `maximum`, and `in_order` function.
 
 **Einar**
 - `knuth_morris_pratt` had 90% branch coverage, with one branch missing being tested. That branch was a while-loop within the making of the pi table. To enter the while-loop a specific condition must be met for the input pattern, there have to appear two identical letters in a row, followed by a letter that does not match. After creating the test case with the input parameter text being `aaaaaaa` and the pattern being `aabb` the test coverage increased to 100%.
@@ -471,22 +462,23 @@ Number of test cases added: two per team member (P) or at least four (P+).
 
 ## Self-assessment: Way of working
 
-
 Current state according to the Essence standard:
-We are in the "In Use" state. We are currently using our tools such as Github, Discord, Google Suit, lucid.app, to do our work and it has worked out fine so far. We have not inspected the tools in depth, and sometimes we've been using different tools for the same type of task which we've done in parallell. We do not have a specific procedures in place to handle feedback, so far we've simply discussed spontainously in discord if anyone has had any specific opinions on our way of working.
+We are in the "In Use" state. We are currently using our tools such as Github, Discord, Google Suite, lucid.app, to do our work and it has worked out fine so far. We have not inspected the tools in depth, and sometimes we've been using different tools for the same type of task which we've done in parallel. This has not been a problem. We do not have a specific procedures in place to handle feedback, so far we've simply discussed spontainously in discord if anyone has had any specific opinions on our way of working or anything else they'd like to share.
 
-Was the self-assessment unanimous? Any doubts about certain items?
+**Was the self-assessment unanimous? Any doubts about certain items?**
 
-**please add any opionions here if you do not agree**
+Yes, more or less.
 
-How have you improved so far?
-- Synching more regarding distribution of workload/task assignment, to avoid accidently doing double work.
+**How have you improved so far?**
+- Syncing more regarding distribution of workload/task assignment, to avoid accidently doing double work.
+- Regarding syncing, we just now started collaborating through VS Code "Live Share". This enabled
+the possibility to write on the report together.
 
-Where is potential for improvement?
+**Where is potential for improvement?**
 
 - We can probably we more rigorous in agreeing and picking one specific tool, and specific conventions if we would like a more uniform collection of work.
 
-- We can do more pair-programming or common walkthroughs when starting on a specific tasks so the group can agree on a specific solution/way of working.
+- We can do more pair-programming, working in groups/in person or make more use of live-share sessions.
 
 
 ## Overall experience
@@ -499,7 +491,3 @@ and has a purpose.
 Quality is to be preferred when considering tests, not necessarily
 quantity, since tests which monitors the same code and are
 algorithmically identical does not ensure code quality.
-
-## P+ Contribution
-
-TODO
