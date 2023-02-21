@@ -8,6 +8,7 @@ For the forked repository of the project, see [zsabbagh/algorithms](https://gith
 - Zakaria: **Goal is to achieve P+**.
     - Added 6+ tests to `red_black_tree` to improve coverage from 0 to 70+ %.
     This includes `delete_fixup` and `fix_insert`, which had 0% coverage previously.
+    - Refactor `strip_url_params1` from a complexity of 20 to a complexity of 6. See [new file](https://github.com/zsabbagh/algorithms/blob/refactoring/algorithms/strings/strip_url_params.py) compared to [old file](https://github.com/zsabbagh/algorithms/blob/master/algorithms/strings/strip_url_params.py).
     - Refactor and redesign [`red_black_tree`](https://github.com/zsabbagh/algorithms/blob/3-new-tests/algorithms/tree/red_black_tree/red_black_tree.py) class to abstract away the structure. 
         - What this means exactly, is that the class previously took in `RBNode`s as input during insertion
         and deletion, which does *not* abstract away the data structures functionality.
